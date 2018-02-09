@@ -1,4 +1,4 @@
- <script>
+ <!--<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -7,23 +7,28 @@
   ga('create', 'UA-21233285-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script>-->
 <meta name="Description" content="EZECOM, Cambodia's premium internet provider, founded in 2007 to serve the rapidly expanding business and home user internet market in Cambodia. Today it is a leading provider of a wide variety of innovative communication services, including fibre optic, VoIP, virtual private networks and other Internet-based & Cloud solutions.." />
 <meta name="keywords"  content="Premium ISP, World class ISP, Submarine Cable, Cambodia's premium internet, cambodia isp, internet service provider,internet in Cambodia,enterprise solutions(IPLC, DPLC),Corporate & Premium Packages, VOIP, Web Hosting, Data co-location, Data Centre" />
 <!--Start of Zendesk Chat Script-->
-<script type="text/javascript">
+<!--<script type="text/javascript">
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
 d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
 _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
 $.src="https://v2.zopim.com/?4gOjM0mQ4PTL2tdnAnk5660qXBBcjKWa";z.t=+new Date;$.
 type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
-</script>
+</script>-->
 <!--End of Zendesk Chat Script--> 
 <!-- Start Homepage --> 
 <?php if($this->uri->segment(1) == 'homepage' || $this->uri->segment(1) == ''){ ?>
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+	
 	<!-- CSS -->
-		<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<!--<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/system.css" type="text/css" />
@@ -51,11 +56,11 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/help_hover.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/template.css" type="text/css" />
 	  	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/nextend-frontend.css?1489112974" media="screen, print" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/n2-ss-6.css?1489541255" media="screen, print" />
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/n2-ss-6.css?1489541255" media="screen, print" /> -->
 
 	<!-- JS -->
 
-		<script src="<?php echo base_url();?>assets/js/jquery.min.js" type="text/javascript"></script>
+		<!--<script src="<?php echo base_url();?>assets/js/jquery.min.js" type="text/javascript"></script>
 	  	<script src="<?php echo base_url();?>assets/js/jquery-noconflict.js" type="text/javascript"></script>
 	  	<script src="<?php echo base_url();?>assets/js/jquery-migrate.min.js" type="text/javascript"></script>
 	  	<script src="<?php echo base_url();?>assets/js/caption.js" type="text/javascript"></script>
@@ -71,7 +76,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	  	<script src="<?php echo base_url();?>assets/js/mootools-more.js" type="text/javascript"></script>
 	  	<script src="<?php echo base_url();?>assets/jquery/jquery-1.7.1.js" type="text/javascript"></script>
 	  	<script src="<?php echo base_url();?>assets/js/validator.js" type="text/javascript"></script>
-	  	<script src="<?php echo base_url();?>assets/js/string_utils.js" type="text/javascript"></script>
+	  	<script src="<?php echo base_url();?>assets/js/string_utils.js" type="text/javascript"></script>-->
 
 <?php }?>
 
@@ -584,7 +589,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <!-- End live camera -->
 
 <!-- Contact Us -->
- <?php if($this->uri->segment(1) == 'contactus'){?>
+ <?php if($this->uri->segment(1) == 'contact-us'){?>
 <!-- css -->
 <link rel="stylesheet" href="<?php echo base_url()?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css">
   <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.min.css" type="text/css">
@@ -632,7 +637,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
  <!-- end contact us -->
 
 <!--  Start career detail -->
-<?php if($this->uri->segment('career'))?>
+<?php if($this->uri->segment('career')){?>
 <!-- CSS -->
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css" />
@@ -674,5 +679,5 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   <script src="<?php echo base_url();?>assets/js/core.js" type="text/javascript"></script>
   <script src="<?php echo base_url();?>assets/js/jquery.marquee.js" type="text/javascript"></script>
 
-
+<?php } ?>
 <!-- End career detail -->
