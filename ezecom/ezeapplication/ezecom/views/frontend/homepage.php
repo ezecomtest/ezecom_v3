@@ -109,7 +109,7 @@
 
 <!-- MAIN NAVIGATION -->
 <?php
-	//$this->load->view('header/main_nav_user_v');
+	$this->load->view('header/main_nav_user_v');
 ?>
 <!-- //MAIN NAVIGATION -->
 
