@@ -95,7 +95,7 @@
 					</ul>
 				</li>
 				<li><a href='#'>Contact Us</a></li>
-				<li><a href='#' class="collection"><img src="<?php echo base_url()?>assets/images/menu_v3_icon/toogle.png" class="img-responsive"/></a></li>
+				<li><a href='#' class="collection"><img class="img-responsive pull-right" src="<?php echo base_url()?>assets/images/menu_v3_icon/toogle.png"/></a></li>
 			</ul>
 	</nav>
 	</div>

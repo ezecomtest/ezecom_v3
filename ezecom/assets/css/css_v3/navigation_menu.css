@@ -28,7 +28,15 @@ nav{position:relative;}
 #cssmenu > ul > li{float:left;margin-bottom:0px;}
 #cssmenu > ul > li > a{padding:17px;font-size:16px;letter-spacing:1px;text-decoration:none;color:#fff}
 #cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#7961a9}
-#cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
+#cssmenu > ul > li:hover,
+#cssmenu ul li.active:hover,
+#cssmenu ul li.active,
+#cssmenu ul li.has-sub.active:hover{
+	-webkit-transition:background .3s ease;
+	z-index:1000;
+	-ms-transition:background .3s ease;
+	transition:background .3s ease
+}
 #cssmenu > ul > li.has-sub > a{padding-right:30px}
 #cssmenu > ul > li.has-sub > a:after{
 	position:absolute;
@@ -71,15 +79,16 @@ nav{position:relative;}
 	border-bottom:1px solid rgba(150,150,150,0.15);
 	padding-top:11px;
 	padding-bottom:11px;
-	padding-left:5px;
+	padding-left:3px;
 	width:180px;
 	font-size:12px;
+	font-family:'Kantumruy','Raleway', sans-serif,'Bayon', cursive;
 	text-decoration:none;
-	color:#ddd;
+	color:#ffffff;
 	font-weight:400;
 }
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
-#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#7961a9}
 #cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
 #cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
 #cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
@@ -159,8 +168,9 @@ nav{width:100%;}
 /* sub-menu */
 #menu-collection{
 	display:none;
-	overflow:hidden;
-	z-index:1000;
+}
+.collection{
+	padding-left:60px !important;
 }
 #menu-collection h5{
 	font-weight: bold;
@@ -168,6 +178,8 @@ nav{width:100%;}
 }
 #menu-collection ul li{
 	list-style-type:none;
+	font-size:12px;
+	font-family:'Kantumruy','Raleway', sans-serif,'Bayon', cursive;
 	
 }
 #menu-collection ul li a{
