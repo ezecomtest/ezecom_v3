@@ -56,3 +56,13 @@ $("#cssmenu").menumaker({
 });
 });
 })(jQuery);
+
+/* menu collection */
+$(document).ready(function(){	
+	$(".collection").click(
+        function() {
+            $('#menu-collection').slideToggle("slow");
+            $(this).toggleClass('open'); 
+        }
+    );
+});

@@ -155,3 +155,95 @@ nav{width:100%;}
 #cssmenu ul ul ul li.active a{border-left:none}
 #cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active > a{border-top:none}
 }
+
+/* sub-menu */
+#menu-collection{
+	display:none;
+	overflow:hidden;
+	z-index:1000;
+}
+#menu-collection h5{
+	font-weight: bold;
+    color: #7961a9;
+}
+#menu-collection ul li{
+	list-style-type:none;
+	
+}
+#menu-collection ul li a{
+	color:#444;
+	line-height:25px;
+}
+#menu-collection ul li a:hover{
+	text-decoration:none;
+	color:#7961a9;
+}
+#menu-collection ul li .partnerships{
+	padding-left:15px;
+}
+
+#menu-collection ul li .services{
+	padding-left:15px;
+}
+
+#menu-collection ul li .ent_network{
+	padding-left:15px;
+}
+
+#menu-collection ul li .cloud_services{
+	padding-left:15px;
+}
+
+#menu-collection ul li .hosting{
+	padding-left:15px;
+}
+
+#menu-collection ul li .security{
+	padding-left:15px;
+}
+
+#menu-collection ul li .add_services{
+	padding-left:15px;
+}
+
+#menu-collection ul li .add_services .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .security .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .hosting .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .cloud_services .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .ent_network .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .services .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#menu-collection ul li .partnerships .angle_rowsmall{
+	font-size:10px;
+	padding-right:3px;
+	font-weight:bold;
+}
