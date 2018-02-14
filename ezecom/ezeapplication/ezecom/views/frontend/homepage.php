@@ -1,12 +1,6 @@
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">-->
-
-
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr" class='com_content view-article itemid-435 j34'>
 <head>
-
 	<meta name="google-site-verification" content="5OJ8M92HIl7UggddG1chxGf3MQlodkBtrwC_R6nL9jE" />
 	<title>ezecom.com.kh, Cambodia's premium internet provider</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -26,30 +20,19 @@
 		});
 		jQuery.noConflict();
   	</script>
-	
-<!-- META FOR IOS & HANDHELD -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-		<style type="text/stylesheet">
-			@-webkit-viewport   { width: device-width; }
-			@-moz-viewport      { width: device-width; }
-			@-ms-viewport       { width: device-width; }
-			@-o-viewport        { width: device-width; }
-			@viewport           { width: device-width; }
-		</style>
-		<script type="text/javascript">
-			//<![CDATA[
-			if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-				var msViewportStyle = document.createElement("style");
-				msViewportStyle.appendChild(
-					document.createTextNode("@-ms-viewport{width:auto!important}")
-				);
-				document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-			}
-			//]]>
-		</script>
-		<meta name="HandheldFriendly" content="true"/>
-		<meta name="apple-mobile-web-app-capable" content="YES"/>
-<!-- //META FOR IOS & HANDHELD -->
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+	<meta name="HandheldFriendly" content="true"/>
+	<meta name="apple-mobile-web-app-capable" content="YES"/>
 
 <!-- You can add Google Analytics here or use T3 Injection feature -->
 	<script type="text/javascript">window.N2PRO=0;window.N2GSAP=1;window.N2PLATFORM="joomla";window.nextend={localization: {}, deferreds:[], loadScript: function(url){n2jQuery.ready(function () {nextend.deferreds.push(n2.ajax({url:url,dataType:"script",cache:true,error:function(){console.log(arguments)}}))})}, ready: function(cb){n2.when.apply(n2, nextend.deferreds).done(function(){cb.call(window,n2)})}};window.N2SSPRO=0;window.N2SSWHYPRO="http://smartslider3.com/why-upgrade-to-pro/";
@@ -113,70 +96,68 @@
 ?>
 <!-- //MAIN NAVIGATION -->
 
-<div class="home">
-<!-- HOME SL 1 -->
-	<div class="wrap t3-sl t3-sl-1 bg-color-gray ">
-		<div class="container">
-				
-<!-- Nextend Smart Slider 3 #6 - BEGIN -->
-<div id="n2-ss-6-align" class="n2-ss-align">
-<div class="n2-padding">
-<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
-    <div class="n2-ss-slider-1" style="">
-        <div class="n2-ss-slider-2">
-            <div class="n2-ss-slider-3">
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-color-gray">
+				<!-- Nextend Smart Slider 3 #6 - BEGIN -->
+				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
+					<div class="n2-ss-slider-1" style="">
+						<div class="n2-ss-slider-2">
+							<div class="n2-ss-slider-3">
 
-<!-- =-================================= -->
-<?php foreach($get_slider as $rowslide){ ?>
-                <div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style="">
-                    <div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
-                    <img title="" style="width: 100%;height: auto;margin-top: -335px;opacity:1;" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" /></div>
-                    <div class="n2-ss-layers-container" style="">
-                    <div class="n2-ss-layer" style="z-index:1;overflow:visible;text-align:left;left:-303px;top:0px;width:365px;height:365px;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Power-Your-World.png" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="-303" data-desktopportraittop="0" data-desktopportraitwidth="365" data-desktopportraitheight="365" data-desktopportraitalign="center" data-desktopportraitvalign="middle" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    <div class="" style="overflow:hidden;">
-                    <img src="elFindermaster/files/slides/<?= $rowslide->slide_img ?>" class="" title="" style="max-width: 100%; width: ;height: auto;"></img></div></div>
-                    <div class="n2-ss-layer" style="z-index:2;overflow:visible;text-align:left;left:671px;top:113px;width:auto;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Layer #5" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="671" data-desktopportraittop="113" data-desktopportraitwidth="auto" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    <div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"></div>
-                    </div>
-                    <div class="n2-ss-layer" style="z-index:3;overflow:visible;text-align:left;left:650px;top:151px;width:400px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="POWERYOURWORLD" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="650" data-desktopportraittop="100" data-desktopportraitwidth="400" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-                    	<div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-5c29efa662f7feff5ba1cea9df33117e-paragraph"><?php echo $rowslide->slide_title; ?></p>
+				<!-- =-================================= -->
+				<?php foreach($get_slider as $rowslide){ ?>
+								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style="">
+									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
+									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
+						<div>
+							<img src="elFindermaster/files/slides/img-slide-1.jpg" style="width:100%"/>			
 						</div>
 					</div>
-					<div class="n2-ss-layer" style="z-index:4;overflow:visible;text-align:left;left:564px;top:236px;width:606px;height:auto;" data-animations="eyJyZXBlYXRhYmxlIjowLCJzcGVjaWFsWmVyb0luIjowLCJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8NTB8KnwwIiwiaW5QbGF5RXZlbnQiOiIiLCJyZXBlYXRDb3VudCI6MCwicmVwZWF0U3RhcnREZWxheSI6MCwidHJhbnNmb3JtT3JpZ2luTG9vcCI6IjUwfCp8NTB8KnwwIiwibG9vcFBsYXlFdmVudCI6IiIsImxvb3BQYXVzZUV2ZW50IjoiIiwibG9vcFN0b3BFdmVudCI6IiIsInRyYW5zZm9ybU9yaWdpbk91dCI6IjUwfCp8NTB8KnwwIiwib3V0UGxheUV2ZW50IjoiIiwiaW5zdGFudE91dCI6MSwiaW4iOltdLCJsb29wIjpbXSwib3V0IjpbXX0=" data-eye="" data-lock="" data-name="Fromthelatestsolutionsforbusinesses" data-namesynced="1" data-crop="visible" data-inneralign="left" data-adaptivefont="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-responsiveposition="1" data-responsivesize="1" data-desktopportraitleft="564" data-desktopportraittop="160" data-desktopportraitwidth="606" data-desktopportraitheight="auto" data-desktopportraitalign="left" data-desktopportraitvalign="top" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-desktopportraitfontsize="100">
-						<div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-320aaf0854f2cd79362f03cc65535f92-paragraph  "><?php echo $rowslide->slide_description; ?></p>
-						</div>
 
-						<div class="n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-320aaf0854f2cd79362f03cc65535f92-paragraph  "></p>
-						</div>
-					</div>
+				<?php }?>
+				<!-- =-================================= -->
+
+
+				</div>
+				</div>
+				</div>
+
 					
-		</div>
-	</div>
+					<div data-ssleft="width/2-bulletwidth/2" data-ssbottom="0+10" data-offset="10" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover nextend-bullet-bar nextend-bullet-bar-horizontal" style="text-align: center;position: absolute;">
 
-<?php }?>
-<!-- =-================================= -->
-
-
-</div>
-</div>
-</div>
-
-	
-	<div data-ssleft="width/2-bulletwidth/2" data-ssbottom="0+10" data-offset="10" class="n2-ss-widget n2-ss-widget-display-desktop n2-ss-widget-display-tablet n2-ss-widget-display-mobile n2-ss-widget-display-hover nextend-bullet-bar nextend-bullet-bar-horizontal" style="text-align: center;position: absolute;">
-
-		
-		<?php foreach($get_slider as $slide_active){ ?>
-			<div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot"></div>
-	
-		<?php }?>
-		
-	</div>
-</div>
-<div class="clear"></div></div></div>
-<!-- Nextend Smart Slider 3 #6 - END -->
-
+						
+						<?php foreach($get_slider as $slide_active){ ?>
+							<div class="n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot"></div>
+					
+						<?php }?>
+						
+					</div>
+				</div>
+				<div class="clear"></div>
+				<!-- Nextend Smart Slider 3 #6 - END -->
 			</div>
 		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="home">
+<!-- HOME SL 1 -->
+	<!--<div class="wrap t3-sl t3-sl-1 bg-color-gray ">
+		<div class="container">
+				
+
+
+			</div>
+		</div>-->
 
 <div class="wrap t3-sl t3-sl-2 t3-home-2 ">
 
@@ -533,33 +514,6 @@
 			$('.help_morehover').toggle('500');
 		}
 		
-		/*$(".submit").click(function(){
-			if($('input[name=user]:checked').length<=0)
-			{
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=largeoffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=smalloffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=homeoffice[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!");
-				 return false;
-			}
-			else if($('input[name=homeuser[]]:checked').length<=0){
-				
-				 alert("Please select at least one option!"); 
-				 return false;
-			}
-		});*/
         // chhenghong added
 		$('#btn_close').click(function(e) {
              if (e.keyCode === 27 ) { // ESC
@@ -571,9 +525,6 @@
         });
 
         // end chhenghong code
-
-
-		
 		$('#help_more-btn').click(function() {
 			$('.help_morehover').toggle('500');
 		});

@@ -22,41 +22,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <!-- Start Homepage --> 
 <?php if($this->uri->segment(1) == 'homepage' || $this->uri->segment(1) == ''){ ?>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- CSS -->
-		<!--<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.bootstrap.less.css" type="text/css" />
+		<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/system.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.legacy-grid.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>fonts/css/font-awesome.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.t3.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.core.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.typography.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.forms.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.navigation.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.navbar.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.modules.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.joomla.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.components.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.style.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.template.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/plugins.system.t3.base-bs3.less.megamenu.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.megamenu.less.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>fonts/css/font-awesome.min.css" type="text/css" />
-	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/templates.t3_bs3_blank.less.home.less.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/default.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/hover.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/help_hover.css" type="text/css" />
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/template.css" type="text/css" />
 	  	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/nextend-frontend.css?1489112974" media="screen, print" />
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/n2-ss-6.css?1489541255" media="screen, print" /> -->
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/n2-ss-6.css?1489541255" media="screen, print" />
 
 	<!-- JS -->
 
