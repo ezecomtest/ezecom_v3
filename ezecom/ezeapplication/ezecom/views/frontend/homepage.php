@@ -4,6 +4,7 @@
 	<meta name="google-site-verification" content="5OJ8M92HIl7UggddG1chxGf3MQlodkBtrwC_R6nL9jE" />
 	<title>ezecom.com.kh, Cambodia's premium internet provider</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/css_v3/home.css"/>
   	
   	<?php 
 		$this->load->view('header/frontend_header');
@@ -99,21 +100,21 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-color-gray">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-color-gray" style="padding:0px">
 				<!-- Nextend Smart Slider 3 #6 - BEGIN -->
-				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
-					<div class="n2-ss-slider-1" style="">
+				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4">
+					<div class="n2-ss-slider-1">
 						<div class="n2-ss-slider-2">
 							<div class="n2-ss-slider-3">
 
 				<!-- =-================================= -->
 				<?php foreach($get_slider as $rowslide){ ?>
-								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active" style="">
+								<div data-slide-duration="0" data-id="41" class="n2-ss-slide n2-ss-canvas  n2-ss-slide-active">
 									<div data-hash="b9a31d3949b1882a09ed2f8508d538f3" data-desktop="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="" class="n2-ss-slide-background" data-opacity="1">
 									<img title="" style="width:100%" class="n2-ss-slide-background-image n2-ss-slide-fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/></div>
-						<div>
-							<img src="elFindermaster/files/slides/img-slide-1.jpg" style="width:100%"/>			
-						</div>
+						
+							<img class="img-responsive" src="elFindermaster/files/slides/img-slide-1.jpg" style="width:100%"/>			
+						
 					</div>
 
 				<?php }?>
@@ -139,8 +140,42 @@
 				<!-- Nextend Smart Slider 3 #6 - END -->
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<div class="our_services">
+					<h3>Our Services</h3>
+					<p>
+						EZECOM offers you the best available packages to fulfill your needs, from specially designed packages 
+						for your resident to international dedicated 
+						connections and your global enterprise solutions - click here for more packages information.
+					</p>
+				</div>
+			</div>
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+		</div>
+		<!-- our services -->
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item">
+				<div class="internet_access">
+					
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="enterprise_network">
+				</div>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="cloud_services">
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
+
+
+	
+
 
 
 

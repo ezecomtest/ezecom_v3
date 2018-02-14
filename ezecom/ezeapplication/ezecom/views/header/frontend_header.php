@@ -28,7 +28,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	<!-- CSS -->
 		<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 		<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
-	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/soytry.css" type="text/css" />
+	  	
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/system.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/default.css" type="text/css" />

@@ -1,0 +1,80 @@
+/* date modify 14.02.2018 */
+
+/* bullet point click on slide */
+div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active {
+    background: #7961a9 !important;
+}
+div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
+	background: #7961a9 !important;
+}
+
+/* help me choose and sign me up */
+.imghelphover {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/homepage/help-icon.png);
+}
+.imghelphover:hover {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/homepage/Help_Me_Choose_hover.png);
+}
+
+.imghover{
+  margin:0 auto;
+  display: block;
+  width:140px;
+  height:140px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image:url(../../../images/homepage/sign_up-icon.png);
+
+
+}
+.imghover:hover {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/homepage/Sign_Me_Up_hover.png);
+}
+
+.our_services h3{
+	font-family:'Neutra Text'; 
+	font-size:35px; 
+	font-style:normal; 
+	color:#7961AA;
+	text-align:center;
+	padding: 40px 0 10px 0 ;
+}
+.our_services p{
+	font-family:'Neutra Text'; 
+	text-align:center; 
+	font-size:20px; 
+	font-style:normal; 
+	color:#3F3F3F; 
+}
+.item{
+    position:relative;
+    padding:0;
+    height:272px;
+    overflow: hidden;
+}
+.item .internet_access{
+	width:100%;
+	height:100%;
+    background-image:url(../../../images/homepage/internet-access.jpg);
+	background-position: center center;
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+}
