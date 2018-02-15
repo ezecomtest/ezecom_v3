@@ -1,6 +1,12 @@
 /* date modify 14.02.2018 */
-
+* {
+	margin:0;
+	padding:0;
+}
 /* bullet point click on slide */
+.slide-top-margin{
+	margin-top:-1px;
+}
 div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active {
     background: #7961a9 !important;
 }
@@ -51,8 +57,9 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 .our_services h3{
 	font-family:'Neutra Text'; 
-	font-size:35px; 
+	font-size:23px; 
 	font-style:normal; 
+	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
 	padding: 40px 0 10px 0 ;
@@ -62,19 +69,57 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	text-align:center; 
 	font-size:20px; 
 	font-style:normal; 
-	color:#3F3F3F; 
+	color:#3F3F3F;
+	padding-bottom:30px;
 }
-.item{
-    position:relative;
-    padding:0;
-    height:272px;
-    overflow: hidden;
+.item-margin-bt{
+   margin-bottom:30px;
 }
-.item .internet_access{
+.img-wrapper{
 	width:100%;
 	height:100%;
-    background-image:url(../../../images/homepage/internet-access.jpg);
-	background-position: center center;
-	background-size: 100% auto;
-	background-repeat:no-repeat;
+    padding-bottom:0;
+    overflow:hidden;
+	cursor:pointer;
+	
 }
+.img-wrapper .overlay-products{
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	color: #f1f1f1; 
+	width: 92%;
+	transition: .5s ease;
+	opacity:0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.img-wrapper:hover .overlay-products{
+	opacity:0.5;
+}
+
+
+@media screen and (max-width:1000px){
+	.our_services h3{
+		font-family:'Neutra Text'; 
+		font-size:20px; 
+		font-style:normal; 
+		font-weight:bold;
+		color:#7961AA;
+		text-align:center;
+		padding: 40px 0 10px 0 ;
+	}
+	.our_services p{ 
+		font-size:18px; 
+		color:#3F3F3F;
+		padding-bottom:30px;
+	}
+}
+.container .padding-services{
+	padding:0;
+}
+
+	

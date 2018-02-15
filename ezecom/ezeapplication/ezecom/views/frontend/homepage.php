@@ -98,9 +98,9 @@
 <!-- //MAIN NAVIGATION -->
 
 <div class="container-fluid">
-	<div class="container">
+	<div class="container slide-top-margin">
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-color-gray" style="padding:0px">
+			<div class="col-md-12 col-sm-12 col-xs-12 row-full" style="padding:0px">
 				<!-- Nextend Smart Slider 3 #6 - BEGIN -->
 				<div id="n2-ss-6" class="n2-ss-slider n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4">
 					<div class="n2-ss-slider-1">
@@ -140,9 +140,14 @@
 				<!-- Nextend Smart Slider 3 #6 - END -->
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
-			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+		
+	</div>
+</div>
+
+<div class="container" style="padding:0">
+	<div class="row">
+			<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
+			<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0">
 				<div class="our_services">
 					<h3>Our Services</h3>
 					<p>
@@ -152,28 +157,46 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+			<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
+	</div>
+	
+	<!-- our services -->
+	<div class="row">
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
+				<div class="overlay-products">My Internet Access</div>
+			</div>
 		</div>
-		<!-- our services -->
-		<div class="row">
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item">
-				<div class="internet_access">
-					
-				</div>
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<div class="enterprise_network">
-				</div>
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<div class="cloud_services">
-				</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
+			<div class="img-wrapper">
+				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
 			</div>
 		</div>
 	</div>
 </div>
-
-
 	
 
 
