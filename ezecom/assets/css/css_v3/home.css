@@ -88,17 +88,57 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	bottom: 0; 
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5); /* Black see-through */
-	color: #f1f1f1; 
 	width: 92%;
 	transition: .5s ease;
 	opacity:0;
-	color: white;
-	font-size: 20px;
 	padding: 20px;
 	text-align: center;
+	
 }
+.img-wrapper .overlay-products ul li a{
+	color:white;
+}
+.img-wrapper .overlay-products ul li{
+	list-style-type:none;
+	display:inline;
+	font-size:13px;
+	font-family: 'Neutra Text';
+}
+
+.img-wrapper .overlay-products ul li span{
+	padding:0 2px 0 5px;
+	color:white;
+}
+
 .img-wrapper:hover .overlay-products{
 	opacity:0.5;
+}
+.img-wrapper:hover .overlay-products a:hover{
+	color:#7961AA;
+}
+
+/* Zoom In */
+
+.img-wrapper figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 

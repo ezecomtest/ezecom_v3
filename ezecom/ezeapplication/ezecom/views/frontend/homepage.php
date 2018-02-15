@@ -164,8 +164,16 @@
 	<div class="row">
 		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
 			<div class="img-wrapper">
-				<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
-				<div class="overlay-products">My Internet Access</div>
+				<figure>
+					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
+				</figure>
+				<div class="overlay-products">
+					<ul>
+						<li><a href="#">Dedicated Internet Access</a><span>|</span></li>
+						<li><a href="#">EzeBiz</a><span>|</span></li>
+						<li><a href="#">EzeSurf</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
