@@ -15,11 +15,67 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 /* help me choose and sign me up */
+.wrapper-signme-hlepme{
+	margin:50px 0 0 0;
+	font-family:'Neutra Text'; 
+}
+.wrapper-signme-hlepme h3{
+	color:#7961AA;
+	font-weight:bold;
+	font-size:23px;
+}
+.wrapper-signme-hlepme p{
+	font-size:18px;
+}
+@media screen and (max-width:1000px){
+	.wrapper-signme-hlepme p{
+		font-size:15px;
+	}
+}
+
+.wrapper-looking h3{
+	color:#7961AA;
+	font-weight:bold;
+	font-size:23px;
+	padding:20px 0 20px 0;
+	font-family:'Neutra Text'; 
+}
+.bg-lookingfor{
+	background:#BCBDC0;
+	margin-top:40px;
+}
+.wrapper-achievement{
+	margin-bottom:60px;
+}
+.bg-lookingfor p , .wrapper-achievement p{
+	font-size:18px;
+	font-family:'Neutra Text'; 
+	padding-bottom:40px;
+}
+@media screen and (max-width:1000px){
+	.bg-lookingfor p , .wrapper-achievement p{
+			font-size:15px;
+			font-family:'Neutra Text'; 
+			padding-bottom:40px;
+	}
+}
+.wrapper-news h3 , .wrapper-traffic-live h3 ,.wrapper-live-radio h3 , .wrapper-achievement h3{
+	color:#7961AA;
+	font-weight:bold;
+	font-size:23px;
+	font-family:'Neutra Text'; 
+	padding:20px 0 20px 0;
+}
+.wrapper-news img:hover, .wrapper-traffic-live img:hover,.wrapper-live-radio img:hover{
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
 .imghelphover {
     margin: 0 auto;
     display: block;
-    width: 140px;
-    height: 140px;
+    width:93px;
+    height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
     background-image: url(../../../images/homepage/help-icon.png);
@@ -27,8 +83,8 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .imghelphover:hover {
     margin: 0 auto;
     display: block;
-    width: 140px;
-    height: 140px;
+    width:93px;
+    height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
     background-image: url(../../../images/homepage/Help_Me_Choose_hover.png);
@@ -37,8 +93,8 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .imghover{
   margin:0 auto;
   display: block;
-  width:140px;
-  height:140px;
+  width:93px;
+  height:93px;
   cursor: pointer;
   background-repeat: no-repeat;
   background-image:url(../../../images/homepage/sign_up-icon.png);
@@ -48,8 +104,8 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .imghover:hover {
     margin: 0 auto;
     display: block;
-    width: 140px;
-    height: 140px;
+    width: 93px;
+    height: 93px;
     cursor: pointer;
     background-repeat: no-repeat;
     background-image: url(../../../images/homepage/Sign_Me_Up_hover.png);
@@ -67,11 +123,12 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .our_services p{
 	font-family:'Neutra Text'; 
 	text-align:center; 
-	font-size:20px; 
+	font-size:18px; 
 	font-style:normal; 
 	color:#3F3F3F;
 	padding-bottom:30px;
 }
+
 .item-margin-bt{
    margin-bottom:30px;
 }
@@ -114,7 +171,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	opacity:0.5;
 }
 .img-wrapper:hover .overlay-products a:hover{
-	color:#7961AA;
+	text-decoration:underline;
 }
 
 /* Zoom In */
@@ -153,13 +210,17 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 		padding: 40px 0 10px 0 ;
 	}
 	.our_services p{ 
-		font-size:18px; 
+		font-size:15px; 
 		color:#3F3F3F;
 		padding-bottom:30px;
 	}
 }
 .container .padding-services{
 	padding:0;
+}
+
+.img-award-margin{
+	margin: 0 0 20px 0;
 }
 
 	
