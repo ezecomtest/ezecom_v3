@@ -30,6 +30,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 		<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
 	  	
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/system.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/footer_style.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/custom.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/default.css" type="text/css" />
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/hover.css" type="text/css" />

@@ -83,7 +83,7 @@
 </head>
 <body>
 
-	<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+	
 	
 <!-- HEADER -->
 	<?php
@@ -144,325 +144,232 @@
 	</div>
 </div>
 
-<div class="container" style="padding:0">
-	<div class="row">
-			<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
-			<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0">
-				<div class="our_services">
-					<h3>Our Services</h3>
-					<p>
-						EZECOM offers you the best available packages to fulfill your needs, from specially designed packages 
-						for your resident to international dedicated 
-						connections and your global enterprise solutions - click here for more packages information.
-					</p>
-				</div>
-			</div>
-			<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
-	</div>
-	
-	<!-- our services -->
-	<div class="row">
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">Dedicated Internet Access</a><span>|</span></li>
-						<li><a href="#">EzeBiz</a><span>|</span></li>
-						<li><a href="#">EzeSurf</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">IPLC</a><span>|</span></li>
-						<li><a href="#">DPLC</a><span>|</span></li>
-						<li><a href="#">MPLS</a><span>|</span></li>
-						<li><a href="#">VPLS</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">Microsoft Cloud	Service</a><span>|</span></li>
-						<li><a href="#">Amazon Web Service</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">Colocation</a><span>|</span></li>
-						<li><a href="#">DRC</a><span>|</span></li>
-						<li><a href="#">Web Hosting</a><span>|</span></li>
-						<li><a href="#">VPBX</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">DDoS Mitigation	Service</a><span>|</span></li>
-						<li><a href="#">Web	Application	Firewall</a><span>|</span></li>
-						<li><a href="#">Managed	Network	Security</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12 item-margin-bt">
-			<div class="img-wrapper">
-				<figure>
-					<img class="img-responsive" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
-				</figure>
-				<div class="overlay-products">
-					<ul>
-						<li><a href="#">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
-						<li><a href="#">EzeTV</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Sign Up -->
-<div class="container">
-	<div class="row">
-		<div class="col-md-3 col-sm-3 col-xs-2"></div>
-		<div class="col-md-6 col-sm-6 col-xs-8">
-			<div class="wrapper-signme-hlepme">
-				<div id="help_more-btn-over" class="pull-left">
-					<div class="imghelphover"></div>
-					<h3 class="text-center">Help Me Choose</h3>
-					<p class="text-center">Tell us your requirement to get the<br/>
-	best suitable internet package.</p>
-				</div>
-				<div id="more-btn-over" class="pull-right">
-					<div class="imghover"></div>
-					<h3 class="text-center">Sign Me Up</h3>
-					<p class="text-center">Let us know your interest <br/>on our package
-	choice and keep in <br/>touch with our latest update.</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-3 col-sm-3 col-xs-2"></div>
-	</div>
-</div>
-<!-- Looking for -->
-<div class="container bg-lookingfor">
-	<div class="row">
-		<div class="col-md-1 col-sm-1 col-xs-1"></div>
-		<div class="col-md-10 col-sm-10 col-xs-10">
-			<div class="wrapper-looking">
-				<h3 class="text-center">What are you looking for?</h3>
-				<p class="text-center">In this section you can access to some 
-				important part of the whole website by mouce click away.</p>
-				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="wrapper-news">
-							<a href="#">
-								<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/news-event.png" alt="News and Events" title="News and Events"/>
-							</a>
-							<h3 class="text-center">News and Events</h3>
-							<p class="text-center">
-								Check this section for the latest on 
-								EZECOM events. Our sponsorship 
-								and our latest partnerships.
-							</p>
-						</div>
-						
+
+<div class="container-fluid">
+	<!-- Our Services -->
+	<div class="container" style="padding:0">
+		<div class="row">
+				<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
+				<div class="col-md-8 col-sm-8 col-xs-8" style="padding:0">
+					<div class="our_services">
+						<h3>Our Services</h3>
+						<p>
+							EZECOM offers you the best available packages to fulfill your needs, from specially designed packages 
+							for your resident to international dedicated 
+							connections and your global enterprise solutions - click here for more packages information.
+						</p>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="wrapper-traffic-live">
-							<a href="#">
-								<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-traffic-cam.png" alt="Live Traffic Camera" title="Live Traffic Camera"/>
-							</a>
-							<h3 class="text-center">Live Traﬃc Camera</h3>
-							<p class="text-center">
-								Always know what is happening.
-								Thanks to EZECOM's traﬃc
-								camera in Phnom Penh.
-							</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-12">
-						<div class="wrapper-live-radio">
-							<a href="#">
-								<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-radio.png" alt="Live Radio" title="Live Radio"/>
-							</a>
-							<h3 class="text-center">Live Radio</h3>
-							<p class="text-center">
-								Click here to listen to your
-								best favorite radio stations
-								live stream in Cambodia.
-							</p>
-						</div>
-					</div>
-					
 				</div>
-			</div>
-			
+				<div class="col-md-2 col-sm-2 col-xs-2" style="padding:0"></div>
 		</div>
-		<div class="col-md-1 col-sm-1 col-xs-1"></div>
-	</div>
-</div>
-<!-- Our Achievement -->
-<div class="container">
-	<div class="row">
-		<div class="col-md-1 col-sm-1 col-xs-1"></div>
-		<div class="col-md-10 col-sm-10 col-xs-10">
-			<div class="wrapper-achievement">
-				<h3 class="text-center">Our Achievement</h3>
-				<p class="text-center">
-					In this section you can access to some 
-					important part of the whole 
-					website by mouce click away.
-				</p>
-				<div class="row">
-					<div class="col-md-3 col-sm-3 col-xs-12">
-						<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-imployer-award.jpg" alt="Best Imployer Award" title="Best Employer Award"/>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12">
-						<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/ISO-Certified.jpg" alt="ISO Certified" title="ISO Certified"/>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12">
-						<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/childsafe.jpg" alt="ChilSafe Certified" title="ChilSafe Certified"/>
-					</div>
-					<div class="col-md-3 col-sm-3 col-xs-12">
-						<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-ISP.jpg" alt="Best ISP For Business" title="Best ISP For Business"/>
+		
+		<!-- our services -->
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">Dedicated Internet Access</a><span>|</span></li>
+							<li><a href="#">EzeBiz</a><span>|</span></li>
+							<li><a href="#">EzeSurf</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">IPLC</a><span>|</span></li>
+							<li><a href="#">DPLC</a><span>|</span></li>
+							<li><a href="#">MPLS</a><span>|</span></li>
+							<li><a href="#">VPLS</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">Microsoft Cloud	Service</a><span>|</span></li>
+							<li><a href="#">Amazon Web Service</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-md-1 col-sm-1 col-xs-1"></div>
-	</div>
-</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">Colocation</a><span>|</span></li>
+							<li><a href="#">DRC</a><span>|</span></li>
+							<li><a href="#">Web Hosting</a><span>|</span></li>
+							<li><a href="#">VPBX</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">DDoS Mitigation	Service</a><span>|</span></li>
+							<li><a href="#">Web	Application	Firewall</a><span>|</span></li>
+							<li><a href="#">Managed	Network	Security</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
+				<div class="img-wrapper">
+					<figure>
+						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
+					</figure>
+					<div class="overlay-products">
+						<ul>
+							<li><a href="#">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
+							<li><a href="#">EzeTV</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End Services -->
+
+	<!-- Sign Up -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-2"></div>
+			<div class="col-md-6 col-sm-6 col-xs-8">
+				<div class="wrapper-signme-hlepme">
+					<div id="help_more-btn-over" class="pull-left">
+						<div class="imghelphover"></div>
+						<h3 class="text-center">Help Me Choose</h3>
+						<p class="text-center">Tell us your requirement to get the<br/>
+		best suitable internet package.</p>
+					</div>
+					<div id="more-btn-over" class="pull-right">
+						<div class="imghover"></div>
+						<h3 class="text-center">Sign Me Up</h3>
+						<p class="text-center">Let us know your interest <br/>on our package
+		choice and keep in <br/>touch with our latest update.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-2"></div>
+		</div>
+	</div> <!-- End Sign Up -->
 
 <!-- HTML Form Help me choose and sign me up -->
 <div class="home">
-<div class="wrap t3-sl t3-sl-2 t3-home-2 ">
-<div class="container">
-<div class="col-xs-8 col-sm-8">
-	<div id="moremenu" class="morehover">
-	    <div class="mid">	
-	          <form id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
-	            <div class="col-xs-7 col-sm-6">
-		           <p>Which packages interest you:</p>
-		           <div class="packagebox">
-		               <h5>Corporate</h5>
-		               <table border="0" cellspacing="0" cellpadding="0">
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
-		                        <td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
-		                        <td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
-		                        <td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
-		                        <td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
-		                        <td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
-		                    </tr>
-		                </table>
-		                <div class="clearleft"></div>
-		            </div>
-		            <div class="packagebox" style="margin:0;">
-		                <h5>Premium</h5>
-		                <table border="0" cellspacing="0" cellpadding="0">
-		                    
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="1mbps $40 per month" id="prem1mbps"  /></td>
-		                        <td><label for="prem1mbps"><strong>1mbps</strong> $30 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="2mbps $80 per month" id="prem2mbps"  /></td>
-		                        <td><label for="prem2mbps"><strong>2mbps</strong> $60 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="3mbps  $120 per month" id="prem3mbps"  /></td>
-		                        <td><label for="prem3mbps"><strong>3mbps</strong> $90 per month</label></td>
-		                    </tr>
-		                    <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="4mbps $160 per month" id="prem4mbps"  /></td>
-		                        <td><label for="prem4mbps"><strong>4mbps</strong> $108 per month</label></td>
-		                    </tr>
-		                	
-		                     <tr>
-		                        <td><input class="chkbox" type="checkbox" name="prempackage" value="5mbps $200 per month" id="prem5mbps"  /></td>
-		                        <td><label for="prem5mbps"><strong>5mbps</strong> $135 per month</label></td>
-		                    </tr>
-		                </table>
-		            
-		            <div class="clearleft"></div>
-		            </div>
-	           </div>
+	<div class="container">
+		<div class="col-xs-8 col-sm-8">
+			<div id="moremenu" class="morehover">
+				<div class="mid">	
+					  <form id="formsignup_form" name="signup" class="thickbox" title="Nice title" method="post">
+						<div class="col-xs-7 col-sm-6">
+						   <p>Which packages interest you:</p>
+						   <div class="packagebox">
+							   <h5>Corporate</h5>
+							   <table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="1mbps $59 per month" id="corp1mbps"  /></td>
+										<td><label for="corp1mbps"><strong>1mbps</strong> $40 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="2mbps $118 per month" id="corp2mbps"  /></td>
+										<td><label for="corp2mbps"><strong>2mbps</strong> $80 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="3mbps $177 per month" id="corp3mbps"  /></td>
+										<td><label for="corp3mbps"><strong>3mbps</strong> $120 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="4mbps $236 per month" id="corp4mbps"  /></td>
+										<td><label for="corp4mbps"><strong>4mbps</strong> $152 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="package" value="5mbps $285 per month" id="corp5mbps"  /></td>
+										<td><label for="corp5mbps"><strong>5mbps</strong> $190 per month</label></td>
+									</tr>
+								</table>
+								<div class="clearleft"></div>
+							</div>
+							<div class="packagebox" style="margin:0;">
+								<h5>Premium</h5>
+								<table border="0" cellspacing="0" cellpadding="0">
+									
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="1mbps $40 per month" id="prem1mbps"  /></td>
+										<td><label for="prem1mbps"><strong>1mbps</strong> $30 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="2mbps $80 per month" id="prem2mbps"  /></td>
+										<td><label for="prem2mbps"><strong>2mbps</strong> $60 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="3mbps  $120 per month" id="prem3mbps"  /></td>
+										<td><label for="prem3mbps"><strong>3mbps</strong> $90 per month</label></td>
+									</tr>
+									<tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="4mbps $160 per month" id="prem4mbps"  /></td>
+										<td><label for="prem4mbps"><strong>4mbps</strong> $108 per month</label></td>
+									</tr>
+									
+									 <tr>
+										<td><input class="chkbox" type="checkbox" name="prempackage" value="5mbps $200 per month" id="prem5mbps"  /></td>
+										<td><label for="prem5mbps"><strong>5mbps</strong> $135 per month</label></td>
+									</tr>
+								</table>
+							
+							<div class="clearleft"></div>
+							</div>
+					   </div>
 
-	           <div class="col-xs-7 col-sm-6">
-		          <div id="emailform">
-		              <h5>Contact Us</h5>
-		              
-		              <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
-		               <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
-		               <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
-		               <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
-		               <label for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
-		               <label for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
-		               <input type="button" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" onclick="check_email_verify_signmeup()" /></label>
-		               
-
-		               
-		           </div>
-		       </div>
-		      
-	          </form>
-	    	
-	        <br/>
-	    </div>
-
-	    <div class="bottom"></div>
-	</div>
-
-</div>
+					   <div class="col-xs-7 col-sm-6">
+						  <div id="emailform">
+							  <h5>Contact Us</h5>
+							  
+							  <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							   <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
+							   <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
+							   <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
+							   <label for="eml_details">Connection Details:</label> <textarea rows="4" name="eml_details" id="eml_details"></textarea>
+							   <label for="eml_details" style="width:auto;"><input type="button" name="close" value="Close" class="btn btn-default submit" id="eml_close" title="Close" />
+							   <input type="button" value="SUBMIT" id="eml_submit2" class="btn btn-default submit" onclick="check_email_verify_signmeup()" /></label>
+							  
+						   </div>
+					   </div>
+					  </form>
+					<br/>
+				</div> <!-- mid -->
+				<div class="bottom"></div>
+			</div><!-- more menu -->
+		</div> <!-- end col -->
+	</div> <!-- end container -->
 
 <div class="container">
     <div class="custom">
         <div class="row">
         <div class="help_morehover col-lg-6" style="position:absolute;">
-
             <div class="col-sm-12 col-md-12 col-xs-6">
                 <div class="help_mid">
                 	<?php if($this->session->userdata("step") == "") {?>
@@ -699,9 +606,6 @@
         display: inline-block !important;
     }
 </style>
-<!-- <div id="help_more-btn">
-	<p><a></a></p>
-</div> -->
 
 <script type="text/javascript">
 	
@@ -742,16 +646,117 @@
 
 			</div>
 		</div>
-		
-		
-		
+</div>
+	
+	
+<!-- End Sign Pop up -->
+	
+	
+	
+	
+
+	<!-- Looking for -->
+	<div class="container bg-lookingfor">
+		<div class="row">
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-md-10 col-sm-10 col-xs-10">
+				<div class="wrapper-looking">
+					<h3 class="text-center">What are you looking for?</h3>
+					<p class="text-center">In this section you can access to some 
+					important part of the whole website by mouce click away.</p>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-news">
+								<a href="#">
+									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/news-event.png" alt="News and Events" title="News and Events"/>
+								</a>
+								<h3 class="text-center">News and Events</h3>
+								<p class="text-center">
+									Check this section for the latest on 
+									EZECOM events. Our sponsorship 
+									and our latest partnerships.
+								</p>
+							</div>
+							
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-traffic-live">
+								<a href="#">
+									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-traffic-cam.png" alt="Live Traffic Camera" title="Live Traffic Camera"/>
+								</a>
+								<h3 class="text-center">Live Traﬃc Camera</h3>
+								<p class="text-center">
+									Always know what is happening.
+									Thanks to EZECOM's traﬃc
+									camera in Phnom Penh.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="wrapper-live-radio">
+								<a href="#">
+									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-radio.png" alt="Live Radio" title="Live Radio"/>
+								</a>
+								<h3 class="text-center">Live Radio</h3>
+								<p class="text-center">
+									Click here to listen to your
+									best favorite radio stations
+									live stream in Cambodia.
+								</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div> <!-- End Looking for -->
+
+	<!-- Our Achievement -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-md-10 col-sm-10 col-xs-10">
+				<div class="wrapper-achievement">
+					<h3 class="text-center">Our Achievement</h3>
+					<p class="text-center">
+						In this section you can access to some 
+						important part of the whole 
+						website by mouce click away.
+					</p>
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<figure>
+								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-imployer-award.jpg" alt="Best Imployer Award" title="Best Employer Award"/>
+							</figure>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<figure>
+								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/ISO-Certified.jpg" alt="ISO Certified" title="ISO Certified"/>
+							</figure>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<figure>
+								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/childsafe.jpg" alt="ChilSafe Certified" title="ChilSafe Certified"/>
+							</figure>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<figure>
+								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-ISP.jpg" alt="Best ISP For Business" title="Best ISP For Business"/>
+							</figure>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+	</div>
 </div>
 
-<!-- FOOTER -->
-	<?php 
-		$this->load->view('footer/footer_user_v');
-	?>
-<!-- END FOOTER-->
+<?php $this->load->view('footer/footer_user_v') ?>
 
 <!-- BACK TOP TOP BUTTON -->
  
@@ -954,6 +959,5 @@
 	
 </script>
 
-</div>
 </body>
 </html>

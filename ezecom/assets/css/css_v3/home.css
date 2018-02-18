@@ -223,4 +223,16 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	margin: 0 0 20px 0;
 }
 
+/* Zoom In */
+.wrapper-achievement figure img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.wrapper-achievement figure:hover img{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 	
