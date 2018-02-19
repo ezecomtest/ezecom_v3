@@ -40,6 +40,10 @@
 	color:#7961AA;
 }
 
+.wrapper-navig-footer .section-footer ul li img:hover{
+	background-color:orange;
+}
+
 .bg-footer{
 	background:#7961AA;
 }

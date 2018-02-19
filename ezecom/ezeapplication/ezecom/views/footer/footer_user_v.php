@@ -78,11 +78,11 @@
 				<div class="section-footer">
 					<h6>Follow Us</h6>
 					<ul>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">LinkedIn</a></li>
-						<li><a href="#">Instagram</a></li>
-						<li><a href="#">Youtube</a></li>
-						<li><a href="#">Google+</a></li>
+						<li><img  src="<?php echo base_url()?>images/footer/fb.png"/><a href="#">Facebook</a></li>
+						<li><img  src="<?php echo base_url()?>images/footer/linkin.png"/><a href="#">LinkedIn</a></li>
+						<li><img  src="<?php echo base_url()?>images/footer/instagram.png"/><a href="#">Instagram</a></li>
+						<li><img  src="<?php echo base_url()?>images/footer/youtube.png"/><a href="#">Youtube</a></li>
+						<li><img  src="<?php echo base_url()?>images/footer/google-plus.png"/><a href="#">Google+</a></li>
 					</ul>
 				</div>
 			</div>

@@ -170,6 +170,11 @@
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
 					</figure>
+					<div class="pro-internet">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/internet-access-ico.png" alt="Internet Access" title="Internet Access"/><span>INTERNET ACCESS</span></li>
+						</ul>
+					</div>
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">Dedicated Internet Access</a><span>|</span></li>
@@ -180,10 +185,16 @@
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
-				<div class="img-wrapper">
+				<div class="img-wrapper-network">
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
 					</figure>
+					<div class="pro-network">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/enterprise-network-ico.png" alt="Enterprise Network" title="Enterprise Network"/><span>ENTERPRISE NETWORK</span></li>
+						</ul>
+					</div>
+					
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">IPLC</a><span>|</span></li>
@@ -195,10 +206,15 @@
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
-				<div class="img-wrapper">
+				<div class="img-wrapper-cloud">
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
 					</figure>
+					<div class="pro-cloud">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/cloud-services-ico.png" alt="Cloud Services" title="Cloud Services"/><span>CLOUD SERVICES</span></li>
+						</ul>
+					</div>
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">Microsoft Cloud	Service</a><span>|</span></li>
@@ -210,10 +226,15 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
-				<div class="img-wrapper">
+				<div class="img-wrapper-hosting">
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
 					</figure>
+					<div class="pro-hosting">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/data-center-ico.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/><span>DATA CENTRE & HOSTING</span></li>
+						</ul>
+					</div>
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">Colocation</a><span>|</span></li>
@@ -225,10 +246,15 @@
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
-				<div class="img-wrapper">
+				<div class="img-wrapper-security">
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
 					</figure>
+					<div class="pro-security">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/cyber-security-ico.png" alt="Cyber Security" title="Cyber Security"/><span>CYBER SECURITY</span></li>
+						</ul>
+					</div>
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">DDoS Mitigation	Service</a><span>|</span></li>
@@ -239,10 +265,15 @@
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
-				<div class="img-wrapper">
+				<div class="img-wrapper-services">
 					<figure>
 						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
 					</figure>
+					<div class="pro-services">
+						<ul>
+							<li><img src="<?php echo base_url()?>images/homepage/add-services-ico.png" alt="Value Added Services" title="Value Added Services"/><span>VALUE ADDED SERVICES</span></li>
+						</ul>
+					</div>
 					<div class="overlay-products">
 						<ul>
 							<li><a href="#">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
@@ -668,7 +699,9 @@
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-news">
 								<a href="#">
-									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/news-event.png" alt="News and Events" title="News and Events"/>
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/news-event.png" alt="News and Events" title="News and Events"/>
+									</figure>
 								</a>
 								<h3 class="text-center">News and Events</h3>
 								<p class="text-center">
@@ -682,7 +715,9 @@
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-traffic-live">
 								<a href="#">
-									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-traffic-cam.png" alt="Live Traffic Camera" title="Live Traffic Camera"/>
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-traffic-cam.png" alt="Live Traffic Camera" title="Live Traffic Camera"/>
+									</figure>
 								</a>
 								<h3 class="text-center">Live Traﬃc Camera</h3>
 								<p class="text-center">
@@ -695,7 +730,9 @@
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-live-radio">
 								<a href="#">
-									<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-radio.png" alt="Live Radio" title="Live Radio"/>
+									<figure>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-radio.png" alt="Live Radio" title="Live Radio"/>
+									</figure>
 								</a>
 								<h3 class="text-center">Live Radio</h3>
 								<p class="text-center">
@@ -958,6 +995,77 @@
 	}
 	
 </script>
-
+<script type="text/javascript">
+$('.img-wrapper').hover( function(e) {
+		/* mousehover Internet */
+		$(".img-wrapper .pro-internet").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Internet */
+		$(".img-wrapper .pro-internet").fadeIn('slow');
+		$(".img-wrapper .pro-internet").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+ 
+ $('.img-wrapper-network').hover( function(e) {
+		/* mousehover Network */	
+		$(".img-wrapper-network .pro-network").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Network */
+		$(".img-wrapper-network .pro-network").fadeIn('slow');
+		$(".img-wrapper-network .pro-network").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+ 
+ $('.img-wrapper-cloud').hover( function(e) {
+		/* mousehover Cloud */	
+		$(".img-wrapper-cloud .pro-cloud").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Cloud */
+		$(".img-wrapper-cloud .pro-cloud").fadeIn('slow');
+		$(".img-wrapper-cloud .pro-cloud").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+  $('.img-wrapper-hosting').hover( function(e) {
+		/* mousehover Cloud */	
+		$(".img-wrapper-hosting .pro-hosting").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Cloud */
+		$(".img-wrapper-hosting .pro-hosting").fadeIn('slow');
+		$(".img-wrapper-hosting .pro-hosting").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+ 
+ $('.img-wrapper-security').hover( function(e) {
+		/* mousehover Cloud */	
+		$(".img-wrapper-security .pro-security").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Cloud */
+		$(".img-wrapper-security .pro-security").fadeIn('slow');
+		$(".img-wrapper-security .pro-security").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+ 
+  $('.img-wrapper-services').hover( function(e) {
+		/* mousehover Cloud */	
+		$(".img-wrapper-services .pro-services").css({"top":"20px"});
+	},
+	
+	function(){
+		/* mouseout Cloud */
+		$(".img-wrapper-services .pro-services").fadeIn('slow');
+		$(".img-wrapper-services .pro-services").css({"top":"110px","transition":".5s ease"});
+ });
+ 
+</script>
 </body>
 </html>
