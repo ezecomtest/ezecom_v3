@@ -14,58 +14,39 @@ class Our_company_c extends CI_Controller {
         date_default_timezone_set("Asia/Bangkok");
     }
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
-	{
-		$this->our_company();
+	
+	public function index(){
+		$this->company_profile();
 	}
-	public function our_company(){
+	public function company_profile(){
 		if($this->session->userdata("language")==1){
-		$data['title'] = "Our Company";
-		$data['active'] = "Our Company";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['career'] = $this->career_m->get_career();
-		$this->load->view('frontend/our_company',$data);
+			$data['title'] = "Company Profile";
+			$data['active'] = "Company Profile";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/company_profile',$data);
 		}
-		if($this->session->userdata("language")==2){
-		$data['title'] = "អំពីក្រុមហ៊ុន";
-		$data['active'] = "Our Company";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['career'] = $this->career_m->get_career();
-		$this->load->view('frontend/our_company_kh_v',$data);
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "អំពីក្រុមហ៊ុន";
+			$data['active'] = "Our Company";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/our_company_kh_v',$data);
 		}
 		if($this->session->userdata("language")==3){
-		$data['title'] = "Our Company";
-		$data['active'] = "Our Company";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['career'] = $this->career_m->get_career();
-		$this->load->view('frontend/our_company_ch_v',$data);
-		}
+			$data['title'] = "Our Company";
+			$data['active'] = "Our Company";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/our_company_ch_v',$data);
+		} */
 
 		if($this->session->userdata("language")== ""){
-		$data['title'] = "Our Company";
-		$data['active'] = "Our Company";
-		$lan = 1;
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['career'] = $this->career_m->get_career();
-		$this->load->view('frontend/our_company',$data);
+			$data['title'] = "company_profile";
+			$data['active'] = "company_profile";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/company_profile',$data);
 		}
 		
 	}

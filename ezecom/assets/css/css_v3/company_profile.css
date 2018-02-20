@@ -1,0 +1,38 @@
+.col-img-padding{
+	padding:0;
+}
+.container-top-mar{
+	margin-top:-1px;
+}
+.wrapper-profile{
+	padding:80px 0 80px 0;
+}
+p{
+	font-size:18px;
+	font-family:'Neutra Text',serif,sans-serif;
+}
+p span{
+	color:#7961AA;
+	font-weight:bold;
+}
+
+.row-margin-bt{
+	margin-bottom:80px
+}
+.wrapper-technology{
+	border:1px solid #BBCAD2;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+.wrapper-technology	h3{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text';
+	padding-top:40px;
+}
+
+.wrapper-technology img{
+	margin:0 auto;
+}

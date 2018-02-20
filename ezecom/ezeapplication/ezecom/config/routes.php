@@ -149,7 +149,8 @@ $route['home-page'] = 'frontend/home_c/homepage';
 
 // start our company
 
-$route['our-company'] = 'frontend/our_company_c/our_company';
+//$route['our-company'] = 'frontend/our_company_c/our_company';
+$route['our-company/company-profile'] = 'frontend/our_company_c/company_profile';
 
 // end our company
 

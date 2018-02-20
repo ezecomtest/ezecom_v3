@@ -42,50 +42,38 @@
   }
 </style>
 
-<script type="text/javascript">
-  
-  function change_language(id){
-     var base_url= "<?php //echo base_url(); ?>";
-            $.ajax({
-                type:"POST",
-                url: base_url+ "set_session_lang",
-                data:{id:id},
-                success:function(dta)
-                {
-                  window.location.reload();
-                }
-            });
-  }
-
-    // prevent right click 
-
-        /*$(document).ready(function() {
-            $("body").bind("contextmenu",function(){
-                return false;
-                });
-         } );
-		 */
-		 
-        //
-</script>
-
 <!-- Top Navigation -->
 
 <div class="container-fluid">
 	<div class="container">
 		<div class="row" style="padding:15px 0">
 			<div class="col-md-6 col-xs-6">
-				<img class="img-responsive text-middle" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider">
+				<a href="<?php echo base_url(); ?>" title="EZECOM Cambodia Premuim Internet Service Provider">
+					<img class="img-responsive text-middle" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider">
+				</a>
 			</div>
 			<div class="col-md-6 col-xs-6">
 				<div class="text-right">
-					<span><img src="<?php echo base_url()?>images/flags/kh.png" alt="KhmerCambodia" title="KhmerCambodia"></span>
-					<span><img src="<?php echo base_url()?>images/flags/en.png" alt="English (UK)" title="English (UK)"></span>
-					<span><img src="<?php echo base_url()?>images/flags/ch.png" alt="chinese" title="chinese"></span>
+					<span><img src="<?php echo base_url()?>images/flags/kh.png" id="2" onclick="change_language(this.id)" alt="Khmer" title="Khmer"></span>
+					<span><img src="<?php echo base_url()?>images/flags/en.png" id="1" onclick="change_language(this.id)" alt="English" title="English"></span>
+					<span><img src="<?php echo base_url()?>images/flags/ch.png" id="3" onclick="change_language(this.id)" alt="Chinese" title="Chinese"></span>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-
+<script type="text/javascript">
+  function change_language(id){
+    var base_url= "<?php echo base_url() ?>";
+	$.ajax({
+		type:"POST",
+		url: base_url+ "set_session_lang",
+		data:{id:id},
+		success:function(dta)
+		{
+		  window.location.reload();
+		}
+	});
+  }
+</script>
