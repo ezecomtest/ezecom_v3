@@ -114,4 +114,36 @@ class Our_company_c extends CI_Controller {
 			$this->load->view('frontend/childsafe',$data);
 		}
 	}
+	
+	public function partnerships(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Our Partnerships";
+			$data['active'] = "Our Partnerships";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/partnerships',$data);
+		}
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "Our Partnerships";
+			$data['active'] = "Our Partnerships";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/partnerships_kh_v',$data);
+		}
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Our Partnerships";
+			$data['active'] = "Our Partnerships";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/partnerships_ch_v',$data);
+		} */
+
+		if($this->lang== ""){
+			$data['title'] = "Our Partnerships";
+			$data['active'] = "Our Partnerships";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/partnerships',$data);
+		}
+	}
 }
