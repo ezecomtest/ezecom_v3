@@ -50,4 +50,36 @@ class Our_company_c extends CI_Controller {
 		}
 		
 	}
+	
+	public function qms(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Quality Management System";
+			$data['active'] = "Quality Management System";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/qms',$data);
+		}
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "Quality Management System";
+			$data['active'] = "Quality Management System";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/qms_kh_v',$data);
+		}
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Quality Management System";
+			$data['active'] = "Quality Management System";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/qms_ch_v',$data);
+		} */
+
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Quality Management System";
+			$data['active'] = "Quality Management System";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/qms',$data);
+		}
+	}
 }

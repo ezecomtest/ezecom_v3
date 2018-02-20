@@ -1,0 +1,53 @@
+.wrapper-qms img{
+	margin:0 auto;
+	padding:80px 0 50px 0;
+}
+.wrapper-certificate{
+	padding:20px;
+}
+
+.wrapper-certificate p{
+	font-size:18px;
+	font-family:'Neutra Text',serif,sans-serif;
+	padding-bottom:20px;
+}
+.core-value, .qms, .policy {
+	background-color:#d2d2d2;
+	height:370px;
+	margin-bottom:20px;
+}
+.core-value h3, .qms h3, .policy h3{
+	color:#7961AA;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Neutra Text',serif,sans-serif;
+	padding-bottom:5px;
+	padding-top:15px;
+	text-align:center;
+}
+.core-value{
+	padding-bottom:20px;
+}
+.core-value h6{
+	color:#7961AA;
+	font-family: 'Neutra Text',serif,sans-serif;
+	font-size:18px;
+}
+.qms p, .policy p{
+	font-family: 'Neutra Text',serif,sans-serif;
+	font-size:18px;
+	padding:0 15px 15px 15px;
+}
+.core-value p{
+	font-family: 'Neutra Text',serif,sans-serif;
+	font-size:18px;
+	padding-left:15px;
+	line-height:18px;
+}
+.core-value p span{
+	color:#7961AA;
+	font-family: 'Neutra Text',serif,sans-serif;
+}
+.row-margin-bt{
+	margin-bottom:80px
+}
