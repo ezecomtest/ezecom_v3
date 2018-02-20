@@ -82,4 +82,36 @@ class Our_company_c extends CI_Controller {
 			$this->load->view('frontend/qms',$data);
 		}
 	}
+	
+	public function childsafe(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Childsafe Certification";
+			$data['active'] = "Childsafe Certification";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/childsafe',$data);
+		}
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "Childsafe Certification";
+			$data['active'] = "Childsafe Certification";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/childsafe_kh_v',$data);
+		}
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Childsafe Certification";
+			$data['active'] = "Childsafe Certification";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/childsafe_ch_v',$data);
+		} */
+
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Childsafe Certification";
+			$data['active'] = "Childsafe Certification";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/childsafe',$data);
+		}
+	}
 }

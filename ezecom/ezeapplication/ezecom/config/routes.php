@@ -151,6 +151,7 @@ $route['home-page'] = 'frontend/home_c/homepage';
 
 $route['our-company/company-profile'] = 'frontend/our_company_c/company_profile';
 $route['our-company/quality-management-system'] = 'frontend/our_company_c/qms';
+$route['our-company/childsafe-certification'] = 'frontend/our_company_c/childsafe';
 
 // end our company
 
