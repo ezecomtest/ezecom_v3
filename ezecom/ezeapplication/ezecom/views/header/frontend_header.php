@@ -100,6 +100,21 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 <?php }?>
 <!-- End Our Partnership -->
 
+<!-- Start CSR-->
+<?php if($this->uri->segment(2) == "corporate-social-responsibility") {?>
+<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/footer_style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/back_to_top.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/csr.css" type="text/css" />
+
+<?php }?>
+
+
 <!-- Start Customer Service -->
 <?php if($this->uri->segment(1) == 'customerservice'){?>
 <!-- CSS -->

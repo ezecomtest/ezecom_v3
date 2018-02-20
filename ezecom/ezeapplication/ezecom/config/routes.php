@@ -153,6 +153,7 @@ $route['our-company/company-profile'] = 'frontend/our_company_c/company_profile'
 $route['our-company/quality-management-system'] = 'frontend/our_company_c/qms';
 $route['our-company/childsafe-certification'] = 'frontend/our_company_c/childsafe';
 $route['our-company/our-partnerships'] = 'frontend/our_company_c/partnerships';
+$route['our-company/corporate-social-responsibility'] = 'frontend/our_company_c/social_responsibility';
 
 // end our company
 

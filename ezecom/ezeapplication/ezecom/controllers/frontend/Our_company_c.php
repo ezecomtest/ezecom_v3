@@ -146,4 +146,36 @@ class Our_company_c extends CI_Controller {
 			$this->load->view('frontend/partnerships',$data);
 		}
 	}
+	
+	public function social_responsibility(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Corporate Social Responsibility";
+			$data['active'] = "Corporate Social Responsibility";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/social_responsibility',$data);
+		}
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "Corporate Social Responsibility";
+			$data['active'] = "Corporate Social Responsibility";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/social_responsibility_kh_v',$data);
+		}
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Corporate Social Responsibility";
+			$data['active'] = "Corporate Social Responsibility";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/social_responsibility_ch_v',$data);
+		} */
+
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Corporate Social Responsibility";
+			$data['active'] = "Corporate Social Responsibility";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/social_responsibility',$data);
+		}
+	}
 }
