@@ -6,14 +6,60 @@
 		<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<?php
+			/* Top Header */
+			$this->load->view('header/frontend_header');
+			$this->load->view('header/header_all');
+			$this->load->view('header/main_nav_user_v');
+		?>
 	</head>
 <body>
-<?php
-	/* Top Header */
-    $this->load->view('header/frontend_header');
-	$this->load->view('header/header_all');
-	$this->load->view('header/main_nav_user_v');
-?>
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
+				<div class="wrapper-CSR">
+					<img class="img-responsive" src="<?php echo base_url()?>images/CSR/CSR-logo.png" alt="Corporate social Responsibility" title="Corporate social Responsibility"/>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+		</div>
+		<div class="row">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+				<div class="wrapper-CSR-text">
+					<p>
+						EZECOM’s CSR policy functions as a built-in, self-regulating mechanism where the company 
+						monitors and ensures its active compliance with the spirit of the law and ethical standards, 
+						and engages in actions that further the social good, beyond the interests of the
+						firm and that required by law.
+					</p>
+					<p>
+						Our CSR aims to embrace responsibility for the company's actions and encourage a positive 
+						impact through its activities on the environment, consumers, employees, 
+communities, stakeholders and other members of the public.
+					</p>
+					<p>
+						For instance, we have been providing free internet to support education projects through our own initiative, EZECAMPUS and our partners, Development Innovation and Friends International. We also supported the Secured Heritage project by providing a secure
+system to document and reconcile the Khmer Rouge era for public access to these archives. Apart from that, EZECOM is one of the members of CSR platform in Cambodia involving with a constantly changing roster of activities and events, including sponsoring concerts,
+ sporting and educational events and technology summits.
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+		</div>
+		<div class="row">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
+				<div class="wrapper-CSR">
+					<img class="img-responsive" src="<?php echo base_url()?>images/CSR/CSR-main-photo.jpg" alt="Corporate social Responsibility" title="Corporate social Responsibility"/>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
+		</div>
+	</div>
+</div>
 		
 
 

@@ -1,0 +1,22 @@
+.container-top-mar{
+	margin-top:-1px;
+}
+.wrapper-text{
+	border:1px solid #BBCAD2;
+	padding:20px;
+	margin-bottom:20px;
+}
+.wrapper-text img{
+	margin:0 auto;
+}
+.row-margin-bt{
+	margin-bottom:100px
+}
+.row-margin-top{
+	margin-top:100px;
+}
+
+.wrapper-text p{
+	font-size:18px;
+	font-family:'Neutra Text',serif,sans-serif;
+}
