@@ -379,7 +379,7 @@
 						  <div id="emailform">
 							  <h5>Contact Us</h5>
 							  
-							  <p>Call us now on <strong>023 228 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+							  <p>Call us now on <strong>‎023 888 181/085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
 							   <label for="eml_name">Full Name:</label> <input type="text" name="eml_name" value="" id="eml_name" /><br />
 							   <label for="eml_email">Email Address:</label> <input type="text" name="eml_email" value="" id="eml_email" /><br />
 							   <label for="eml_phone">Phone Number:</label> <input type="text" name="eml_phone" value="" id="eml_phone" /><br />
