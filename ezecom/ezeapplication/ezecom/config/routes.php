@@ -209,11 +209,12 @@ $route['contact-us'] = 'frontend/contact_us_c/contact_us';
 // end contact us
 
 // start our services
+$route['our-services/internet-access/dedicated-internet-access'] = 'frontend/our_services_c/dedicate';
 
-$route['our-services'] = 'frontend/our_services_c/our_services';
+/*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
 $route['ezetv'] = 'frontend/Ezetv/ezetv_service';
-$route['ezetv-signup'] = 'frontend/Ezetv/ezetv_signup';
+$route['ezetv-signup'] = 'frontend/Ezetv/ezetv_signup'; */
 
 // end our services
 
