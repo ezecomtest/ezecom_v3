@@ -22,3 +22,43 @@
 	transform: scale(1.1);
 	cursor:pointer;
 }
+.row-margin-top{
+	margin-top:70px;
+	margin-bottom:70px;
+}
+.business img, .storage img, .support-customer img{
+	margin:0 auto;
+}
+.business p, .storage p,.support-customer p{
+	font-family: 'Neutra Text',serif,sans-serif;
+	font-size:18px;
+	padding:25px 0 15px 0;
+}
+.border-bottom{
+	border-bottom:1px solid #E6E7E8;
+	width:100%;
+	margin:0 auto;
+}
+
+/* Zoom In Features */
+.business img,.storage img,.support-customer img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.business img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}
+.storage img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}
+.support-customer img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}

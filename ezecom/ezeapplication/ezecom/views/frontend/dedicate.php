@@ -26,6 +26,42 @@
 				</div>
 			</div>
 		</div>
+		<div class="row row-margin-top">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="business">
+						<img class="img-responsive" src="<?php echo base_url()?>images/our-services/business.png"/>
+					<div class="border-bottom"></div>
+					<p>
+						EZECOM Dedicated Packages are designed to support 
+						business critical functions and 
+						offer high speed connectivity and reliable access.
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="storage">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/storage.png"/>
+					<div class="border-bottom"></div>
+					<p>
+						EZECOM Dedicated Packages allow you to send and receive 
+						large amount of data, conduct video conferences, run web based applications, 
+						stream video and any mission critical applications.
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="support-customer">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/support-customer.png"/>
+					<div class="border-bottom"></div>
+					<p>
+						EZECOM dedicated packages give you the highest level 
+						of performance delivered over our highly dependable and 
+						redundant infrastructure with 24-hour network monitoring 
+						and customer support included.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
