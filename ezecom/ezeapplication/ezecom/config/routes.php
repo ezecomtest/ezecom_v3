@@ -155,6 +155,7 @@ $route['our-company/childsafe-certification'] = 'frontend/our_company_c/childsaf
 $route['our-company/our-partnerships'] = 'frontend/our_company_c/partnerships';
 $route['our-company/corporate-social-responsibility'] = 'frontend/our_company_c/social_responsibility';
 $route['our-company/community'] = 'frontend/our_company_c/community';
+$route['our-company/career-opportunities'] = 'frontend/our_company_c/career_opport';
 
 // end our company
 

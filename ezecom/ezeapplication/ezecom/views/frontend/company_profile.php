@@ -6,16 +6,15 @@
 		<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<?php
+			/* Top Header */
+			$this->load->view('header/frontend_header');
+			$this->load->view('header/header_all');
+			/* Navigation Menu */
+			$this->load->view('header/main_nav_user_v');
+		?>
 	</head>
 <body>  
-<?php
-	/* Top Header */
-	$this->load->view('header/frontend_header');
-	$this->load->view('header/header_all');
-	/* Navigation Menu */
-	$this->load->view('header/main_nav_user_v');
-?>
-
 <div class="container-fluid">
 	<div class="container container-top-mar">
 		<div class="row">
