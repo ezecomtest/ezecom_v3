@@ -160,10 +160,8 @@ $route['our-company/career-opportunities'] = 'frontend/our_company_c/career_oppo
 // end our company
 
 // start our career
+$route['career-detail/(:any)'] = 'frontend/career_detail_c/career/$1';
 
-//$route['career/(:num)'] = 'frontend/our_company_c/career/$1';
-$route['career/(:num)'] = 'frontend/career_detail_c/career/$1';
-// end our career
 
 
 // start our partnership
@@ -243,11 +241,7 @@ $route['beedoo'] = 'frontend/our_services_c/beedoo_could_service_by_ezecom';
 
 // end beedoo_could_service_by_ezecom
 
-// Start career
 
-$route['career/(:any)'] = 'frontend/career_detail_c/career/$1';
-
-// End career
 
 
 //Chhenghong: set language session 

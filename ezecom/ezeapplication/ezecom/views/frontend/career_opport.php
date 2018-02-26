@@ -61,7 +61,7 @@
 							 </td>
 							  <td>
 								<br/>
-								<a class="btn-xs" href="<?php echo base_url()?>career/<?php echo strtolower( str_replace(' ', '-', $careers->career_title));?>" target="_new">Detail</a>
+								<a class="btn-xs" href="<?php echo base_url()?>career-detail/<?php echo strtolower( str_replace(' ', '-', $careers->career_title));?>" target="_new">Detail</a>
 								</td>
 							</tr>                                                     
 					  <?php }?>
