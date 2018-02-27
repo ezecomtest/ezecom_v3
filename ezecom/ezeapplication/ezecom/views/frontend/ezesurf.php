@@ -20,9 +20,9 @@
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
 					<span>
-						<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/btn-sign-up.png"/>
+						<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/btn-sign-up.png"/>
 					</span>
-					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/dedicate.jpg"/>
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/ezesurf.jpg"/>
 				</div>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 		<div class="container">
 				<div class="row">
 					<div class="form-wrapper">
-						<form class="form-horizontal" action="<?php echo base_url()?>Dedicate/sending.php" method="post">
+						<form class="form-horizontal" action="<?php echo base_url()?>Ezesurf/sending.php" method="post">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="formEmail">
 									  <h5>Contact Us</h5>
@@ -81,44 +81,72 @@
 				</div>
 		</div> <!-- end container -->
 		
-		
-		
-		<div class="row row-margin-top">
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="business">
-						<img class="img-responsive" src="<?php echo base_url()?>images/our-services/business.png"/>
-					<div class="border-bottom"></div>
+		<div class="row">
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+				<div class="about-ezesurf">
 					<p>
-						EZECOM Dedicated Packages are designed to support 
-						business critical functions and 
-						offer high speed connectivity and reliable access.
+						EzeSurf packages are all delivered on fibre optic. 
+						EzeSurf offers the best available internet packages to suit 
+						residential and home needs with symmetrically upload/download speed, 
+						good for real-time communication, video call and social media, 
+						live stream along with world class customer service and 24/7 helpdesk support to ensure the best experience for you.
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="storage">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/storage.png"/>
-					<div class="border-bottom"></div>
-					<p>
-						EZECOM Dedicated Packages allow you to send and receive 
-						large amount of data, conduct video conferences, run web based applications, 
-						stream video and any mission critical applications.
-					</p>
+			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+		</div>
+		<div class="row mg-bt">
+			<div class="package">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/3mb.png"/>
 				</div>
-			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<div class="support-customer">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/support-customer.png"/>
-					<div class="border-bottom"></div>
-					<p>
-						EZECOM dedicated packages give you the highest level 
-						of performance delivered over our highly dependable and 
-						redundant infrastructure with 24-hour network monitoring 
-						and customer support included.
-					</p>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/6mb.png"/>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/10mb.png"/>
 				</div>
 			</div>
 		</div>
+		<div class="row mg-bt">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 no-padding-right">
+				<div class="bonus-speed">
+					<p>Bonus Speed</p>
+				</div>
+			</div>
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 no-padding-left">
+				<div class="bonus-for">
+					<ul>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/five-hundred.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/youtube.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/fb.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/playstore.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/appstore.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/ezetv.png"/></li>
+						<li><img class="img-responsive" src="<?php echo base_url()?>images/our-services/Ezesurf/more.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+		<div class="row mg-bt">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+			<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+				<div class="term-condition">
+					<p>TERMS & CONDITIONS</p>
+					<ul>
+						<li>No deposit required</li>
+						<li>Free modem / TV box rental</li>
+						<li>6 months upfront (payment is required)</li>
+						<li>Other conditions apply</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 "></div>
+		</div>
+		
 	</div>
 </div>
 
