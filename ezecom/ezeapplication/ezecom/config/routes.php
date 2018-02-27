@@ -210,6 +210,7 @@ $route['contact-us'] = 'frontend/contact_us_c/contact_us';
 
 // start our services
 $route['our-services/internet-access/dedicated-internet-access'] = 'frontend/our_services_c/dedicate';
+$route['our-services/internet-access/EzeBiz'] = 'frontend/Ezebiz/ezebiz';
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
