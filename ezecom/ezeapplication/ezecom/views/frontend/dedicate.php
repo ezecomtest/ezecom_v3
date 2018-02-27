@@ -26,6 +26,63 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- Contact Form Dedicate -->
+		<div class="container">
+				<div class="row">
+					<div class="form-wrapper">
+						<form class="form-horizontal" action="<?php echo base_url()?>Dedicate/sending.php" method="post">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="formEmail">
+									  <h5>Contact Us</h5>
+									  <p>Call us now on <strong>‎023 888 181 / 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Full Name:</label>
+										<div class="col-sm-8">
+											<input type="text" class="form-control resize-textbox" name="name"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Email Address:</label>
+										<div class="col-sm-8">
+											<input type="text" class="form-control resize-textbox" name="email"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Phone Number:</label>
+										<div class="col-sm-8">
+											<input type="text" class="form-control resize-textbox" name="mobile"/>
+										</div>
+									  </div>
+									  <div class="form-group">
+										<label class="control-label col-sm-4">Connection Details:</label>
+										<div class="col-sm-8">
+											<textarea rows="4" class="form-control resize-textbox" name="desciption"></textarea>
+										</div>
+									  </div>
+									  <div class="form-group">
+										  <label class="control-label col-sm-4" for="pwd"></label>
+										  <div class="col-sm-8">          
+											<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+										  </div>
+									  </div>
+									  <div class="form-group">        
+										  <div class="col-sm-offset-4 col-sm-8">
+											<input type="button" id="btn-close" name="close" value="Close" class="btn btn-default submit"/>
+											<input type="submit" value="Submit" class="btn btn-default submit"/>
+										  </div>
+									  </div>
+					
+								</div>
+							</div>
+						</form>
+						<script src='https://www.google.com/recaptcha/api.js'></script>
+					</div>
+				</div>
+		</div> <!-- end container -->
+		
+		
+		
 		<div class="row row-margin-top">
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="business">
@@ -85,4 +142,15 @@
 			return false;
 		});
 	})(jQuery);
+	
+	jQuery(function($) {
+		$('#pop-up-form').click(function() {
+			$('.form-wrapper').toggle('500');
+		});
+	
+		$('#btn-close').click(function(e) {
+            $('.form-wrapper').toggle('500');
+        });
+	
+	});
 </script>
