@@ -212,6 +212,10 @@ $route['contact-us'] = 'frontend/contact_us_c/contact_us';
 $route['our-services/internet-access/dedicated-internet-access'] = 'frontend/our_services_c/dedicate';
 $route['our-services/internet-access/EzeBiz'] = 'frontend/Ezebiz/ezebiz';
 $route['our-services/internet-access/EzeSurf'] = 'frontend/our_services_c/ezesurf';
+$route['our-services/enterprise-network/international-private-leased-circuit'] = 'frontend/our_services_c/iplc';
+$route['our-services/enterprise-network/domestic-private-leased-circuit'] = 'frontend/our_services_c/dplc';
+$route['our-services/enterprise-network/mpls'] = 'frontend/our_services_c/mpls';
+$route['our-services/enterprise-network/vpls'] = 'frontend/our_services_c/vpls';
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';

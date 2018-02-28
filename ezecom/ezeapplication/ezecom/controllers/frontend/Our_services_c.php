@@ -87,14 +87,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function iplc(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "IPLC";
 			$data['active'] = "IPLC";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/iplc',$data);
 		}
-		if($this->lang==2){
+	/* 	if($this->lang==2){
 			$data['title'] = "IPLC";
 			$data['active'] = "IPLC";
 			$lan = $this->lang;
@@ -107,8 +107,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/iplc_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "IPLC";
 			$data['active'] = "IPLC";
 			$lan = 1;

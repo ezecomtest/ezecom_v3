@@ -1,0 +1,110 @@
+.IPLC_wrapper h2{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:'Neutra Text',serif,sans-serif;
+	padding-top:10px;
+}
+.IPLC-img img{
+	margin-top:50px;
+}
+.IPLC_wrapper{
+	margin-top:110px;
+}
+.IPLC_wrapper p span{
+	color: #7961AA;
+	font-family:'Neutra Text',serif,sans-serif;
+	font-weight:bold;
+}
+.IPLC_wrapper p{
+	font-family:'Neutra Text',serif,sans-serif;
+	font-size:18px;
+}
+
+.IPLC_wrapper img{
+	margin-top:30px;
+}
+.IPLC-structure{
+	background-color:#F6F6F6;
+}
+.mg-top-bt{
+	margin-bottom:60px;
+	margin-top:60px;
+}
+.features{
+	color: #7961AA;
+	font-family:'Neutra Text',serif,sans-serif;
+	font-weight:bold;
+	font-size:20px;
+}
+.first ul,.second ul,.third ul{
+	list-style-image:url('../../../images/our-services/IPLC/bullet.png');
+	padding-top:20px;
+	line-height:30px;
+	font-family:'Neutra Text',serif,sans-serif;
+	font-size:15px;
+}
+
+.mg-bt{
+	margin-bottom:60px;
+}
+
+.form-wrapper{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	width:100%;
+}
+.form-wrapper{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper .package-info{
+	padding:50px;
+}
+
+.formEmail .resize-textbox{
+	width:100%;
+}
+.formEmail h5{
+    font-size: 15px;
+    color: #7961a9;
+	font-weight:bold;
+    border-bottom: 1px solid #ccc;
+	padding-bottom:5px;
+}
+.formEmail p{
+	padding:10px 0 10px 0;
+}
+
+
+/* Zoom In Sign Up */
+.IPLC_wrapper img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.IPLC_wrapper img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	cursor:pointer;
+}
+
+@media screen and (max-width:1024px){
+	.form-wrapper{
+		width:100%;
+		padding-right:50px;
+	}
+	.first ul,.second ul,.third ul{
+		padding-left:20px;
+	}
+}
