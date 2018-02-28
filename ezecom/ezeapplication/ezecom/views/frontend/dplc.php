@@ -17,20 +17,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<div class="IPLC-img">
-					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/IPLC.jpg"/>
+				<div class="DPLC-img">
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DPLC/DPLC.jpg"/>
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<div class="IPLC_wrapper">
-					<h2>IPLC</h2>
-					<p><span>(International Private Leased Circuit)</span></p>
+				<div class="DPLC_wrapper">
+					<h2>DPLC</h2>
+					<p><span>(Domestic Private Leased Circuit)</span></p>
 					<p>
-						EZECOM’s IPLC is a point-to-point private link that can transport voice, 
-						data or video traffic between your offices in different countries. 
-						Telcotech offers a carrier-grade IPLC service that is designed for security and network resilience.
-						Customers gain the benefit of global coverage from Telcotech’s 
-						partnerships with Tier-1 operators worldwide.
+						As data traffic continues to grow rapidly, mobile operators are densifying 
+						their networks to expand capacity. To keep pace with the demand for nx10 gigabits-per-second 
+						transmission capacity, mobile operators, ISPs are increasingly using dedicated, 
+						direct fibre connectivity to build their backhaul networks. 
+						Telcotech’s complete, end-to-end DWDM, MetroNetwork solutions give mobile network operators, 
+						ISPs the tools to build robust, sustainable network infrastructure and reach revenue objectives faster. Our fibre connectivity solutions are designed for maximum flexibility, incorporating plug-and-play, add-as-you-grow modular technology to simplify ordering and deployment and reduce total cost of ownership.
 					</p>
 					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/btn-sign-up.png"/>
 				</div>	
@@ -38,7 +39,7 @@
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
-									<form class="form-horizontal" action="<?php echo base_url()?>IPLC/sending.php" method="post">
+									<form class="form-horizontal" action="<?php echo base_url()?>DPLC/sending.php" method="post">
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>
@@ -93,8 +94,8 @@
 		
 		<div class="row mg-top-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="IPLC-structure">
-					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/IPLC-process.png"/>
+				<div class="DPLC-structure">
+					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DPLC/DPLC-process.png"/>
 				</div>
 			</div>
 		</div>
@@ -103,23 +104,23 @@
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="first">
 					<ul>
-						<li>Multi-cable system diversity</li>
+						<li>Can support both Layer 1 and Layer 2 Service</li>
+						<li>Service Ring Protection with diversity route</li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="second">
 					<ul>
-						<li>Layer 1 Service</li>
-						<li>Guaranteed security and speed</li>
+						<li>Point to point services</li>
+						<li>Hand off interface either E1 to STM64 or FE to 10GE</li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="third">
-					<ul>
-						<li>Interfaces: V35, T1, E1, DS3, STM1, STM4, STM16, STM64</li>
-						<li>Speed ranging from N x 64Kbps to nx10Gbps</li>
+					<ul>  
+						<li>Point to multipoint services</li>
 					</ul>
 				</div>
 			</div>
@@ -130,23 +131,23 @@
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-first">
 						<ul>
-							<li>Fire arranged in self-healing ring with automatic redundancy and Back-up paths from differnt cable systems are available</li>
-							<li>Guaranteed Single fixed path (point to point)</li>
+							<li>Fast delivery and expend the network faster</li>
+							<li>No investment on dark fiber and equipment</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-second">
 						<ul>
-							<li>Protocol transparency supporting the most demanding applications</li>
-							<li>One-stop Shopping and Billing</li>
+							<li>upgrade bandwidth on demand</li>
+							<li>24x7 support</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-third">
 						<ul>
-							<li>24x7 in house local support delivered by a team of Cambodian and foreign experts</li>
+							<li>Cost effective</li>
 						</ul>
 					</div>
 				</div>

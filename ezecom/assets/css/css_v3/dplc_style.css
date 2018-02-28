@@ -1,30 +1,30 @@
-.IPLC_wrapper h2{
+.DPLC_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
     font-size: 25px;
     font-family:'Neutra Text',serif,sans-serif;
 	padding-top:10px;
 }
-.IPLC-img img{
+.DPLC-img img{
 	margin-top:50px;
 }
-.IPLC_wrapper{
+.DPLC_wrapper{
 	margin-top:110px;
 }
-.IPLC_wrapper p span{
+.DPLC_wrapper p span{
 	color: #7961AA;
 	font-family:'Neutra Text',serif,sans-serif;
 	font-weight:bold;
 }
-.IPLC_wrapper p{
+.DPLC_wrapper p{
 	font-family:'Neutra Text',serif,sans-serif;
 	font-size:18px;
 }
 
-.IPLC_wrapper img{
+.DPLC_wrapper img{
 	margin-top:30px;
 }
-.IPLC-structure{
+.DPLC-structure{
 	background-color:#F6F6F6;
 }
 .mg-top-bt{
@@ -88,13 +88,13 @@
 
 
 /* Zoom In Sign Up */
-.IPLC_wrapper img{
+.DPLC_wrapper img{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.IPLC_wrapper img:hover{
+.DPLC_wrapper img:hover{
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 	cursor:pointer;
