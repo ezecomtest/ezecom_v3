@@ -312,46 +312,16 @@ class Our_services_c extends CI_Controller {
 		}
 	}
 	
-	public function microsoft_cloud_service(){
-		if($this->lang ==1){
-			$data['title'] = "Microsoft Cloud Service";
-			$data['active'] = "Microsoft Cloud Service";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/micro_cloud_service',$data);
-		}
-		if($this->lang==2){
-			$data['title'] = "Microsoft Cloud Service";
-			$data['active'] = "Microsoft Cloud Service";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/micro_cloud_service_kh_v',$data);
-		}
-		if($this->lang==3){
-			$data['title'] = "Microsoft Cloud Service";
-			$data['active'] = "Microsoft Cloud Service";
-			$lan = $this->lang;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/micro_cloud_service_ch_v',$data);
-		}
-		if($this->lang == ""){
-			$data['title'] = "Microsoft Cloud Service";
-			$data['active'] = "Microsoft Cloud Service";
-			$lan = 1;
-			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-			$this->load->view('frontend/micro_cloud_service',$data);
-		}
-	}
 	
 	public function amazon_web_service(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "Amazon Web Service";
 			$data['active'] = "Amazon Web Service";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/amazon_webservice',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "Amazon Web Service";
 			$data['active'] = "Amazon Web Service";
 			$lan = $this->lang;
@@ -364,8 +334,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/amazon_webservice_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "Amazon Web Service";
 			$data['active'] = "Amazon Web Service";
 			$lan = 1;
