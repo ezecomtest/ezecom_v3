@@ -1,4 +1,91 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 /*-- to-top --*/
+.title-365{
+	color:#000;
+	font-weight:400;
+	font-size:25px;
+	font-family: myNeutra, serif,sans-serif;
+}
+.text-365{
+	 font-family: myNeutra, serif,sans-serif;
+	 font-size:18px;
+}
+.package-plan{
+	color: #7961ab;
+	font-family: myNeutra, serif,sans-serif;
+	font-weight:bold;
+	font-size:25px;
+}
+.feature{
+	color:#7961ab;
+	font-family: myNeutra, serif,sans-serif;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.all-features{
+	text-align:center;
+	color:#7961ab;
+	font-weight:bold;
+	font-size:19px;
+	font-family: myNeutra, serif,sans-serif;
+}
+.all-desc-features{
+	text-align: center;
+	font-size: 16px;
+	font-family: myNeutra, serif,sans-serif;
+}
+
+.form-wrapper{
+	display:none;
+	position:absolute;
+	background-color:#FFFFFF;
+	box-shadow: 4px 4px 4px 4px #EEEFEF;
+	z-index:1000;
+	right:10px;
+	width:40%;
+}
+.form-wrapper{
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.form-wrapper h4{
+	color:#7961a9;
+	font-weight:500;
+}
+
+.form-wrapper .package-info{
+	padding:50px;
+}
+
+.formEmail .resize-textbox{
+	width:100%;
+}
+.formEmail h5{
+    font-size: 15px;
+    color: #7961a9;
+	font-weight:bold;
+    border-bottom: 1px solid #ccc;
+	padding-bottom:5px;
+}
+.formEmail p{
+	padding:10px 0 10px 0;
+	font-family: myNeutra, serif,sans-serif;
+	font-size:18px;
+}
+
+.signup-block span img:hover{
+	cursor:pointer;
+}
+
+
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -27,17 +114,15 @@
 .video_block{
     background: #e7e7e8;
     min-height: 300px;
-    font-family: 'Raleway', sans-serif;
+    font-family: myNeutra, sans-serif;
     font-style: normal;
-}
-.container h3{
-	color:#000;
 }
 
 
 .container .video-container iframe{
 	width:100%;
-	height:50%;
+	min-height:340px;
+	margin-top:30px;
 }
 
 

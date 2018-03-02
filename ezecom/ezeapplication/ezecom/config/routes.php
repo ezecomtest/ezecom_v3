@@ -216,6 +216,8 @@ $route['our-services/enterprise-network/international-private-leased-circuit'] =
 $route['our-services/enterprise-network/domestic-private-leased-circuit'] = 'frontend/our_services_c/dplc';
 $route['our-services/enterprise-network/mpls'] = 'frontend/our_services_c/mpls';
 $route['our-services/enterprise-network/vpls'] = 'frontend/our_services_c/vpls';
+$route['our-services/cloud-service/microsoft-cloud-service'] = 'frontend/our_services_c/Office_365';
+$route['our-services/cloud-service/amazon-web-service'] = 'frontend/our_services_c/amazon_web_service';
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';

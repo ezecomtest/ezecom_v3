@@ -211,6 +211,14 @@ class Our_services_c extends CI_Controller {
 		}
 	}
 	
+	public function Office_365(){
+		$data['title'] = "Office 365";
+		$data['active']= "Office 365";
+		$lan = 1;
+        $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+		$this->load->view('frontend/ms_365',$data);
+	}
+	
 	public function dedicate(){
 		if($this->session->userdata("language")==1){
 			$data['title'] = "Dedicated Internet Access";
