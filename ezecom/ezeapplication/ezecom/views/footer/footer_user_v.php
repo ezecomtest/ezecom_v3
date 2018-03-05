@@ -6,16 +6,16 @@
 				<div class="section-footer">
 					<h6>Internet Access</h6>
 					<ul>
-						<li><a href="#">Dedicated Internet Access</a></li>
-						<li><a href="#">EzeBiz</a></li>
-						<li><a href="#">EzeSurf</a></li>
+						<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+						<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+						<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 					</ul>
 					<h6>Enterprise Network</h6>
 					<ul>
-						<li><a href="#">IPLC</a></li>
-						<li><a href="#">DPLC</a></li>
-						<li><a href="#">MPLS</a></li>
-						<li><a href="#">VPLS</a></li>
+						<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+						<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+						<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a></li>
+						<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
 					</ul>
 				</div>
 			</div>
@@ -23,8 +23,8 @@
 				<div class="section-footer">
 					<h6>Cloud Service</h6>
 					<ul>
-						<li><a href="#">Microsoft Cloud Service</a></li>
-						<li><a href="#">Amazon Web Service</a></li>
+						<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
+						<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 					</ul>
 					<h6>Hosting</h6>
 					<ul>
