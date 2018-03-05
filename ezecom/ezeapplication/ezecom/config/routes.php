@@ -218,6 +218,10 @@ $route['our-services/enterprise-network/mpls'] = 'frontend/our_services_c/mpls';
 $route['our-services/enterprise-network/vpls'] = 'frontend/our_services_c/vpls';
 $route['our-services/cloud-service/microsoft-cloud-service'] = 'frontend/our_services_c/Office_365';
 $route['our-services/cloud-service/amazon-web-service'] = 'frontend/our_services_c/amazon_web_service';
+$route['our-services/hosting/colocation'] = 'frontend/our_services_c/colocation';
+$route['our-services/hosting/disaster-recovery-center'] = 'frontend/our_services_c/drc';
+$route['our-services/hosting/cpanel-web-hosting'] = 'frontend/our_services_c/web_hosting';
+$route['our-services/hosting/virtual-pbx'] = 'frontend/our_services_c/vpbx';
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
