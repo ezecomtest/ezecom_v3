@@ -41,8 +41,25 @@
 	text-decoration:none;
 }
 
-.wrapper-navig-footer .section-footer ul li img:hover{
-	background-color:orange;
+.wrapper-navig-footer .section-footer ul li .fb:hover{		
+	background-image:url("../../../images/footer/F.png");
+	background-repeat:no-repeat;
+}
+.wrapper-navig-footer .section-footer ul li .linkin:hover{		
+	background-image:url("../../../images/footer/In.png");
+	background-repeat:no-repeat;
+}
+.wrapper-navig-footer .section-footer ul li .instagram:hover{		
+	background-image:url("../../../images/footer/Insta.png");
+	background-repeat:no-repeat;
+}
+.wrapper-navig-footer .section-footer ul li .youtube:hover{		
+	background-image:url("../../../images/footer/Y.png");
+	background-repeat:no-repeat;
+}
+.wrapper-navig-footer .section-footer ul li .gplus:hover{		
+	background-image:url("../../../images/footer/G.png");
+	background-repeat:no-repeat;
 }
 
 .bg-footer{

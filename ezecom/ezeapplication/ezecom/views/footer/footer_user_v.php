@@ -78,11 +78,11 @@
 				<div class="section-footer">
 					<h6>Follow Us</h6>
 					<ul>
-						<li><img  src="<?php echo base_url()?>images/footer/fb.png"/><a href="#">Facebook</a></li>
-						<li><img  src="<?php echo base_url()?>images/footer/linkin.png"/><a href="#">LinkedIn</a></li>
-						<li><img  src="<?php echo base_url()?>images/footer/instagram.png"/><a href="#">Instagram</a></li>
-						<li><img  src="<?php echo base_url()?>images/footer/youtube.png"/><a href="#">Youtube</a></li>
-						<li><img  src="<?php echo base_url()?>images/footer/google-plus.png"/><a href="#">Google+</a></li>
+						<li><img  class="fb" src="<?php echo base_url()?>images/footer/fb.png"/><a href="#">Facebook</a></li>
+						<li><img  class="linkin" src="<?php echo base_url()?>images/footer/linkin.png"/><a href="#">LinkedIn</a></li>
+						<li><img  class="instagram" src="<?php echo base_url()?>images/footer/instagram.png"/><a href="#">Instagram</a></li>
+						<li><img  class="youtube" src="<?php echo base_url()?>images/footer/youtube.png"/><a href="#">Youtube</a></li>
+						<li><img  class="gplus" src="<?php echo base_url()?>images/footer/google-plus.png"/><a href="#">Google+</a></li>
 					</ul>
 				</div>
 			</div>
