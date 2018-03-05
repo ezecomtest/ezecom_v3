@@ -11,46 +11,45 @@
 			<div id="head-mobile"></div>
 			<div class="button"></div>
 			<ul>
-				<li class='active'><a href='#'>Home</a></li>
-				<li><a href='#'>Our Company <i class="fa fa-angle-double-right"></i></a>
+				<li class='active'><a href="<?php echo base_url()?>">Home</a></li>
+				<li><a href="<?php echo base_url()?>">Our Company <i class="fa fa-angle-double-right"></i></a>
 					<ul>
-						<li><a href='#'>Company Profile</a></li>
-						<li><a href='#'>Quality Management System</a></li>
-						<li><a href='#'>Childsafe Certification</a></li>
-						<li><a href='#'>Our Partnerships</a>
+						<li><a href="<?php echo base_url()?>our-company/company-profile">Company Profile</a></li>
+						<li><a href="<?php echo base_url()?>our-company/quality-management-system">Quality Management System</a></li>
+						<li><a href="<?php echo base_url()?>our-company/childsafe-certification">Childsafe Certification</a></li>
+						<li><a href="<?php echo base_url()?>">Our Partnerships</a>
 							<ul>
-								<li><a href='#'>Good Will Partners</a></li>
-								<li><a href='#'>EzeCampus</a></li>
-								<li><a href='#'>Student Discount</a></li>
+								<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
+								<li><a href="<?php echo base_url()?>">EzeCampus</a></li>
+								<li><a href="<?php echo base_url()?>">Student Discount</a></li>
 							</ul>
 						</li>
-						<li><a href='#'>Corporate Social Responsibility</a></li>
-						<li><a href='#'>Community</a></li>
-						<li><a href='#'>Career Opportunities</a></li>
+						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
+						<li><a href="<?php echo base_url()?>our-company/community">Community</a></li>
+						<li><a href="<?php echo base_url()?>our-company/career-opportunities">Career Opportunities</a></li>
 					</ul>
 				</li>
-				<li><a href='#'>Our Services <i class="fa fa-angle-double-right"></i></a>
+				<li><a href="<?php echo base_url()?>">Our Services <i class="fa fa-angle-double-right"></i></a>
 				   <ul>
-					  <li><a href='#'>Internet Access</a>
+					  <li><a href="<?php echo base_url()?>">Internet Access</a>
 						 <ul>
-							<li><a href='#'>Dedicated Internet Access</a></li>
-							<li><a href='#'>EzeBiz</a></li>
-							<li><a href='#'>EzeSurf</a></li>
-							<li><a href='#'>EzeSurf</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='#'>Enterprise Network</a>
+					  <li><a href="<?php echo base_url()?>">Enterprise Network</a>
 						 <ul>
-							<li><a href='#'>IPLC</a></li>
-							<li><a href='#'>DPLC</a></li>
-							<li><a href='#'>MPLS</a></li>
-							<li><a href='#'>VPLS</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='#'>Cloud Services</a>
+					  <li><a href="<?php echo base_url()?>">Cloud Services</a>
 						 <ul>
-							<li><a href='#'>Microsoft Cloud Service</a></li>
-							<li><a href='#'>Amazon Web Service</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						 </ul>
 					  </li>
 					  <li><a href='#'>Data Center & Hosting </a>
@@ -110,20 +109,20 @@
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<h5>Our Company</h5>
 								<ul>
-									<li><a href="<?php echo base_url();?>our-company/company-profile?lang=en">Company Profile</a></li>
-									<li><a href="<?php echo base_url();?>our-company/quality-management-system?lang=en">Quality Management System</a></li>
-									<li><a href="<?php echo base_url();?>our-company/childsafe-certification?lang=en">Childsafe Certification</a></li>
+									<li><a href="<?php echo base_url();?>our-company/company-profile">Company Profile</a></li>
+									<li><a href="<?php echo base_url();?>our-company/quality-management-system">Quality Management System</a></li>
+									<li><a href="<?php echo base_url();?>our-company/childsafe-certification">Childsafe Certification</a></li>
 									<li>
 										<a style="cursor:none"><strong>Our Partnerships</strong></a>
 										<ul class="partnerships">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships/goodwill-partners?lang=en">Good Will Partners</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships/ezecampus?lang=en">EzeCampus</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships/student-discount?lang=en">Student Discount</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>">EzeCampus</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>">Student Discount</a></li>
 										</ul>
 									</li>
-									<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility?lang=en">Corporate Social Responsibility</a></li>
-									<li><a href="<?php echo base_url();?>our-company/community?lang=en">Community</a></li>
-									<li><a href="<?php echo base_url();?>our-company/career-opportunities?lang=en">Career Opportunities</a></li>
+									<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
+									<li><a href="<?php echo base_url();?>our-company/community">Community</a></li>
+									<li><a href="<?php echo base_url();?>our-company/career-opportunities">Career Opportunities</a></li>
 									
 								</ul>
 							</div>
@@ -133,25 +132,25 @@
 									<li>
 										<a style="cursor:none"><strong>Internet Access</strong></a>
 										<ul class="services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 										</ul>
 									</li>
 									<li>
 										<a  style="cursor:none"><strong>Enterprise Network</strong></a>
 										<ul class="ent_network">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/mpls">MPLS</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/vpls">VPLS</a></li>
 										</ul>
 									</li>
 									<li>
 										<a style="cursor:none"><strong>Cloud Services</strong></a>
 										<ul class="cloud_services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 										</ul>
 									</li>
 									<li>
