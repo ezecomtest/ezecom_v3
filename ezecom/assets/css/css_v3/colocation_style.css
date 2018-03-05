@@ -27,6 +27,7 @@
 
 .Colo_wrapper{
 	margin-top:110px;
+	padding-left:0;
 }
 .Colo_wrapper p span{
 	color: #7961AA;
@@ -36,7 +37,40 @@
 .Colo_wrapper p{
 	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
+	padding-left:22px;
 }
+
+
+.wrapper-package,.wrapper-setup{
+	padding:50px 10px 10px 10px;
+	border:1px solid #666666;
+}
+.wrapper-package .package{
+	border:1px solid #EAEDEF;
+}
+.wrapper-setup p{
+	font-size:18px;
+	font-family:myNeutra,serif,sans-serif;
+}
+.wrapper-setup h3{
+	font-family:myNeutra,serif,sans-serif;
+	color:#7961AA;
+	
+}
+.img-position{
+	position:absolute;
+	z-index:1000;
+	left:39%;
+	top:-30%;
+}
+
+.pd-left{
+	padding-left:0;
+}
+.pd-right{
+	padding-right:0;
+}
+
 
 .form-wrapper{
 	display:none;
@@ -75,8 +109,8 @@
 }
 
 .signup{
-	margin-left:30px;
 	margin-top:30px;
+	margin-left:22px;
 }
 /* Zoom In Sign Up */
 .signup span img{
@@ -91,7 +125,10 @@
 	cursor:pointer;
 }
 .mg-bt{
-	margin-bottom:100px;
+	margin-bottom:30px;
+}
+.mg-top{
+	margin-top:82px;
 }
 
 

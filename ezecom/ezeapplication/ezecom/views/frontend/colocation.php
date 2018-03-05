@@ -90,12 +90,50 @@
 											</div>
 										</div>
 									</form>
-									<script src='https://www.google.com/recaptcha/api.js'></script>
+									<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
 								</div>
 							</div>
 					</div> <!-- end container -->
 			</div>
-		
+		</div>
+		<div class="row mg-bt">
+			<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
+		</div>
+		<div class="row mg-bt mg-top">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
+				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-1.png"/>
+				<div class="wrapper-package">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="package">
+								<h2>RACK UNIT</h2>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="package">
+								<h2>HELF RACK</h2>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="package">
+								<h2>FULL UNIT</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
+				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-2.png"/>
+				<div class="wrapper-setup">
+					<h3>Setup Fees apply</h3>
+					<p>
+						As with all our corporate solutions, our co-locations services are flexible 
+						to suit your business requirements. Please note that this service requires an 
+						EZECOM internet connection.
+						All above cost are exclusive VAT.
+					</p>
+				</div>
+			</div>
 		</div>
 		
 	</div>
