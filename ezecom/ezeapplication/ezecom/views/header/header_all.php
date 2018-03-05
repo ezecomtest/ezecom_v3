@@ -47,12 +47,12 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row" style="padding:15px 0">
-			<div class="col-md-6 col-xs-6">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-xs-6">
 				<a href="<?php echo base_url(); ?>" title="EZECOM Cambodia Premuim Internet Service Provider">
 					<img class="img-responsive text-middle" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider">
 				</a>
 			</div>
-			<div class="col-md-6 col-xs-6">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-xs-6">
 				<div class="text-right">
 					<span><img src="<?php echo base_url()?>images/flags/kh.png" id="2" onclick="change_language(this.id)" alt="Khmer" title="Khmer"></span>
 					<span><img src="<?php echo base_url()?>images/flags/en.png" id="1" onclick="change_language(this.id)" alt="English" title="English"></span>
