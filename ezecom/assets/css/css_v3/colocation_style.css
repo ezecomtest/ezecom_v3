@@ -43,14 +43,32 @@
 
 .wrapper-package,.wrapper-setup{
 	padding:50px 10px 10px 10px;
-	border:1px solid #666666;
+	border:1px solid #7A7A7A;
 }
 .wrapper-package .package{
 	border:1px solid #EAEDEF;
+	margin-top:30px;
+	margin-bottom:20px;
+	padding:0;
 }
+
+.wrapper-package .package p{
+	font-size:18px;
+	text-align:center;
+	background-color:#D1D3D4;
+	padding:10px 0 10px 0;
+	font-weight:bold;
+	font-family:myNeutra,serif,sans-serif;
+}
+
+.wrapper-package .package .fee{
+	margin:0 auto;
+}
+
 .wrapper-setup p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;
+	padding-bottom:45px;
 }
 .wrapper-setup h3{
 	font-family:myNeutra,serif,sans-serif;
@@ -61,7 +79,7 @@
 	position:absolute;
 	z-index:1000;
 	left:39%;
-	top:-30%;
+	top:-22%;
 }
 
 .pd-left{
@@ -148,4 +166,32 @@
 	.Colo_wrapper{
 		margin-top:10px;
 	}
+	
+	.pd-left{
+		padding-left:15px;
+	}
+	.pd-right{
+		padding-right:15px;
+	}
+	
+	.wrapper-package,.wrapper-setup{
+		margin-bottom:100px;
+	}
+	
+	.img-position{
+		position:absolute;
+		z-index:1000;
+		left:37%;
+		top:-15%;
+	}
+	.Colo_wrapper p{
+		padding-left:0
+	}
+	.signup{
+		margin-left:0;
+	}
+	.wrapper-package .package p{
+		font-size:17px;
+	}
+	
 }

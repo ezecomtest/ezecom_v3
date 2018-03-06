@@ -45,7 +45,7 @@
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
-									<form class="form-horizontal" action="<?php echo base_url()?>MPLS/sending.php" method="post">
+									<form class="form-horizontal" action="<?php echo base_url()?>Colocation/sending.php" method="post">
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>
@@ -90,14 +90,16 @@
 											</div>
 										</div>
 									</form>
-									<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+									<script src='https://www.google.com/recaptcha/api.js'></script>
 								</div>
 							</div>
 					</div> <!-- end container -->
 			</div>
 		</div>
 		<div class="row mg-bt">
-			<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-left pd-right">
+				<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-server.jpg"/>
+			</div>
 		</div>
 		<div class="row mg-bt mg-top">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
@@ -106,17 +108,20 @@
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							<div class="package">
-								<h2>RACK UNIT</h2>
+								<p>RACK UNIT</p>
+								<img class="img-responsive fee" src="<?php echo base_url()?>images/our-services/Colocation/fee-1.png"/>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							<div class="package">
-								<h2>HELF RACK</h2>
+								<p>HELF RACK</p>
+								<img class="img-responsive fee" src="<?php echo base_url()?>images/our-services/Colocation/fee-2.png"/>
 							</div>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							<div class="package">
-								<h2>FULL UNIT</h2>
+								<p>FULL UNIT</p>
+								<img class="img-responsive fee" src="<?php echo base_url()?>images/our-services/Colocation/fee-3.png"/>
 							</div>
 						</div>
 					</div>
