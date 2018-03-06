@@ -377,14 +377,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function drc(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "DRC";
 			$data['active'] = "DRC";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/drc',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "DRC";
 			$data['active'] = "DRC";
 			$lan = $this->lang;
@@ -397,8 +397,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/drc_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "DRC";
 			$data['active'] = "DRC";
 			$lan = 1;
@@ -409,14 +409,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function web_hosting(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "Web Hosting";
 			$data['active'] = "Web Hosting";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_hosting',$data);
 		}
-		if($this->lang==2){
+	/* 	if($this->lang==2){
 			$data['title'] = "Web Hosting";
 			$data['active'] = "Web Hosting";
 			$lan = $this->lang;
@@ -429,8 +429,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_hosting_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "Web Hosting";
 			$data['active'] = "Web Hosting";
 			$lan = 1;
@@ -440,14 +440,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function vpbx(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "VPBX";
 			$data['active'] = "VPBX";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/vpbx',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "VPBX";
 			$data['active'] = "VPBX";
 			$lan = $this->lang;
@@ -460,8 +460,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/vpbx_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "VPBX";
 			$data['active'] = "VPBX";
 			$lan = 1;
