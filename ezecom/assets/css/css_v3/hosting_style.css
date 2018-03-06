@@ -34,19 +34,27 @@
 .Hosting-bg{
 	background-image:url("../../../images/our-services/Web-Hosting/hosting-bg.jpg");
 	background-repeat:no-repeat;
+	padding-bottom:30px;
 }
 
-.basic-package{
+.basic-package,.standard-package,.pro-package{
 	background-color:#F7F7F7;
-	padding:20px;
+	padding:5px 20px 5px 20px;
 	border-radius:10px;
-	margin:20px;
-	opacity: 0.8;
-    filter: alpha(opacity=80)
+	margin:60px 20px 20px 20px;
+	opacity: 0.7;
+    filter: alpha(opacity=70)
 }
-
-.basic-package .title{
+.standard-package{
+	background-color:#58595B;
+}
+.pro-package{
+	background-color:#B1A3CF;
+}
+.title{
 	color:black;
+	padding-top:50px;
+	padding-bottom:10px;
 }
 .basic-package table tbody tr td{
 	color:black;
@@ -54,10 +62,37 @@
 	font-size:15px;
 }
 
-.basic-package p{
+.standard-package table tbody tr td{
+	color:white;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:15px;
+}
+
+.pro-package table tbody tr td{
+	color:white;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:15px;
+}
+
+.basic-package p,.standard-package p,.pro-package p{
 	font-weight:bold;
 	font-size:20px;
 	font-family:myNeutra,serif,sans-serif;
+}
+.standard-package p,.pro-package p{
+	color:white;
+}
+.standard-package table.table-bordered > tbody > tr > td{
+    border:1px solid #464747;
+}
+.pro-package table.table-bordered > tbody > tr > td{
+    border:1px solid #9085AF;
+}
+.img-position{
+	position:absolute;
+	z-index:1000;
+	left:38%;
+	top:1%;
 }
 
 
@@ -94,12 +129,6 @@
 	font-family:myNeutra,serif,sans-serif;
 	color:#7961AA;
 	
-}
-.img-position{
-	position:absolute;
-	z-index:1000;
-	left:39%;
-	top:-22%;
 }
 
 .pd-left{
@@ -163,7 +192,7 @@
 	cursor:pointer;
 }
 .mg-bt{
-	margin-bottom:30px;
+	margin-bottom:80px;
 }
 .mg-top{
 	margin-top:30px;

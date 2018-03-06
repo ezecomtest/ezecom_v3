@@ -91,12 +91,13 @@
 					</div> <!-- end container -->
 			</div>
 		</div>
-		<div class="row mg-top">
+		<div class="row mg-top mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pd-left pd-right">
 				<div class="Hosting-bg">
 					<div class="container">
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+							<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Web-Hosting/basic-price.png"/>
 								<div class="basic-package">
 									<p class="text-center title">BASIC</p>
 									<table class="table table-bordered">
@@ -134,8 +135,80 @@
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+								<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Web-Hosting/standard-price.png"/>
+								<div class="standard-package">
+									<p class="text-center title">STANDARD</p>
+									<table class="table table-bordered">
+										<tbody>
+											<tr>
+												<td>Data / Bandwidth <br/>Transfer Allowance:</td>
+												<td>20 GB</td>
+											</tr>
+											<tr>
+												<td>Disk / Storage:</td>
+												<td>10 GB</td>
+											</tr>
+											<tr>
+												<td>Mailbox Max:</td>
+												<td>Unlimited</td>
+											</tr>
+											<tr>
+												<td>Domains:</td>
+												<td>2</td>
+											</tr>
+											<tr>
+												<td>Sub-Domains:</td>
+												<td>Unlimited</td>
+											</tr>
+											<tr>
+												<td>MySQL DBs:</td>
+												<td>6</td>
+											</tr>
+											<tr>
+												<td>FTP Account</td>
+												<td>Unlimited</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+								<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Web-Hosting/professional-price.png"/>
+								<div class="pro-package">
+									<p class="text-center title">PROFESSIONAL</p>
+									<table class="table table-bordered">
+										<tbody>
+											<tr>
+												<td>Data / Bandwidth <br/>Transfer Allowance:</td>
+												<td>50 GB</td>
+											</tr>
+											<tr>
+												<td>Disk / Storage:</td>
+												<td>20 GB</td>
+											</tr>
+											<tr>
+												<td>Mailbox Max:</td>
+												<td>Unlimited</td>
+											</tr>
+											<tr>
+												<td>Domains:</td>
+												<td>5</td>
+											</tr>
+											<tr>
+												<td>Sub-Domains:</td>
+												<td>Unlimited</td>
+											</tr>
+											<tr>
+												<td>MySQL DBs:</td>
+												<td>10</td>
+											</tr>
+											<tr>
+												<td>FTP Account</td>
+												<td>Unlimited</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
 						</div>
 					</div>
