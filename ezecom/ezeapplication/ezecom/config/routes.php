@@ -223,6 +223,10 @@ $route['our-services/hosting/disaster-recovery-center'] = 'frontend/our_services
 $route['our-services/hosting/cpanel-web-hosting'] = 'frontend/our_services_c/web_hosting';
 $route['our-services/hosting/virtual-pbx'] = 'frontend/our_services_c/vpbx';
 
+$route['our-services/cyber-security/ddos'] = 'frontend/our_services_c/ddos';
+$route['our-services/cyber-security/managed-network-security'] = 'frontend/our_services_c/manage_network_security';
+$route['our-services/cyber-security/web-application-firewall'] = 'frontend/our_services_c/web_appl_firewall';
+
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
 $route['ezetv'] = 'frontend/Ezetv/ezetv_service';
