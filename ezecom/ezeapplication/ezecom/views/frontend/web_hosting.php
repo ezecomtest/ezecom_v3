@@ -22,25 +22,11 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<div class="Hosting_wrapper">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/hosting-icon.png"/>
-					<p>
-						EZECOM's web hosting in housed in our world class data centre in Phnom Penh. 
-						Our Web hosting services are tailored to the unique demands of the Cambodian market. 
-						Combine international best practice with local experience.
-					</p>
-				</div>
-				<div class="signup">
-					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/btn-sign-up.png"/>
-					</span>
-				</div>
-				
-					<!-- Contact Form Dedicate -->
+				<!-- Contact Form Dedicate -->
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
-									<form class="form-horizontal" action="<?php echo base_url()?>Colocation/sending.php" method="post">
+									<form class="form-horizontal" action="<?php echo base_url()?>Hosting/sending.php" method="post">
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>
@@ -89,6 +75,20 @@
 								</div>
 							</div>
 					</div> <!-- end container -->
+				<div class="Hosting_wrapper">
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/hosting-icon.png"/>
+					<p>
+						EZECOM's web hosting in housed in our world class data centre in Phnom Penh. 
+						Our Web hosting services are tailored to the unique demands of the Cambodian market. 
+						Combine international best practice with local experience.
+					</p>
+				</div>
+				<div class="signup">
+					<span>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/btn-sign-up.png"/>
+					</span>
+				</div>
+				
 			</div>
 		</div>
 		<div class="row mg-top mg-bt">
@@ -212,6 +212,20 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="exclusive-vat">
+					<h3>Prices are exclusive VAT.</h3>
+					<p><strong>Please Note:</strong></p>
+					<ul>
+						<li>Above services available on 1 year contract</li>
+						<li>Set-up fees are $25</li>
+						<li>EZECOM is not responsible for registering the domain name</li>
+						<li>Packages can be customize based on your unique needs.</li>
+					</ul>
 				</div>
 			</div>
 		</div>

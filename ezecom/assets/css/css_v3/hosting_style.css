@@ -35,7 +35,31 @@
 	background-image:url("../../../images/our-services/Web-Hosting/hosting-bg.jpg");
 	background-repeat:no-repeat;
 	padding-bottom:30px;
+	
 }
+
+.exclusive-vat{
+	margin-bottom:40px;
+}
+.exclusive-vat h3{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:20px;
+	padding-bottom:10px;
+}
+.exclusive-vat p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:15px;
+}
+
+.exclusive-vat ul{
+	list-style-type:none;
+	padding:0;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	list-style-image:url("../../../images/our-services/Web-Hosting/square.png");
+	padding-left:20px;
+}
+
 
 .basic-package,.standard-package,.pro-package{
 	background-color:#F7F7F7;
@@ -192,7 +216,7 @@
 	cursor:pointer;
 }
 .mg-bt{
-	margin-bottom:80px;
+	margin-bottom:20px;
 }
 .mg-top{
 	margin-top:30px;
@@ -227,12 +251,16 @@
 		margin-bottom:100px;
 	}
 	
+	.Hosting-bg{
+		background-repeat:repeat-y;
+	}
 	.img-position{
 		position:absolute;
 		z-index:1000;
-		left:37%;
-		top:-15%;
+		left:38%;
+		top:1%;
 	}
+	
 	.Hosting_wrapper p{
 		padding-left:0
 	}
