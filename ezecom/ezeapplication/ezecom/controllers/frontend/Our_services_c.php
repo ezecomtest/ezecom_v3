@@ -551,14 +551,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function manage_network_security(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "Managed Network Security";
 			$data['active'] = "Managed Network Security";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/manage_network_security',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "Managed Network Security";
 			$data['active'] = "Managed Network Security";
 			$lan = $this->lang;
@@ -571,8 +571,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/manage_network_security_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language") == ""){
 			$data['title'] = "Managed Network Security";
 			$data['active'] = "Managed Network Security";
 			$lan = 1;
@@ -582,14 +582,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function web_appl_firewall(){
-		if($this->lang ==1){
+		if($this->session->userdata("language") ==1){
 			$data['title'] = "Web Application Firewall";
 			$data['active'] = "Web Application Firewall";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_appl_firewall',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "Web Application Firewall";
 			$data['active'] = "Web Application Firewall";
 			$lan = $this->lang;
@@ -602,8 +602,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/web_appl_firewall_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language") == ""){
 			$data['title'] = "Web Application Firewall";
 			$data['active'] = "Web Application Firewall";
 			$lan = 1;
