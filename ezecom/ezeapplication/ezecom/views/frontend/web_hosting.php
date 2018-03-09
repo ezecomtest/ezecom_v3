@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-				<!-- Contact Form Dedicate -->
+				<!-- Contact Form  -->
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
@@ -71,7 +71,7 @@
 											</div>
 										</div>
 									</form>
-									<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+									<script src='https://www.google.com/recaptcha/api.js'></script>
 								</div>
 							</div>
 					</div> <!-- end container -->

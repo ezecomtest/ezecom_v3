@@ -19,12 +19,74 @@
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DDos/ddos.jpg"/>
+					<span>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/DDos/btn-sign-up.png"/>
+					</span>
 				</div>
+					
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<!-- Contact Form  -->
+					<div class="container">
+							<div class="row">
+								<div class="form-wrapper">
+									<form class="form-horizontal" action="<?php echo base_url()?>Hosting/sending.php" method="post">
+										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+											<div class="formEmail">
+												  <h5>Contact Us</h5>
+												  <p>Call us now on <strong>‎023 888 181 / 085 888 181</strong> or fill in your information here and a member of our sales team will get back to you.</p>
+												  <div class="form-group">
+													<label class="control-label col-sm-4">Full Name:</label>
+													<div class="col-sm-8">
+														<input type="text" class="form-control resize-textbox" name="name"/>
+													</div>
+												  </div>
+												  <div class="form-group">
+													<label class="control-label col-sm-4">Email Address:</label>
+													<div class="col-sm-8">
+														<input type="text" class="form-control resize-textbox" name="email"/>
+													</div>
+												  </div>
+												  <div class="form-group">
+													<label class="control-label col-sm-4">Phone Number:</label>
+													<div class="col-sm-8">
+														<input type="text" class="form-control resize-textbox" name="mobile"/>
+													</div>
+												  </div>
+												  <div class="form-group">
+													<label class="control-label col-sm-4">Connection Details:</label>
+													<div class="col-sm-8">
+														<textarea rows="4" class="form-control resize-textbox" name="desciption"></textarea>
+													</div>
+												  </div>
+												  <div class="form-group">
+													  <label class="control-label col-sm-4" for="pwd"></label>
+													  <div class="col-sm-8">          
+														<div class="g-recaptcha" data-sitekey="6LegbCMTAAAAANeFxea47OaPqcjZocO2CwUhFPt9"></div>
+													  </div>
+												  </div>
+												  <div class="form-group">        
+													  <div class="col-sm-offset-4 col-sm-8">
+														<input type="button" id="btn-close" name="close" value="Close" class="btn btn-default submit"/>
+														<input type="submit" value="Submit" class="btn btn-default submit"/>
+													  </div>
+												  </div>
+								
+											</div>
+										</div>
+									</form>
+									<script src='https://www.google.com/recaptcha/api.js'></script>
+								</div>
+							</div>
+					</div> <!-- end container -->
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+		</div>
+		<div class="row">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="ddos-services">
 					<h3>DDoS Mitigation Service</h3>
 					<p>
@@ -39,7 +101,6 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
 		<div class="row ddos-attacks">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -100,6 +161,46 @@ Prevents The Loss Of Your Business’s Revenue And Reputation
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+		<div class="row mg-bt-benefit">
+			<div class="features-benefits">
+				<h4>Features and Benefits</h4>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="world-attack">
+					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-01.png"/>
+					<h4 class="text-center">WORLD-CLASS ATTACK MITIGATION</h4>
+					<p class="text-center">Highly secure protection from DDoS attack</p>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hybrid-protecting">
+					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-02.png"/>
+					<h4 class="text-center">HYBRID PROTECTION</h4>
+					<p class="text-center">We make sure all your internet, 
+					volumetric, application <br/>& etc… are protected and secure.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mg-bt-benefit">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="world-attack">
+					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-03.png"/>
+					<h4 class="text-center">HIGHLY SCALE NETWORK</h4>
+					<p class="text-center">Global scrubbing centre with capacity <br/>2Tbps and local 
+					scrubbing centre with capacity 4Gbps, 
+					<br/>defeat every size, duration, and frequency of DDoS attacks</p>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hybrid-protecting">
+					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature04.png"/>
+					<h4 class="text-center">PROVEN OPERATIONAL EXPERT & 24/7 SUPPORT</h4>
+					<p class="text-center">Real time 24/7 to detect and mitigate DDoS threats. 
+					<br/>Comprehensive network security 
+					and keep <br/>track your network’s performance.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>          
