@@ -14,18 +14,21 @@
 	</head>
 <body>
 <div class="container-fluid">
-	<div class="container">
+	<div class="top-container">
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DDos/ddos.jpg"/>
 					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/DDos/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive sign-up" src="<?php echo base_url()?>images/our-services/DDos/btn-sign-up.png"/>
 					</span>
 				</div>
-					
 			</div>
 		</div>
+	</div>
+	
+	<div class="container">
+		
 		<div class="row">
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -78,7 +81,7 @@
 											</div>
 										</div>
 									</form>
-									<script src='https://www.google.com/recaptcha/api.js'></script>
+									<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
 								</div>
 							</div>
 					</div> <!-- end container -->

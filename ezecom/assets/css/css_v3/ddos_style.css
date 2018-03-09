@@ -10,6 +10,13 @@
 .wrapper-top{
 	margin-top:-1px;
 }
+.top-container{
+	padding-left:45px;
+	padding-right:45px;
+	margin-left:0 auto;
+	margin-right:0 auto;
+}
+	
 .ddos-services h3,.ddos-attacks h3,.impact h3{
 	font-family:myNeutra;
 	font-weight:bold;
@@ -139,9 +146,20 @@
 	padding:10px 0 10px 0;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1000px){
 	.form-wrapper{
 		width:100%;
 		padding-right:50px;
+	}
+	.wrapper-top span{
+		right:15%;
+		top:73%;
+	}
+	.wrapper-top span img{
+		width:100px;
+	}
+	.top-container{
+		padding-left:0px;
+		padding-right:0px;
 	}
 }
