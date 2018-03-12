@@ -489,14 +489,14 @@ class Our_services_c extends CI_Controller {
 	}
 	
 	public function voip(){
-		if($this->lang ==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "Voice over Internet Protocol (VoIP)";
 			$data['active'] = "Voice over Internet Protocol (VoIP)";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/voip',$data);
 		}
-		if($this->lang==2){
+		/* if($this->lang==2){
 			$data['title'] = "Voice over Internet Protocol (VoIP)";
 			$data['active'] = "Voice over Internet Protocol (VoIP)";
 			$lan = $this->lang;
@@ -509,8 +509,8 @@ class Our_services_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/voip_ch_v',$data);
-		}
-		if($this->lang == ""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "Voice over Internet Protocol (VoIP)";
 			$data['active'] = "Voice over Internet Protocol (VoIP)";
 			$lan = 1;
