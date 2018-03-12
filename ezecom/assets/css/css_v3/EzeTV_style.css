@@ -18,7 +18,7 @@
 }
 	
 .mg-bt{
-	margin-bottom:100px;
+	margin-bottom:30px;
 }
 .EzeTV-Plan h3{
 	font-family:myNeutra;
@@ -36,15 +36,36 @@
 	padding:100px 0 100px 0;
 	line-height:25px;
 }
-
+.package-plan{
+	margin:0 auto;
+	height:auto;
+}
+.package-plan ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:0 10px 0 10px;
+}
+.conditions h3{
+	font-family:myNeutra;
+	font-size:15px;
+	color:black;
+	font-weight:bold;
+}
+.conditions ul{
+	list-style-image:url("../../../images/our-services/EzeTV/ezetv_list.gif");
+	line-height:25px;
+	font-family:myNeutra;
+	font-size:15px;
+	padding-left:20px;
+}
 .img-position{
 	margin:0 auto;
 }
 
 .wrapper-top span{
 	position:absolute;
-	right:28%;
-	top:70%;
+	right:25%;
+	top:52%;
 }
 
 /* Zoom In Sign Up */
@@ -102,14 +123,24 @@
 		padding-right:50px;
 	}
 	.wrapper-top span{
-		right:15%;
-		top:73%;
+		right:16%;
+		top:55%;
 	}
 	.wrapper-top span img{
-		width:100px;
+		width:75px;
 	}
 	.top-container{
 		padding-left:0px;
 		padding-right:0px;
+	}
+	
+	.EzeTV-Intro p{
+		padding: 40px 0 40px 0;
+	}
+	
+	.package-plan ul li{
+		list-style-type:none;
+		display:inline-block;
+		padding:0 10px 20px 10px;
 	}
 }

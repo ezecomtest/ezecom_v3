@@ -20,19 +20,19 @@
 				<div class="wrapper-top">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/EzeTV/ezetv_main.jpg"/>
 					<span>
-						<img  id="pop-up-form" class="img-responsive sign-up" src="<?php echo base_url()?>images/our-services/EzeTV/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/EzeTV/btn-sign-up.png"/>
 					</span>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<!-- Contact Form  -->
 					<div class="container">
 							<div class="row">
 								<div class="form-wrapper">
-									<form class="form-horizontal" action="<?php echo base_url()?>Hosting/sending.php" method="post">
+									<form class="form-horizontal" action="<?php echo base_url()?>EzeTV/sending.php" method="post">
 										<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 											<div class="formEmail">
 												  <h5>Contact Us</h5>
@@ -77,12 +77,12 @@
 											</div>
 										</div>
 									</form>
-									<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+									<script src='https://www.google.com/recaptcha/api.js'></script>
 								</div>
 							</div>
 					</div> <!-- end container -->
 			</div>
-			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+			
 		</div>
 		<div class="row">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -120,12 +120,28 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
 		<div class="row mg-bt">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+			<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 				<div class="package-plan">
 					<ul>
 						<li><img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/EzeTV/monthly-fee.png"/></li>
 						<li><img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/EzeTV/installation.png"/></li>
 						<li><img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/EzeTV/available-chanel.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+		</div>
+		<div class="row mg-bt">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-xs-11">
+				<div class="conditions">
+					<h3>TERMS & CONDITIONS</h3>
+					<ul>
+						<li>No deposit required</li>
+						<li>Free modem / TV box rental</li>
+						<li>6 months upfront (payment is required)</li>
+						<li>Other conditions apply</li>
 					</ul>
 				</div>
 			</div>
