@@ -406,6 +406,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/footer_style.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/back_to_top.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/hover.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css" type="text/css">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/voip_style.css" type="text/css" />
 <?php }?>
 

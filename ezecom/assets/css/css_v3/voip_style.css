@@ -66,8 +66,7 @@
 }
 .img-internet-call{
 	min-height:392px;
-	background-color:#7961A9;
-	margin-top:-5px;
+	margin-top:-3px;
 }
 .bg-color p{
 	font-family:myNeutra;
@@ -99,4 +98,48 @@
 	font-family:myNeutra;
 	font-size:25px;
 	color:#7961a9;
+}
+/* Table */
+.nav-tabs{
+	border-bottom:none;
+}
+.rl_tabs.outline_content>.tab-content>.tab-pane{
+	max-width:100%;
+}
+.table{
+	position:relative;
+	left:6%;
+}
+.nav-tabs {
+	padding-left:25px;
+}
+.table tbody tr td {
+    border:none;
+}
+.table tbody tr th{
+	border-top:none;
+}
+@media screen and (max-width:1000px){
+	.table{
+		position:relative;
+		left:0;
+	}
+	.pd-left{
+		padding-left:15px;
+	}
+	.pd-right{
+		padding-right:15px;
+	}
+	.destination-rate p{
+		margin: 0 10px 25px 10px;
+	}
+	.mg-bt{
+		margin-bottom:0;
+	}
+	.bg-color{
+		padding: 20px 0 34px 0;
+	}
+	.img-internet-call{
+		min-height: 308px;
+	}
 }
