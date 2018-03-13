@@ -1,0 +1,55 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.wrapper-top{
+	margin-top:-1px;
+}
+.general,.ibizcloud,.internet-connection,.email,.email-problems,.security{
+	padding:20px 30px 40px 30px;
+	background-color:#EFEFEF;
+	text-align:center;
+	color:#636363;
+}
+
+.general img,.ibizcloud img,.internet-connection img,.email img,.email-problems img,.security img{
+	margin:0 auto;
+}
+
+.general:hover,.ibizcloud:hover,.internet-connection:hover,.email:hover,.email-problems:hover,.security:hover{
+	background-color:#7961AA;
+	color:white;
+}
+
+.active-now{
+	background-color:#7961AA;
+	color:white;
+}
+
+.tab-content h2{
+	font-family:myNeutra;
+	font-size:25px;
+	color:#7961a9;
+	font-weight:bold;
+}
+.tab-content h1{
+	font-family:myNeutra;
+}
+
+.tab-content p{
+	font-family:myNeutra;
+	padding-left:50px;
+	font-size:18px;
+}
+
+.mg-bt{
+	margin-bottom:30px;
+}
+.mg-top{
+	margin-top:50px;
+}
+.bd-bt{
+	border-bottom:1px solid #EFEFEF;
+	padding:50px 0 50px 0;
+}

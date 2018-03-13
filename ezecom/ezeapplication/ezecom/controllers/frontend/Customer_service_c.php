@@ -7,27 +7,69 @@ class Customer_service_c extends CI_Controller {
         parent::__construct();
         $this->load->model('frontend/homepage_m');
     }
-
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
-	{
-		$this->customer_services();
+	
+	public function service_faq(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "FAQ'S";
+			$data['active'] = "FAQ'S";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/faq_v',$data);
+		}
+		/* if($this->lang==2){
+			$data['title'] = "FAQ'S";
+			$data['active'] = "FAQ'S";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/faq_kh_v',$data);
+			}
+		if($this->lang==3){
+			$data['title'] = "FAQ'S";
+			$data['active'] = "FAQ'S";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/faq_ch_v',$data);
+		} */
+		if($this->session->userdata("language")==""){
+			$data['title'] = " FAQ'S ";
+			$data['active'] = "FAQ'S";
+			$lan = 1;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/faq_v',$data);
+		}
 	}
-
+	
+	public function service_payment_options(){
+		if($this->lang==1){
+			$data['title'] = "Payment Options";
+			$data['active'] = "Payment Options";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/payment_option_v',$data);
+		}
+		if($this->lang==2){
+			$data['title'] = "Payment Options";
+			$data['active'] = "Payment Options";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/payment_option_kh_v',$data);
+			}
+		if($this->lang==3){
+			$data['title'] = "Payment Options";
+			$data['active'] = "Payment Options";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/payment_option_ch_v',$data);
+		}
+		if($this->lang==""){
+			$data['title'] = "Payment Options";
+			$data['active'] = "Payment Options";
+			$lan = $this->lang;
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/payment_option_v',$data);
+		}
+	}
+	
 	public function customer_services(){
 		if($this->session->userdata("language")==1){
 		$data['title'] = "Customer Services";

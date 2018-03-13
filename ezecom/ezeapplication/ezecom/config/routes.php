@@ -229,6 +229,12 @@ $route['our-services/cyber-security/web-application-firewall'] = 'frontend/our_s
 $route['our-services/value-added-service/voice-over-ip'] = 'frontend/our_services_c/voip';
 $route['our-services/value-added-service/EzeTV'] = 'frontend/our_services_c/ezetv';
 
+/* Support */
+$route['support/customer-service'] = 'frontend/customer_service_c/customer_services';
+$route['support/faq'] = 'frontend/customer_service_c/service_faq';
+$route['support/payment'] = 'frontend/customer_service_c/service_payment_options';
+
+
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
 $route['ezetv'] = 'frontend/Ezetv/ezetv_service';
