@@ -24,29 +24,26 @@
 		</div>
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="all-features">
+				<div class="all-features mg-bt-last">
 					<div class="row mg-top mg-bt">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#general" data-toggle="tab" data-id="general">
 								<div class="general active-now">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/general.png"/>
-									General
+									<p class="text-position">General</p>
 								</div>
 							</a>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#ibizcloud" data-toggle="tab" data-id="ibizcloud">
 								<div class="ibizcloud">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/ibizcloud.png"/>
-									ibizCloud
+									<p class="text-position">ibizCloud</p>
 								</div>
 							</a>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#internet-connection" data-toggle="tab" data-id="internet-connection">
 								<div class="internet-connection">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/internet-connection.png"/>
-									Internet Connection
+									<p class="text-position">Internet Connection</p>
 								</div>
 							</a>
 						</div>
@@ -55,8 +52,7 @@
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#email" data-toggle="tab" data-id="email">
 								<div class="email">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/email.png"/>
-									Email
+									<p class="text-position">Email</p>
 								</div>
 							</a>
 							
@@ -64,16 +60,14 @@
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#email-problems" data-toggle="tab" data-id="email-problems">
 								<div class="email-problems">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/email-problem.png"/>
-									Email-Problems
+									<p class="text-position">Email-Problems</p>
 								</div>
 							</a>
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<a href="<?=base_url();?>support/faq#security" data-toggle="tab" data-id="security">
 								<div class="security">
-									<img  class="img-responsive" src="<?php echo base_url()?>/images/support/faq/security.png"/>
-									Security
+									<p class="text-position">Security</p>
 								</div>
 							</a>
 						</div>
@@ -85,9 +79,9 @@
 						</div>
 						<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 					</div>
-					<div class="row mg-top">
+					<div class="row">
 						<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-						<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+						<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
 							<!-- Content -->
 							<div class="tab-content">
 									<div id="general" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
@@ -463,13 +457,83 @@
 </script>
 <!-- BACK TO TOP BUTTON -->
 <script type="text/javascript">
-	$(document).ready(function () {
+	/* mouse hover change img src */
+	
+	
+	/* function hover(element){
+		if(element=="general"){
+			var imageUrl = "<?php echo base_url()?>images/support/faq/hover-general.png";
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+		}
+	}
+	
+	function unhover(element) {
+		if(element=="general"){
+			var imageUrl = "<?php echo base_url()?>images/support/faq/general.png";
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+		}
+	} */
+	
+	/* function hover(element){
+		if(element=="General"){
+			document.getElementById("General").src = "<?php echo base_url()?>images/support/faq/hover-general.png";
+		}if(element=="ibizCloud"){
+			document.getElementById("ibizCloud").src = "<?php echo base_url()?>images/support/faq/hover-ibizcloud.png";
+		}else if(element=="Internet-Connection"){
+			document.getElementById("Internet-Connection").src = "<?php echo base_url()?>images/support/faq/hover-internet-connection.png";
+		}else if(element=="Email"){
+			document.getElementById("Email").src = "<?php echo base_url()?>images/support/faq/hover-email.png";
+		}else if(element=="Email-pro"){
+			document.getElementById("Email-pro").src = "<?php echo base_url()?>images/support/faq/hover-email-problem.png";
+		}else if(element=="Security"){
+			document.getElementById("Security").src = "<?php echo base_url()?>images/support/faq/hover-security.png";
+		}
+		
+	} */
+	
+	/*function unhover(element) {
+		if(element=="General"){
+			document.getElementById("General").src = "<?php echo base_url()?>images/support/faq/general.png";
+		}else if(element=="ibizCloud"){
+			document.getElementById("ibizCloud").src = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+		}else if(element=="Internet-Connection"){
+			document.getElementById("Internet-Connection").src = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+		}else if(element=="Email"){
+			document.getElementById("Email").src = "<?php echo base_url()?>images/support/faq/email.png";
+		}else if(element=="Email-pro"){
+			document.getElementById("Email-pro").src = "<?php echo base_url()?>images/support/faq/email-problem.png";
+		}else if(element=="Security"){
+			document.getElementById("Security").src = "<?php echo base_url()?>images/support/faq/security.png";
+		}
+		
+	} */
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+	var imageUrl = "<?php echo base_url()?>images/support/faq/hover-general.png";
+	$('.general').css('background-image', 'url(' + imageUrl + ')');
+	
 		$('.all-features a .general').click(function(e) {
 			$('.all-features a .ibizcloud').removeClass('active-now');
 			$('.all-features a .internet-connection').removeClass('active-now');
 			$('.all-features a .email').removeClass('active-now');
 			$('.all-features a .email-problems').removeClass('active-now');
 			$('.all-features a .security').removeClass('active-now');
+			/* Active bg */
+			var imageUrl = "<?php echo base_url()?>images/support/faq/hover-general.png";
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
+			
 			$(this).addClass('active-now');
 			e.preventDefault();
 		});
@@ -480,9 +544,23 @@
 			$('.all-features a .email').removeClass('active-now');
 			$('.all-features a .email-problems').removeClass('active-now');
 			$('.all-features a .security').removeClass('active-now');
-			$(this).addClass('active-now');
+			/* Active bg */
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/hover-ibizcloud.png";
+			var imageUrl_gen = "<?php echo base_url()?>images/support/faq/general.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.general').css('background-image', 'url(' + imageUrl_gen + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
+			
 			$(this).addClass('active-now');
 			e.preventDefault();
+			
 		});
 		
 		$('.all-features a .internet-connection').click(function(e) {
@@ -491,10 +569,23 @@
 			$('.all-features a .email').removeClass('active-now');
 			$('.all-features a .email-problems').removeClass('active-now');
 			$('.all-features a .security').removeClass('active-now');
-			$(this).addClass('active-now');
+			/* Active bg */
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+			var imageUrl = "<?php echo base_url()?>images/support/faq/general.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/hover-internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
 			$(this).addClass('active-now');
 			e.preventDefault();
 		});
+		
 		
 		$('.all-features a .email').click(function(e) {
 			$('.all-features a .general').removeClass('active-now');
@@ -502,10 +593,25 @@
 			$('.all-features a .internet-connection').removeClass('active-now');
 			$('.all-features a .email-problems').removeClass('active-now');
 			$('.all-features a .security').removeClass('active-now');
+			/* Active bg */
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+			var imageUrl = "<?php echo base_url()?>images/support/faq/general.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/hover-email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			
 			$(this).addClass('active-now');
 			$(this).addClass('active-now');
 			e.preventDefault();
 		});
+		
 		
 		$('.all-features a .email-problems').click(function(e) {
 			$('.all-features a .general').removeClass('active-now');
@@ -513,10 +619,24 @@
 			$('.all-features a .internet-connection').removeClass('active-now');
 			$('.all-features a .email').removeClass('active-now');
 			$('.all-features a .security').removeClass('active-now');
-			$(this).addClass('active-now');
+			/* Active bg */
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+			var imageUrl = "<?php echo base_url()?>images/support/faq/general.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/hover-email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			
 			$(this).addClass('active-now');
 			e.preventDefault();
 		});
+		
 		
 		$('.all-features a .security').click(function(e) {
 			$('.all-features a .general').removeClass('active-now');
@@ -524,12 +644,23 @@
 			$('.all-features a .internet-connection').removeClass('active-now');
 			$('.all-features a .email').removeClass('active-now');
 			$('.all-features a .email-problems').removeClass('active-now');
-			$(this).addClass('active-now');
+			/* Active bg */
+			var imageUrl_ibiz = "<?php echo base_url()?>images/support/faq/ibizcloud.png";
+			var imageUrl = "<?php echo base_url()?>images/support/faq/general.png";
+			var imageUrl_internet = "<?php echo base_url()?>images/support/faq/internet-connection.png";
+			var imageUrl_email = "<?php echo base_url()?>images/support/faq/email.png";
+			var imageUrl_email_pro = "<?php echo base_url()?>images/support/faq/email-problem.png";
+			var imageUrl_security = "<?php echo base_url()?>images/support/faq/hover-security.png";
+			$('.security').css('background-image', 'url(' + imageUrl_security + ')');
+			$('.email-problems').css('background-image', 'url(' + imageUrl_email_pro + ')');
+			$('.ibizcloud').css('background-image', 'url(' + imageUrl_ibiz + ')');
+			$('.general').css('background-image', 'url(' + imageUrl + ')');
+			$('.internet-connection').css('background-image', 'url(' + imageUrl_internet + ')');
+			$('.email').css('background-image', 'url(' + imageUrl_email + ')');
+			
 			$(this).addClass('active-now');
 			e.preventDefault();
 		});
 		
-		
-		
-	});
+	}); 
 </script>
