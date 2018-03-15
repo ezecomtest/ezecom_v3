@@ -40,14 +40,14 @@ class Customer_service_c extends CI_Controller {
 	}
 	
 	public function service_payment_options(){
-		if($this->lang==1){
+		if($this->session->userdata("language")==1){
 			$data['title'] = "Payment Options";
 			$data['active'] = "Payment Options";
-			$lan = $this->lang;
+			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/payment_option_v',$data);
 		}
-		if($this->lang==2){
+	/* 	if($this->lang==2){
 			$data['title'] = "Payment Options";
 			$data['active'] = "Payment Options";
 			$lan = $this->lang;
@@ -60,11 +60,11 @@ class Customer_service_c extends CI_Controller {
 			$lan = $this->lang;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/payment_option_ch_v',$data);
-		}
-		if($this->lang==""){
+		} */
+		if($this->session->userdata("language")==""){
 			$data['title'] = "Payment Options";
 			$data['active'] = "Payment Options";
-			$lan = $this->lang;
+			$lan = 1;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/payment_option_v',$data);
 		}
