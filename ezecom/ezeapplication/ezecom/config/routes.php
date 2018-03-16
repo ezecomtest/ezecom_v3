@@ -233,6 +233,7 @@ $route['our-services/value-added-service/EzeTV'] = 'frontend/our_services_c/ezet
 $route['support/customer-service'] = 'frontend/customer_service_c/customer_services';
 $route['support/faq'] = 'frontend/customer_service_c/service_faq';
 $route['support/payment'] = 'frontend/customer_service_c/service_payment_options';
+$route['support/setup-email'] = 'frontend/set_up_email_c/set_up_email';
 
 
 /*$route['our-services'] = 'frontend/our_services_c/our_services';

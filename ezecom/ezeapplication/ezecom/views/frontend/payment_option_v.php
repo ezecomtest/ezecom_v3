@@ -105,61 +105,160 @@
 				</a>
 			</div>
 		</div>
-		<div class="row bg-color clear-mg">
+		<!--<div class="row">
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-				<!-- Content -->
 				<div class="tab-content">
 					<div id="cellcard" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
-							<h1>Payment Cellcard Counters</h1>
-							<div class="wrapper-content">
-								<p>
-									1. Go to Cellcard Office of your choice
-									2. Go to the cashiers counter
-									3. Hand the cashier your invoice and the cash amount.
-									4. Your invoice will be processed by Cellcard staff
-									5. There are 5 locations in Phnom Penh and 4 locations nationwide where you can pay your EZECOM invoice:
-
-								Phnom Penh Cellcard Head Office 
-								Address: No. 33 Preah Sihanouk. Blvd, Sangkat Chak Tomouk, Khan Daun Penh, Phnom Penh
-
-								Phnom Penh Customer Service and Sales Center (Toul Kork) 
-								Address: No. 46, St. 289, Beung Kok 1, Toul Kok, Phnom Penh
-
-								Phnom Penh Customer Service and Sales Center (Russian Market) 
-								Address: No. 166, (E0,E1), St. 155, S. Toul Tompong 1, K. Chamkamorn, Phnom Penh
-
-								Phnom Penh Customer Service and Sales Center (Kampuchea Krom) 
-								Address: No. 219, Corner of St. 128 and St. 169, S. Methapheap, K. 7 Makara, Phnom Penh
-
-								Phnom Penh Customer Service and Sales Center (Sovanna) 
-								Address: No. D25(opposite the main entrance of Sovanna Shopping Mall), Diamond Street, S. Tomnob Toek, K. Chamkamorn, Phnom Penh
-
-								Siem Reap Representative Office 
-								Address: No. 50, Sivutha Street, SangKat Svay Dongkum, District Siem Reap, Siem Reap
-
-								Battambang Representative Office 
-								Address: No. 98-100, Group 38, Phum 20 Usaphea, Khum Svai Pau, Srok Battambang, Battambang
-
-								Sihaknoukville Representative Office 
-								Address: No. 118, St. Ekareak, Phum 2 Sangkat 4, Krong Preah Sihanouk, Sihanouk province
-
-								Kampong Cham Representative Office 
-								Address: No. Phun No. 4, Khum Veal Vong, Srok Kompong Cham, Kompong Cham
-							</p>
-							</div>
-					</div> <!-- End Cellcard-->
+						<h1 class="text-center">Payment Cellcard Counters</h1>
+					</div>
 					<div id="Maybank" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-						<h1>Payment Cellcard Counters</h1>
-						<div class="wrapper-content">
-							<p>
-								M2U Maybank Internet Banking Follow these easy steps to pay your bill via M2U:
-							</p>
-						</div>
-					</div><!-- End Maybank -->
+						<h1 class="text-center">Maybank Internet Banking</h1>
+					</div>
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>-->
+		<div class="tab-content">
+			<div id="aba" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center header">ABA Bank</h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<h1 class="header">Pay your EZECOM bill with ABA iBANKING</h1>
+								<p><b>As an ABA account holder you can manage your finances from the comfort of your own home, or anywhere in the world.</b></p>
+								<ol>
+									<li>Go to www.ababank.com and click on the iBank button</li>
+									<li>Login to your iBanking account with your username and password</li>
+									<li>Go to <b>"Payments"</b> menu and click <b>"Quick Payment"</b> in the submenu</li>
+									<li>Select "Internet Providers" and click <b>"EZECOM"</b></li>
+									<li>Enter your <b>"Invoice Number"</b>, the amount of your bill and the currency (US Dollar)</li>
+									<li>Click <b>"Pay"</b></li>
+									<li>Click <b>"OK"</b> to confirm the payment</li>
+									<li>Enter your dynamic authentication code</li>
+									<li>A confirmation of your payment will be displayed</li>
+								</ol>
+								<p>
+									For full information on how to sign up for an ABA banking account, 
+									Please go to your nearest ABA Bank or check the details on ABA Bank website.
+								</p>
+							</div>
+						</div>
+					</div>
+			</div> <!-- End ABA -->
+			<div id="cellcard" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
+					<div class="row">
+						<h1 class="text-center header">Payment Cellcard Counters</h1>
+					</div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+					<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+						<div class="wrapper-content">
+							<p class="">
+								You can pay your EZECOM invoice at selected Cellcard offices, at no cost to you.
+							</p>
+							<ol>
+								<li>Go to Cellcard Office of your choice</li>
+								<li>Go to the cashiers counter</li>
+								<li>Hand the cashier your invoice and the cash amount.</li>
+								<li>Your invoice will be processed by Cellcard staff</li>
+								<li>There are 5 locations in Phnom Penh and 4 locations nationwide where you can pay your EZECOM invoice:</li>
+							</ol>
+
+							<p><b>Phnom Penh Cellcard Head Office</b> <br/>Address: No. 33 Preah Sihanouk. Blvd, Sangkat Chak Tomouk, Khan Daun Penh, Phnom Penh
+							</p> 
+							
+
+							<p><b>Phnom Penh Customer Service and Sales Center (Toul Kork)<br/></b>
+								Address: No. 46, St. 289, Beung Kok 1, Toul Kok, Phnom Penh
+							</p> 
+							
+
+							<p><b>Phnom Penh Customer Service and Sales Center (Russian Market)<br/></b>
+								Address: No. 166, (E0,E1), St. 155, S. Toul Tompong 1, K. Chamkamorn, Phnom Penh
+							</p> 
+							
+
+							<p><b>Phnom Penh Customer Service and Sales Center (Kampuchea Krom)</b><br/>
+								Address: No. 219, Corner of St. 128 and St. 169, S. Methapheap, K. 7 Makara, Phnom Penh
+							</p> 
+							
+
+							<p><b>Phnom Penh Customer Service and Sales Center (Sovanna)</b> <br/>
+							Address: No. D25(opposite the main entrance of Sovanna Shopping Mall), Diamond Street, S. Tomnob Toek, K. Chamkamorn, Phnom Penh
+							</p> 
+							
+
+							<p><b>Siem Reap Representative Office</b><br/>
+							Address: No. 50, Sivutha Street, SangKat Svay Dongkum, District Siem Reap, Siem Reap
+							</p> 
+							<p></p>
+
+							<p><b>Battambang Representative Office</b><br/>
+							Address: No. 98-100, Group 38, Phum 20 Usaphea, Khum Svai Pau, Srok Battambang, Battambang
+							</p> 
+							
+
+							<p><b>Sihaknoukville Representative Office</b><br/>
+							Address: No. 118, St. Ekareak, Phum 2 Sangkat 4, Krong Preah Sihanouk, Sihanouk province
+							</p> 
+						
+							<p><b>Kampong Cham Representative Office</b><br/>
+							Address: No. Phun No. 4, Khum Veal Vong, Srok Kompong Cham, Kompong Cham
+							</p> 
+							
+
+						</div>
+							
+						</div>
+						<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+					</div>
+			</div> <!-- End Cellcard -->
+			<div id="Maybank" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center header">Maybank Branch Deposit</h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<p><b>All maybank customers can pay their EZECOM invoice at all branch offices of Maybank.</b></p>
+								<ol>
+									<li>Go to the Maybank branch of your choice</li>
+									<li>Go to the transfers counter</li>
+									<li>Hand the cashier your invoice and the cash amount.</li>
+									<li>Your invoice will be processed by Maybank</li>
+								</ol>
+								<p>
+									For full information on how to sign up for an Maybank account. Pease go to your nearest Maybank outlet or visit the website.
+								</p>
+							</div>
+						</div>
+					</div>
+			</div><!-- Maybank -->
+			<div id="wing-app" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center header">Wing Bill Payment</h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<p><b>Follow these easy steps to pay your bill via WING with your mobile phone.</b></p>
+								<ol>
+									<li>Dial <b>*989#</b> to go to WING menu</li>
+									<li>Enter your WING Account No, and press Send</li>
+									<li>Enter <b>“5”</b> and press Send</li>
+									<li>Enter <b>“8”</b> and press Send</li>
+									<li>Enter your Customer ID, and press Send</li>
+									<li>Enter Amount in USD, and press Send</li>
+									<li>Enter PIN code (4 digits) of your WING account, and press Send</li>
+								</ol>
+								<p>
+									For full information on how to sign up for WING 
+									account please go to your nearest WING outlet or visit www.wingmoney.com
+								</p>
+							</div>
+						</div>
+					</div>
+			</div>
 		</div>
 	</div>
 </div>          

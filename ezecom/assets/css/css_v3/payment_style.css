@@ -160,9 +160,25 @@
 
 .wrapper-content{
 	min-height:500px;
+	padding:20px 5px 50px 5px;
 }
 
+.header{
+	color:#7961a9;
+	font-family:myNeutra;
+	padding-bottom:30px;
+}
 
+.wrapper-content p{
+	font-family:myNeutra;
+	font-size:18px;
+	padding-top:15px;
+}
+.wrapper-content ol{
+	padding-left:50px;
+	font-family:myNeutra;
+	font-size:18px;
+}
 
 .active-now{
 	background-color:#7961AA;
