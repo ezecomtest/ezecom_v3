@@ -52,38 +52,38 @@
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='#'>Data Center & Hosting </a>
+					  <li><a href='<?php echo base_url()?>'>Data Center & Hosting </a>
 						 <ul>
-							<li><a href='#'>Colocation</a></li>
-							<li><a href='#'>DRC</a></li>
-							<li><a href='#'>Web Hosting</a></li>
-							<li><a href='#'>VPBX</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/colocation'>Colocation</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/disaster-recovery-center'>DRC</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/cpanel-web-hosting'>Web Hosting</a></li>
+							<li><a href='<?php echo base_url()?>our-services/hosting/virtual-pbx'>VPBX</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='#'>Cyber Security</a>
+					  <li><a href='<?php echo base_url()?>'>Cyber Security</a>
 						 <ul>
-							<li><a href='#'>DDoS Mitigation Service</a></li>
-							<li><a href='#'>Web Application Firewall</a></li>
-							<li><a href='#'>Managed Network Security</a></li>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/ddos'>DDoS Mitigation Service</a></li>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/web-application-firewall'>Web Application Firewall</a></li>
+							<li><a href='<?php echo base_url()?>our-services/cyber-security/managed-network-security'>Managed Network Security</a></li>
 						 </ul>
 					  </li>
-					  <li><a href='#'>Value Added Services</a>
+					  <li><a href='<?php echo base_url()?>'>Value Added Services</a>
 						 <ul>
-							<li><a href='#'>VoIP</a></li>
-							<li><a href='#'>EzeTV</a></li>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/voice-over-ip'>VoIP</a></li>
+							<li><a href='<?php echo base_url()?>our-services/value-added-service/EzeTV'>EzeTV</a></li>
 						 </ul>
 					  </li>
 				   </ul>
 				</li>
-				<li><a href='#'>Support <i class="fa fa-angle-double-right"></i></a>
+				<li><a href='<?php echo base_url()?>'>Support <i class="fa fa-angle-double-right"></i></a>
 					<ul>
-						<li><a href='#'>FAQ'S</a></li>
-						<li><a href='#'>Customer Service</a></li>
-						<li><a href='#'>Payment Options</a></li>
-						<li><a href='#'>EzeMail Setup</a></li>
-						<li><a href='#'>EzeMail</a></li>
-						<li><a href='#'>Speed Test</a></li>
-						<li><a href='#'>User Account Management</a></li>
+						<li><a href='<?php echo base_url()?>support/faq'>FAQ'S</a></li>
+						<li><a href='<?php echo base_url()?>support/customer-service'>Customer Service</a></li>
+						<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
+						<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
+						<li><a href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
+						<li><a href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+						<li><a href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
 					</ul>
 				</li>
 				<li><a href='#'>Media Center <i class="fa fa-angle-double-right"></i></a>
@@ -156,25 +156,25 @@
 									<li>
 										<a style="cursor:none"><strong>Data Center & Hosting</strong></a>
 										<ul class="hosting">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/colocation?lang=en">Colocation</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center?lang=en">DRC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting?lang=en">Web Hosting</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx?lang=en">VPBX</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/colocation">Colocation</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
 										</ul>
 									</li>
 									<li>
 										<a style="cursor:none"><strong>Cyber Security</strong></a>
 										<ul class="security">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>ddos-mitigation-service?lang=en">DDoS Mitigation Service</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall?lang=en">Web Application Firewall</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security?lang=en">Managed Network Security</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
 										</ul>
 									</li>
 									<li>
 										<a style="cursor:none"><strong>Value Added Services</strong></a>
 										<ul class="add_services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip?lang=en">VoIP</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV?lang=en">EzeTV</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip">VoIP</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV">EzeTV</a></li>
 										</ul>
 									</li>
 									
@@ -183,10 +183,10 @@
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<h5>Support</h5>
 								<ul>
-									<li><a href="<?php echo base_url();?>support/faq?lang=en">FAQ'S</a></li>
-									<li><a href="<?php echo base_url();?>support/customer-service?lang=en">Customer Service</a></li>
-									<li><a href="<?php echo base_url();?>support/payment?lang=en">Payment Options</a></li>
-									<li><a href="<?php echo base_url();?>setup-email?lang=en">EzeMail Setup</a></li>
+									<li><a href="<?php echo base_url();?>support/faq">FAQ'S</a></li>
+									<li><a href="<?php echo base_url();?>support/customer-service">Customer Service</a></li>
+									<li><a href="<?php echo base_url();?>support/payment">Payment Options</a></li>
+									<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>
 									<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
 									<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>	
 									<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>

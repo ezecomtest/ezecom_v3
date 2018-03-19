@@ -28,10 +28,10 @@
 					</ul>
 					<h6>Hosting</h6>
 					<ul>
-						<li><a href="#">Colocation</a></li>
-						<li><a href="#">DRC</a></li>
-						<li><a href="#">Webhosting</a></li>
-						<li><a href="#">VPBX</a></li>
+						<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Colocation</a></li>
+						<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+						<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Webhosting</a></li>
+						<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
 					</ul>
 				</div>
 			</div>
@@ -39,14 +39,14 @@
 				<div class="section-footer">
 					<h6>Cyber Security</h6>
 					<ul>
-						<li><a href="#">DDoS Mitigation Service</a></li>
-						<li><a href="#">Web Application Firewall</a></li>
-						<li><a href="#">Managed Network Security</a></li>
+						<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
+						<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
+						<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
 					</ul>
 					<h6>VAS</h6>
 					<ul>
-						<li><a href="#">Voice over Internet Proocol (VoIP)</a></li>
-						<li><a href="#">EzeTV</a></li>
+						<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">Voice over Internet Proocol (VoIP)</a></li>
+						<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>
 					</ul>
 				</div>
 			</div>
@@ -65,12 +65,12 @@
 				<div class="section-footer">
 					<h6>Support</h6>
 					<ul>
-						<li><a href="#">FAO’s</a></li>
-						<li><a href="#">Customer Service</a></li>
-						<li><a href="#">Payment Option</a></li>
-						<li><a href="#">EzeMail Setup</a></li>
-						<li><a href="#">Speed Test</a></li>
-						<li><a href="#">User Account Managment</a></li>
+						<li><a href="<?php echo base_url()?>support/faq">FAO’s</a></li>
+						<li><a href="<?php echo base_url()?>support/customer-service">Customer Service</a></li>
+						<li><a href="<?php echo base_url()?>support/payment">Payment Option</a></li>
+						<li><a href="<?php echo base_url()?>support/setup-email">EzeMail Setup</a></li>
+						<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
+						<li><a href="https://csm.ezecom.com.kh/uam/">User Account Managment</a></li>
 					</ul>
 				</div>
 			</div>
