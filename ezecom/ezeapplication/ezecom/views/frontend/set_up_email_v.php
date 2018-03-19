@@ -64,7 +64,7 @@
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<div class="form-group">
 									<label class="control-label">Password:<label class="red">*</label></label>
-									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 										<input type="password" class="form-control input-md" required name="password"/>
 									 <span class="glyphicon form-control-feedback"></span>
 									 <span class="help-block with-errors"></span>
@@ -74,7 +74,7 @@
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<div class="form-group">
 									<label class="control-label">Confirm Password<label class="red">*</label></label>
-									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 										<input type="password" class="form-control input-md" required name="confirmPassword"/>
 									<span class="glyphicon form-control-feedback"></span>
 									<span class="help-block with-errors"></span>
@@ -243,7 +243,7 @@
             validators: {
                 identical: {
                     field: 'confirmPassword',
-                    message: 'Confirm your password below - type same password please'
+                    message: 'Confirm your password type same password please'
                 }
             }
         },
@@ -265,27 +265,3 @@
 });
 
 </script>
-
-<script type="text/javascript">
-	/* $(document).ready(function() {
-		$('#identicalForm').formValidation({
-			alert('Hello');
-			framework: 'bootstrap',
-			icon: {
-				valid: 'glyphicon glyphicon-ok',
-				invalid: 'glyphicon glyphicon-remove',
-				validating: 'glyphicon glyphicon-refresh'
-			},
-			fields: {
-				confPassword: {
-					validators: {
-						identical: {
-							field: 'password',
-							message: 'The password and its confirm are not the same'
-						}
-					}
-				}
-			}
-		});
-	}); */
-</script>	
