@@ -34,14 +34,16 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .wrapper-looking h3{
-	color:#7961AA;
+	color:white;
 	font-weight:bold;
 	font-size:23px;
 	padding:20px 0 20px 0;
 	font-family:'Neutra Text'; 
 }
 .bg-lookingfor{
-	background:#BCBDC0;
+	/*background:#BCBDC0;*/
+	background-image:url(../../../images/homepage/looking-for.jpg);
+	background-repeat:no-repeat;
 	margin-top:40px;
 }
 .wrapper-achievement{
@@ -51,6 +53,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-size:18px;
 	font-family:'Neutra Text'; 
 	padding-bottom:40px;
+	color:white;
 }
 @media screen and (max-width:1000px){
 	.bg-lookingfor p , .wrapper-achievement p{
