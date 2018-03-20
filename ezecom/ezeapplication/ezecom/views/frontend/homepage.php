@@ -177,9 +177,9 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">Dedicated Internet Access</a><span>|</span></li>
-							<li><a href="#">EzeBiz</a><span>|</span></li>
-							<li><a href="#">EzeSurf</a></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeBiz">EzeBiz</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 						</ul>
 					</div>
 				</div>
@@ -197,10 +197,10 @@
 					
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">IPLC</a><span>|</span></li>
-							<li><a href="#">DPLC</a><span>|</span></li>
-							<li><a href="#">MPLS</a><span>|</span></li>
-							<li><a href="#">VPLS</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
 						</ul>
 					</div>
 				</div>
@@ -217,8 +217,8 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">Microsoft Cloud	Service</a><span>|</span></li>
-							<li><a href="#">Amazon Web Service</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud	Service</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						</ul>
 					</div>
 				</div>
@@ -237,10 +237,10 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">Colocation</a><span>|</span></li>
-							<li><a href="#">DRC</a><span>|</span></li>
-							<li><a href="#">Web Hosting</a><span>|</span></li>
-							<li><a href="#">VPBX</a></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Colocation</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
 						</ul>
 					</div>
 				</div>
@@ -257,9 +257,9 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">DDoS Mitigation	Service</a><span>|</span></li>
-							<li><a href="#">Web	Application	Firewall</a><span>|</span></li>
-							<li><a href="#">Managed	Network	Security</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation	Service</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed	Network	Security</a></li>
 						</ul>
 					</div>
 				</div>
@@ -276,8 +276,8 @@
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="#">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
-							<li><a href="#">EzeTV</a></li>
+							<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>
 						</ul>
 					</div>
 				</div>

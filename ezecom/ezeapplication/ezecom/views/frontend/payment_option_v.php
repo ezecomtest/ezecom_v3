@@ -163,7 +163,7 @@
 					</div>
 			</div> <!-- End ABA -->
 			
-			<div id="anz" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
+			<div id="anz" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 					<div class="row"><h1 class="text-center top-header">ANZ Royal</h1></div>
 					<div class="row bg-color clear-mg">
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -201,7 +201,7 @@
 					</div>
 			</div> <!-- ANZ -->
 					
-			<div id="acleda" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
+			<div id="acleda" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 					<div class="row"><h1 class="text-center top-header">Acleda Unity</h1></div>
 					<div class="row bg-color clear-mg">
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
