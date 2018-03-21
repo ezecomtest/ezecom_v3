@@ -1,0 +1,162 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.top-mg{
+	margin-top:-1px;
+}
+.mg-bt{
+	margin-bottom:30px;
+}
+
+.wrapper-text p{
+	font-family:myNeutra;
+	font-size:18px;
+	padding:40px 0 10px 0;
+	text-align:center;
+}
+
+.active-now{
+	background-color:#7961AA;
+	color:white !important;
+}
+
+.text-position{
+	position:relative;
+	top:40px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.Head,.customer-service,.Siem-Reap,.Sihanouk,.Koh-Kong,.Battambang,.Bavet,.Poipet{
+	padding:20px 30px 40px 30px;
+	border:1px solid #D1D2D4;
+	text-align:center;
+	color:#636363;
+}
+.Head{
+	min-height:150px;
+}
+
+.Head:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.customer-service{
+	min-height:150px;
+}
+.customer-service:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Siem-Reap{
+	min-height:150px;
+}
+.Siem-Reap:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Sihanouk{
+	min-height:150px;
+}
+.Sihanouk:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Koh-Kong{
+	min-height:150px;
+}
+.Koh-Kong:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Battambang{
+	min-height:150px;
+}
+.Battambang:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Poipet{
+	min-height:150px;
+}
+.Poipet:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+.Bavet{
+	min-height:150px;
+}
+.Bavet:hover{
+	background-color:#7961AA;
+	color:white;
+	text-decoration:none !important;
+}
+
+.top-header{
+	color:#7961a9;
+	font-family:myNeutra;
+	padding-bottom:30px;
+	font-weight:bold;
+}
+.address p{
+	font-family:myNeutra;
+	font-size:14px;
+	line-height:18px;
+}
+.address img{
+	padding-right:10px;
+}
+.phone p{
+	font-family:myNeutra;
+	font-size:14px;
+	line-height:18px;
+}
+.phone{
+	padding-left:100px;
+}
+.phone img{
+	padding-right:10px;
+}
+.clock p{
+	font-family:myNeutra;
+	font-size:14px;
+	line-height:18px;
+}
+
+.clock img{
+	padding-right:10px;
+}
+
+.contact-bg{
+	background-color:#F7F7F7;
+	padding:10px 0 5px 0;
+}
+.bd-right{
+	border-right:1px solid #D1D2D4;
+}
+
+.wrapper-content{
+	max-width:75em;
+	height:100%;
+	width:100%;
+	margin:0 auto;
+	padding-top:2.5%;
+	min-height:40em;
+	background-color:#F7F7F7;
+}
+
+#map-canvas{
+    min-width:50%; 
+	height:500px; 
+	
+}

@@ -1,190 +1,325 @@
-
-<!-- saved from url=(0049)https://www.ezecom.com.kh/index.php/en/contact-us -->
-<html lang="en-gb" dir="ltr" class="com_content view-article itemid-595 j34 no-touch"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<script async="" src="<?php echo base_url()?>assets/js/analytics.js"></script><script src="<?php echo base_url()?>assets/js/jquery.min.js"></script> 
-
-  <title>Contact Us</title>
-  <link href="https://www.ezecom.com.kh/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-  <?php 
-    $this->load->view('header/frontend_header');
-  ?>
-  
-  <script type="text/javascript">
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-jQuery(document).ready(function(){
-	jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
-});
-var rl_tabs_use_hash = 1; var rl_tabs_reload_iframes = 0; var rl_tabs_init_timeout = 0;
-</script>
-
-	
-<!-- META FOR IOS & HANDHELD -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<style type="text/stylesheet">
-		@-webkit-viewport   { width: device-width; }
-		@-moz-viewport      { width: device-width; }
-		@-ms-viewport       { width: device-width; }
-		@-o-viewport        { width: device-width; }
-		@viewport           { width: device-width; }
-	</style>
-	<script type="text/javascript">
-		//<![CDATA[
-		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-			var msViewportStyle = document.createElement("style");
-			msViewportStyle.appendChild(
-				document.createTextNode("@-ms-viewport{width:auto!important}")
-			);
-			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-		}
-		//]]>
-	</script>
-<meta name="HandheldFriendly" content="true">
-<meta name="apple-mobile-web-app-capable" content="YES">
-<!-- //META FOR IOS & HANDHELD -->
-
-
-
-
-<!-- Le HTML5 shim and media query for IE8 support -->
-<!--[if lt IE 9]>
-<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
-<![endif]-->
-
-<!-- You can add Google Analytics here or use T3 Injection feature -->
-	        <style type="text/css">.t3-megamenu.animate .animating > .mega-dropdown-menu,.t3-megamenu.animate.slide .animating > .mega-dropdown-menu > div {transition-duration: 400ms !important;-webkit-transition-duration: 400ms !important;}@-webkit-keyframes marqueeAnimation-616784  { 100%  {margin-left:-1580px}}</style></head>
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title><?php echo $title ?></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <?php
+			/* Top Header */
+			$this->load->view('header/frontend_header');
+			$this->load->view('header/header_all');
+			$this->load->view('header/main_nav_user_v');
+	    ?>
+	</head>
 <body>
-
-<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
-
-<!-- HEADER -->
-
-
-<?php $this->load->view("header/header_all");?> 
-<!-- //HEADER -->
-
-<!-- MAIN NAVIGATION -->
-<?php $this->load->view("header/main_nav_user_v");?> 
-<!-- //MAIN NAVIGATION --> 
-<div class="home">
-<div id="t3-mainbody" class="container t3-mainbody">
-	<div class="row">
-		<!-- MAIN CONTENT -->
-		<div id="t3-content" class="t3-content col-xs-12">
-						<div class="item-page clearfix">
-<!-- Article -->
-<article itemscope="" itemtype="http://schema.org/Article">
-	 <meta itemprop="inLanguage" content="en-GB">
-	    <section class="article-content clearfix" itemprop="articleBody">
-		    <h1 class="product-title" style="text-align: center;">Contact Us</h1>
-        <div class="rl_tabs nn_tabs outline_handles outline_content top align_left has_effects"><a id="rl_tabs-scrollto_1" class="anchor rl_tabs-scroll nn_tabs-scroll"></a>
-        <ul id="set-rl_tabs-12" class="nav nav-tabs" style="width:100%">
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap active"><a id="tab-head-office" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#head-office" data-toggle="tab" data-id="head-office"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Head office</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-customer-services" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#customer-services" data-toggle="tab" data-id="customer-services"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Customer Services and Sales Office</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-siem-reap" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#siem-reap" data-toggle="tab" data-id="siem-reap"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Siem Reap Branch</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-sihanoukville" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#sihanoukville" data-toggle="tab" data-id="sihanoukville"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Sihanoukville Branch</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-koh-kong" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#koh-kong" data-toggle="tab" data-id="koh-kong"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Koh Kong Branch</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-battambang-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#battambang-branch" data-toggle="tab" data-id="battambang-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Battambang Branch</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-bavet-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#bavet-branch" data-toggle="tab" data-id="bavet-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Bavet Branch</span></a></li>
-              <li class="rl_tabs-tab nn_tabs-tab payment-tap"><a id="tab-poipet-branch" class="rl_tabs-toggle nn_tabs-toggle" style="height: 105px;" href="https://www.ezecom.com.kh/index.php/en/contact-us#poipet-branch" data-toggle="tab" data-id="poipet-branch"><span class="rl_tabs-toggle-inner nn_tabs-toggle-inner">Poipet Branch</span></a></li>
-        </ul>
-<div class="tab-content">
-    <div id="head-office" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap active">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-head-office" class="anchor"></a>Head office</h2>
-        <p style="font-size: 14px; text-align: center;">#7d Russian Boulevard Cambodia Chamber of Commerce Building, Phnom Penh, Cambodia</p>
-        <p style="font-size: 14px; text-align: center;">Customer Service Hours: Monday - Friday @ 7:30AM - 5:30PM</p>
-        <p style="font-size: 14px; text-align: center;">Tel:023 888 181</p>
-        <p style="font-size: 14px; text-align: center;">Fax: 023 882 961</p>
-        <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Head-Office-Location-map.png" alt=""></p>
-    </div>
-<div id="customer-services" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="customer-services" class="anchor"></a>Customer Services and Sales Office, Phnom Penh</h2>
-        <p style="font-size: 14px; text-align: center;">#17, Street 322, Sangkat Boeung Kengkang I</p>
-        <p style="font-size: 14px; text-align: center;"><strong>Customer Service Hours:</strong></p>
-        <p style="font-size: 14px; text-align: center;">Monday - Friday @ 7:30AM - 5:30PM <br>Saturday Morning @ 8:00AM - 12:00PM, <br>Afternoon 1:30PM - 5:30PM <br>Tel:023 5000 466 <br>Fax: 023 882 961</p>
-        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/CSV-BoengKengkang-Phnom-Penh-Location-map.png" alt=""></p>
-</div>
-<div id="siem-reap" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-siem-reap" class="anchor"></a>Siem Reap Branch</h2>
-        <p style="font-size: 14px; text-align: center;">#36, street Sivutha, Mondul II, Svay DangKum, Siem Reap <br>Customer Service Hours: <br> Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 063 768 181 <br>Fax: 063 764 081</p>
-        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Siem-Reap-Location-map.png" alt=""></strong></p>
-        <p>&nbsp;</p>
-</div>
-      <div id="sihanoukville" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-      <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-sihanoukville" class="anchor"></a>Sihanoukville Branch</h2>
-        <p style="font-size: 14px; text-align: center;">#145, St. Ekareach, Sangkat 2, Group 17, Mondul 1, Sihanouk City. <br>Customer Service Hours: Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 034 934 625 <br>Fax: 034 934 625</p>
-        <p style="font-size: 14px; text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Sihanouk-ville-Location-map.png" alt=""></p>
-      </div>
-<div id="koh-kong" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-      <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-koh-kong" class="anchor"></a>Koh Kong Branch</h2>
-        <p style="font-size: 14px; text-align: center;"># 123 Main Street, Village 3, Smach Meanchey, Koh Kong <br>Customer Service Hours:Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 035 936 381 / 035 936 281</p>
-        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Koh-Kong-Location-map.png" alt=""></strong></p>
-</div>
-<div id="battambang-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-battambang-branch" class="anchor"></a>Battambang Branch</h2>
-        <p style="font-size: 14px; text-align: center;">#07, Street 1, Kamakor Village, Svay Por Commune, Battambang District, Battambang City <br>Customer Service Hours: Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 053 952 481 | 053 952 381</p>
-        <p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Battambang-Location-map.png" alt=""></strong></p>
-</div>
-<div id="bavet-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-bavet-branch" class="anchor"></a>Bavet Branch</h2>
-      <p style="font-size: 14px; text-align: center;">#7-8, Sangkat Bavet, Bavet City, Svay Rieng Province <br>Customer Service Hours: Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 044 715 783</p>
-      <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Bavet-Location-map.png" alt=""></p>
-</div>
-<div id="poipet-branch" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
-    <h2 class="rl_tabs-title nn_tabs-title" style="text-align: center;"><a id="anchor-poipet-branch" class="anchor"></a>Poipet Branch</h2>
-        <p style="font-size: 14px; text-align: center;">National Road 5, Phum Kilo 4, Poipet commune, Poipet City, Banteay Meanchey Province <br>Customer Service Hours: Monday - Friday @ 8:00AM - 5:30PM <br>Tel: 054 967 769</p>
-        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo base_url()?>images/menuicon/contact/Poipet-Location-map.png" alt=""></p>
-</div>
-</div>
-</div> 	
-</section>
-
-  <!-- footer -->
-    <!-- //footer -->
-</article>
-<!-- //Article -->
-</div>
+<div class="container-fluid">
+	<div class="container">
+		<div class="row top-mg">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<img  class="img-responsive" src="<?php echo base_url()?>images/contact/contact.jpg"/>
+			</div>
 		</div>
-		<!-- //MAIN CONTENT -->
-
-	</div>
-</div> 
+		<div class="row">
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+				<div class="wrapper-text">
+					<p> Need some text <p>
+				</div>
+			</div>
+			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+		</div>
+		<div class="row mg-bt">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Head" data-toggle="tab" data-id="Head">
+					<div class="Head active-now">
+						<p class="text-position">Head office Phnom Penh</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#customer-service" data-toggle="tab" data-id="customer-service">
+					<div class="customer-service">
+						<p class="text-position">Customer Services and <br/>Sales Office, Phnom Penh</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Siem-Reap" data-toggle="tab" data-id="Siem-Reap">
+					<div class="Siem-Reap">
+						<p class="text-position">Siem Reap Branch</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Sihanouk" data-toggle="tab" data-id="Sihanouk">
+					<div class="Sihanouk">
+						<p class="text-position">Sihanoukville Branch</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="row mg-bt">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Koh-Kong" data-toggle="tab" data-id="Koh-Kong">
+					<div class="Koh-Kong">
+						<p class="text-position">Koh Kong Branch</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Battambang" data-toggle="tab" data-id="Battambang">
+					<div class="Battambang">
+						<p class="text-position">Battambang Branch</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Bavet" data-toggle="tab" data-id="Bavet">
+					<div class="Bavet">
+						<p class="text-position">Bavet Branch</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<a href="<?=base_url();?>contact-us#Poipet" data-toggle="tab" data-id="Poipet">
+					<div class="Poipet">
+						<p class="text-position">Poipet Branch</p>
+					</div>
+				</a>
+			</div>
+		</div>
 		
-	
+		<div class="tab-content">
+			<div id="Head" class="tab-pane rl_tabs-pane nn_tabs-pane active payment-tap">
+				<div class="row"><h1 class="text-center top-header">Head Office (Phnom Penh)</h1></div>
+				<div class="row contact-bg mg-bt">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 bd-right">
+						<div class="address">
+							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-home.png"/>
+							<p>
+								<b>#7D Russian Boulevard Cambodia Chamber of Commerce Building, Phnom Penh, Cambodia</b>
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 bd-right">
+						<div class="phone">
+							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
+							<p>
+								<b>Tel : 023 888 181</b> <br/>
+								<b>Fax : 023 882 961</b>
+							</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="clock">
+							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-time.png"/>
+							<p>
+								<b>Customer Service Hours:</b> <br/>
+								<b>Monday - Friday @ 7:30AM - 5:30PM</b>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="wrapper-content">
+							<div id="map-canvas">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</div>
 </div>
-  
+	
 <!-- FOOTER -->
-  <?php $this->load->view('footer/footer_user_v');?>
-<!-- //FOOTER -->
+<?php $this->load->view("footer/footer_user_v")?> 
 
 <!-- BACK TOP TOP BUTTON -->
- 
 <div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top hidden-xs hidden-sm affix-top">
   <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
 </div>
+ 
+</body>
+</html>
 <script type="text/javascript">
- 
-(function($) {
- 
-	// Back to top
- 
-	$('#back-to-top').on('click', function(){
- 
-		$("html, body").animate({scrollTop: 0}, 500);
- 
-		return false;
- 
-	});
- 
-})(jQuery);
- 
+	(function($) {
+		// Back to top
+		$('#back-to-top').on('click', function(){
+			$("html, body").animate({scrollTop: 0}, 500);
+			return false;
+		});
+	})(jQuery);
 </script>
- 
 <!-- BACK TO TOP BUTTON -->
-</div>
 
-</body></html>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('a .Head').click(function(e) {
+		
+		$('a .customer-service').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .customer-service').click(function(e) {
+		
+		$('a .Head').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Siem-Reap').click(function(e) {
+		
+		$('a .Head').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Sihanouk').click(function(e) {
+		
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Head').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Koh-Kong').click(function(e) {
+		
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Battambang').click(function(e) {
+		
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Poipet').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Head').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Bavet').click(function(e) {
+		
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Head').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+	
+	$('a .Poipet').click(function(e) {
+		
+		$('a .Sihanouk').removeClass('active-now');
+		$('a .customer-service').removeClass('active-now');
+		$('a .Battambang').removeClass('active-now');
+		$('a .Bavet').removeClass('active-now');
+		$('a .Siem-Reap').removeClass('active-now');
+		$('a .Koh-Kong').removeClass('active-now');
+		$('a .Head').removeClass('active-now');
+		$(this).addClass('active-now');
+		e.preventDefault();
+	});
+}); 
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_KbE6yYEz98eIIRzWacJEm-kkm6K__8" type="text/javascript"></script>
+<script>
+	  var map;
+      var centerPos = new google.maps.LatLng(11.562108,104.888535);
+      var zoomLevel = 15;
+      //var image = "<?php base_url()?>images/livetraffic/pin-map.png";
+
+      function initialize() {
+        var mapOptions = {
+          center: centerPos,
+          zoom: zoomLevel
+        };
+        map = new google.maps.Map( document.getElementById("map-canvas"), mapOptions );
+		var base_url = "<?php echo base_url() ?>contact-us";
+        var locations = [
+          ['RATANA PLAZA', 11.56248592, 104.87130404,base_url,11],
+          ['TUOLKORK',11.5695493, 104.90087271,base_url,7],
+          ['STEUNGMEANCHEY',11.54665574, 104.89712834,base_url,12],
+		  ['KBAL THNOL',11.52963677, 104.93106902,base_url,2],
+		  ['SPEAN DEAK CHOMKA DONG',11.52611512, 104.88751262,base_url,17],
+		  ['RIVERSIDE',11.56928653, 104.93023217,base_url,3],
+		  ['CHAOM CHAO',11.53538697, 104.83038962,base_url,8],
+		  ['OLYMPIC',11.55767179, 104.90819648,base_url,15],
+		  ['CAMKO CYCLE',11.59244625, 104.89617616,base_url,6],
+		  ['POCHENTONG',11.55360389, 104.8441574,base_url,16],
+		  ['CHBAR OMPOV',11.53202307, 104.93706107,base_url,18],
+		  ['RUSSIA HOSPITAL',11.54364938, 104.90262151,base_url,19],
+		  ['NOKIA INTERSECTION (271)',11.55294167, 104.88722563,base_url,20],
+		  ['WAT SONSOMKOSAL (271)',11.53133977, 104.91374195,base_url,21],
+		  ['MONDIAL CENTER',11.557861, 104.9013555,base_url,22]
+		  
+		  
+        ];
+        
+        for (i = 0; i < locations.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            title: locations[i][0],
+            map: map,
+            url:locations[i][3],
+			cam_id:locations[i][4]
+            
+          });
+
+        /*   google.maps.event.addListener(marker, 'click', function() {
+			  var id = this.cam_id;
+			  var name = this.title;
+			  // reload camera location by id and name.
+			  display_camera(id,name);
+          });
+		  */
+        }
+
+      }
+      
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>

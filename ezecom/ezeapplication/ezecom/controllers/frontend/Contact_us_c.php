@@ -34,25 +34,32 @@ class Contact_us_c extends CI_Controller {
 	}
 	public function contact_us(){
 		if($this->session->userdata("language")==1){
-		$data['title'] = "Contact Us";
-		$data['active']="Contact Us";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/contact_us_v',$data);
+			$data['title'] = "Contact Us";
+			$data['active']="Contact Us";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/contact_us_v',$data);
 		}
 		if($this->session->userdata("language")==2){
-		$data['title'] = "ទំនាក់ទំនង";
-		$data['active']="Contact Us";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/contact_us_kh_v',$data);
+			$data['title'] = "ទំនាក់ទំនង";
+			$data['active']="Contact Us";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/contact_us_kh_v',$data);
 		}
 		if($this->session->userdata("language")==3){
-		$data['title'] = "Contact Us";
-		$data['active']="Contact Us";
-		$lan = $this->session->userdata("language");
-		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$this->load->view('frontend/contact_us_ch_v',$data);
+			$data['title'] = "Contact Us";
+			$data['active']="Contact Us";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/contact_us_ch_v',$data);
+		}
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Contact Us";
+			$data['active']="Contact Us";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/contact_us_v',$data);
 		}
 
 	}
