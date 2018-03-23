@@ -233,6 +233,7 @@ $route['support/setup-email'] = 'frontend/set_up_email_c/set_up_email';
 /* Media Center */
 $route['media-center/news-events'] = 'frontend/media_center_c/media_center/';
 $route['media-center/news-events/(:num)'] = 'frontend/media_center_c/media_center/$1';
+$route['media-center/news-detail/(:any)'] = 'frontend/media_center_c/news_detail_c/$1';
 $route['media-center/live-cambodia-radio'] = 'frontend/live_radio_c/live_radio';
 $route['media-center/live-traffic-camera'] = 'frontend/live_traffice_camera_c/live_traffice_camera';
 
@@ -279,15 +280,3 @@ $route['setup-email'] = 'frontend/set_up_email_c/set_up_email';
 
 //Chhenghong: set language session 
 $route['set_session_lang'] = 'frontend/set_language_c/set_language_session';
-
-
-// end set language
-
-// Chhenghong: start news events detail 
-
-$route['newsdetail/(:any)'] = 'frontend/media_center_c/news_detail_c/$1';
-
-
-
-// end news and events
-

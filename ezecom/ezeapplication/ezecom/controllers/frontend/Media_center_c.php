@@ -209,7 +209,8 @@ class Media_center_c extends CI_Controller {
 		$data['news_events'] = $this->media_center_m->get_news_detail(urldecode($title_strrep));
         $lan = $this->session->userdata("language");
         $data['feature_content'] = $this->homepage_m->get_feature_content($lan);
-		$data['active']="Media Center";
+		$data['active']="News Detail";
+		$data['title'] = "News Detail";
 		$this->load->view('frontend/news_events_detail',$data);
 	}
 

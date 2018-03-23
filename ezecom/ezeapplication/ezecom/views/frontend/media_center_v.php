@@ -18,10 +18,10 @@
 		<div class="row row-mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="top-news">
-					<a href="<?php echo base_url(); ?>newsdetail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
+					<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
 						<img  class="img-responsive"  src="<?php echo base_url('elFindermaster/files/post/image_feature/').$firsttitle_events['content_image_feature']?>" alt="<?php echo $firsttitle_events['content_title']?>"/>
 					</a>
-					<a href="<?php echo base_url(); ?>newsdetail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
+					<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
 						<h5><?php echo $firsttitle_events['content_title']?></h5>
 					</a>
 					<p>
@@ -30,7 +30,7 @@
 							if (strlen($string) > 350) {
 
 							    $stringCut = substr($string, 0, 600);
-								$url = base_url().'newsdetail/'.ucwords(strtolower(str_replace(' ', '-', $firsttitle_events['content_title'])));
+								$url = base_url().'media-center/news-detail/'.ucwords(strtolower(str_replace(' ', '-', $firsttitle_events['content_title'])));
 							    $string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <a href="'.$url.'">Read More</a>'; 
 							}
 							echo $string;
@@ -47,10 +47,10 @@
 		<div class="row row-mg-bt">
 			<div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-xs-12">
 				<div class="sub-news">
-						<a href="<?php echo base_url(); ?>newsdetail/<?php echo strtolower(str_replace(' ', '-' ,$title->content_title));?>"> 
+						<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-' ,$title->content_title));?>"> 
 							<img class="img-responsive"  src="<?php echo base_url()?>elFindermaster/files/post/image_feature/<?php echo $title->content_image_feature ?>" alt="<?php echo $title->content_title ?>" />
 						</a>
-						<a href="<?php echo base_url(); ?>newsdetail/<?php echo strtolower(str_replace(' ', '-' ,$title->content_title));?>">
+						<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-' ,$title->content_title));?>">
 							<h5><?php echo $title->content_title ?></h5>
 						</a>
 						<p>
@@ -58,7 +58,7 @@
 								$string = strip_tags($title->content_description);
 								if (strlen($string) > 200) {
 									$stringCut = substr($string, 0, 200);
-									$string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <br/><a href="'.base_url().'newsdetail/'.ucwords(strtolower(str_replace(' ', '-' ,$title->content_title))).'">Read More</a>'; 
+									$string = substr($stringCut, 0, strrpos($stringCut, ' ')).'... <br/><a href="'.base_url().'media-center/news-detail/'.ucwords(strtolower(str_replace(' ', '-' ,$title->content_title))).'">Read More</a>'; 
 								}
 								echo $string;
 							?>
