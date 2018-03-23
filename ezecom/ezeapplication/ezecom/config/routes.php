@@ -172,41 +172,35 @@ $route['our-partnership'] = 'frontend/our_partnership_c/our_partnership';
 
 // start sitemap
 
-$route['site-map'] = 'frontend/site_map_c/site_map';
+//$route['site-map'] = 'frontend/site_map_c/site_map';
 
 // end sitemap
 
 // start media center
 
-$route['media-center/(:num)'] = 'frontend/media_center_c/media_center/$1';
-$route['media-center'] = 'frontend/media_center_c/media_center/';
+//$route['media-center/(:num)'] = 'frontend/media_center_c/media_center/$1';
+//$route['media-center'] = 'frontend/media_center_c/media_center/';
 
 // DDos
-$route['ddos-mitigation-service'] = 'frontend/ddos/ddos_mitigation/';
+//$route['ddos-mitigation-service'] = 'frontend/ddos/ddos_mitigation/';
 
 // Ms 365
-$route['our-services/enterprise-solution/office365'] = 'frontend/ms_365/Office_365/';
+//$route['our-services/enterprise-solution/office365'] = 'frontend/ms_365/Office_365/';
 
 //end media center
 
 // start liveradio
 
-$route['live-radio-cambodia'] = 'frontend/live_radio_c/live_radio';
+//$route['live-radio-cambodia'] = 'frontend/live_radio_c/live_radio';
 
 // start liveradio
 
 // start live camera
 
-$route['camera-live'] = 'frontend/live_traffice_camera_c/live_traffice_camera';
+//$route['camera-live'] = 'frontend/live_traffice_camera_c/live_traffice_camera';
 
 // end live camera
 
-
-// start contact us
-
-$route['contact-us'] = 'frontend/contact_us_c/contact_us';
-
-// end contact us
 
 // start our services
 $route['our-services/internet-access/dedicated-internet-access'] = 'frontend/our_services_c/dedicate';
@@ -236,6 +230,19 @@ $route['support/payment'] = 'frontend/customer_service_c/service_payment_options
 $route['support/setup-email'] = 'frontend/set_up_email_c/set_up_email';
 
 
+/* Media Center */
+$route['media-center/news-events'] = 'frontend/media_center_c/media_center/';
+$route['media-center/news-events/(:num)'] = 'frontend/media_center_c/media_center/$1';
+$route['media-center/live-cambodia-radio'] = 'frontend/live_radio_c/live_radio';
+$route['media-center/live-traffic-camera'] = 'frontend/live_traffice_camera_c/live_traffice_camera';
+
+// Contact
+$route['contact-us'] = 'frontend/contact_us_c/contact_us';
+
+
+
+
+
 /*$route['our-services'] = 'frontend/our_services_c/our_services';
 $route['ezesurf'] = 'frontend/our_services_c/ezesurf';
 $route['ezetv'] = 'frontend/Ezetv/ezetv_service';
@@ -245,7 +252,7 @@ $route['ezetv-signup'] = 'frontend/Ezetv/ezetv_signup'; */
 
 // start customer service
 
-$route['customer-service'] = 'frontend/customer_service_c/customer_services';
+//$route['customer-service'] = 'frontend/customer_service_c/customer_services';
 
 // end customer service
 
@@ -257,13 +264,13 @@ $route['setup-email'] = 'frontend/set_up_email_c/set_up_email';
 
 // start enterprise solution
 
-$route['enterprise-solution'] = 'frontend/our_services_c/enterprise_solution';
+//$route['enterprise-solution'] = 'frontend/our_services_c/enterprise_solution';
 
 // end enterprise solution
 
 // start beedoo_could_service_by_ezecom
 
-$route['beedoo'] = 'frontend/our_services_c/beedoo_could_service_by_ezecom';
+//$route['beedoo'] = 'frontend/our_services_c/beedoo_could_service_by_ezecom';
 
 // end beedoo_could_service_by_ezecom
 

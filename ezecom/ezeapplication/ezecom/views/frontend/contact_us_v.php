@@ -31,62 +31,78 @@
 		</div>
 		<div class="row mg-bt">
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#Head" data-toggle="tab" data-id="Head">
-					<div class="Head active-now">
-						<p class="text-position">Head office Phnom Penh</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Head" data-toggle="tab" data-id="Head">
+						<div class="Head active-now">
+							<p class="text-position">Head office Phnom Penh</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#BKK" data-toggle="tab" data-id="BKK">
-					<div class="customer-service">
-						<p class="text-position">Customer Services and <br/>Sales Office, Phnom Penh</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#BKK" data-toggle="tab" data-id="BKK">
+						<div class="customer-service">
+							<p class="text-position">Customer Services and <br/>Sales Office, Phnom Penh</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#Siem-Reap" data-toggle="tab" data-id="Siem-Reap">
-					<div class="Siem-Reap">
-						<p class="text-position">Siem Reap Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Siem-Reap" data-toggle="tab" data-id="Siem-Reap">
+						<div class="Siem-Reap">
+							<p class="text-position">Siem Reap Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-				<a href="<?=base_url();?>contact-us#Sihanouk" data-toggle="tab" data-id="Sihanouk">
-					<div class="Sihanouk">
-						<p class="text-position">Sihanoukville Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Sihanouk" data-toggle="tab" data-id="Sihanouk">
+						<div class="Sihanouk">
+							<p class="text-position">Sihanoukville Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#Koh-Kong" data-toggle="tab" data-id="Koh-Kong">
-					<div class="Koh-Kong">
-						<p class="text-position">Koh Kong Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Koh-Kong" data-toggle="tab" data-id="Koh-Kong">
+						<div class="Koh-Kong">
+							<p class="text-position">Koh Kong Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#Battambang" data-toggle="tab" data-id="Battambang">
-					<div class="Battambang">
-						<p class="text-position">Battambang Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Battambang" data-toggle="tab" data-id="Battambang">
+						<div class="Battambang">
+							<p class="text-position">Battambang Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mg-bt-location">
-				<a href="<?=base_url();?>contact-us#Bavet" data-toggle="tab" data-id="Bavet">
-					<div class="Bavet">
-						<p class="text-position">Bavet Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Bavet" data-toggle="tab" data-id="Bavet">
+						<div class="Bavet">
+							<p class="text-position">Bavet Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-				<a href="<?=base_url();?>contact-us#Poipet" data-toggle="tab" data-id="Poipet">
-					<div class="Poipet">
-						<p class="text-position">Poipet Branch</p>
-					</div>
-				</a>
+				<div class="wrapper-branch">
+					<a href="<?=base_url();?>contact-us#Poipet" data-toggle="tab" data-id="Poipet">
+						<div class="Poipet">
+							<p class="text-position">Poipet Branch</p>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 		

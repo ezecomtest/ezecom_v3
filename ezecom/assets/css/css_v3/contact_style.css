@@ -20,6 +20,7 @@
 .active-now{
 	background-color:#7961AA;
 	color:white !important;
+	text-decoration:none !important;
 }
 
 .text-position{
@@ -35,6 +36,13 @@
 	border:1px solid #D1D2D4;
 	text-align:center;
 	color:#636363;
+	
+}
+a{
+	text-decoration:none !important;
+}
+.wrapper-branch a:hover{
+	text-decoration:none;
 }
 .Head{
 	min-height:150px;
@@ -139,17 +147,17 @@
 .contact-bg{
 	background-color:#F7F7F7;
 	padding:10px 0 5px 0;
+	margin:0;
 }
 .bd-right{
 	border-right:1px solid #D1D2D4;
 }
 
 .wrapper-content{
-	max-width:75em;
-	height:100%;
+	max-width:81em;
+	height:50%;
 	width:100%;
 	margin:0 auto;
-	min-height:40em;
 	background-color:#F7F7F7;
 }
 
@@ -166,6 +174,7 @@
     min-width:50%; 
 	height:640px; 
 }
+
 
 @media screen and (max-width:1000px){
 	.mg-bt-location{
