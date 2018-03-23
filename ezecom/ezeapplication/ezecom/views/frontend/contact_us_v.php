@@ -562,7 +562,7 @@ $(document).ready(function () {
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_KbE6yYEz98eIIRzWacJEm-kkm6K__8" type="text/javascript"></script>
 <script>
       var zoomLevel = 13;
-	  
+	  var image = "<?php base_url()?>images/contact/Pin.png";
 	  // EZECOM Head Office
       function initialize_Head() {
 		var centerPos = new google.maps.LatLng(11.562108,104.888535);
@@ -580,7 +580,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -607,7 +608,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -634,7 +636,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -661,7 +664,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -689,7 +693,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -716,7 +721,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -743,7 +749,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
@@ -770,7 +777,8 @@ $(document).ready(function () {
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
-            map: map 
+            map: map ,
+			icon:image
           });
 
         
