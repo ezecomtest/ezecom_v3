@@ -55,7 +55,7 @@
 					<h6>Media Centre</h6>
 					<ul>
 						<li><a href="<?php echo base_url()?>media-center/news-events">News & Events</a></li>
-						<li><a href="#">Live Cambodia Radio</a></li>
+						<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Live Cambodia Radio</a></li>
 						<li><a href="#">Live Traffic Camera</a></li>
 					</ul>
 					

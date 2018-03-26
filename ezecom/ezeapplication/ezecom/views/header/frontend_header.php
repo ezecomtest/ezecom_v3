@@ -513,6 +513,26 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/liveStream_Radio_style.css" type="text/css" />
 <?php }?>
 
+<!-- Live Traffic Camera -->
+<?php if($this->uri->segment(2) == "live-traffic-camera"){?>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/footer_style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/back_to_top.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/liveTraffic_style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css" type="text/css">
+	<!-- js -->
+	<script src="<?php echo base_url(); ?>js/LiveCamera/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="<?php echo base_url(); ?>js/LiveCamera/ezecom.min.js" type="text/javascript"></script>
+	<script src="<?php echo base_url(); ?>js/LiveCamera/dash-ezecom-playback.js" type="text/javascript"></script>
+  
+ 
+<?php }?>
+
 <!-- Start Contact -->
 <?php if($this->uri->segment(1) == "contact-us"){?>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

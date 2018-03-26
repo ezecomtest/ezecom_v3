@@ -89,7 +89,7 @@
 				<li><a href='<?php echo base_url()?>'>Media Center <i class="fa fa-angle-double-right"></i></a>
 					<ul>
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
-						<li><a href='#'>Radio Live Stream</a></li>
+						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
 						<li><a href='#'>Traffic Live Camera</a></li>
 					</ul>
 				</li>
@@ -197,7 +197,7 @@
 								<h5>Media Center</h5>
 								<ul>
 									<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
-									<li><a href="<?php echo base_url();?>media-center/live-cambodia-radio?lang=en">Radio Live Stream</a></li>
+									<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
 									<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>							
 									                                                   
 								</ul>
