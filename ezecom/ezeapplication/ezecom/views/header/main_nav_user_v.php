@@ -86,14 +86,14 @@
 						<li><a href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
 					</ul>
 				</li>
-				<li><a href='#'>Media Center <i class="fa fa-angle-double-right"></i></a>
+				<li><a href='<?php echo base_url()?>'>Media Center <i class="fa fa-angle-double-right"></i></a>
 					<ul>
-						<li><a href='#'>News and Events</a></li>
+						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='#'>Radio Live Stream</a></li>
 						<li><a href='#'>Traffic Live Camera</a></li>
 					</ul>
 				</li>
-				<li><a href='#'>Contact Us</a></li>
+				<li><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
 				<li><a href='#' class="collection"><img class="img-responsive pull-right" src="<?php echo base_url()?>assets/images/menu_v3_icon/toogle.png"/></a></li>
 			</ul>
 	</nav>
@@ -196,7 +196,7 @@
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<h5>Media Center</h5>
 								<ul>
-									<li><a href="<?php echo base_url();?>media-center/news-events?lang=en">News and Events</a></li>
+									<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
 									<li><a href="<?php echo base_url();?>media-center/live-cambodia-radio?lang=en">Radio Live Stream</a></li>
 									<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>							
 									                                                   
