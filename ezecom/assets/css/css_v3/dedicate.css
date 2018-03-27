@@ -1,3 +1,9 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 .container-top-mar{
     margin-top: -1px;
 }
@@ -30,7 +36,7 @@
 	margin:0 auto;
 }
 .business p, .storage p,.support-customer p{
-	font-family: 'Neutra Text',serif,sans-serif;
+	font-family: myNeutra,serif,sans-serif;
 	font-size:18px;
 	padding:25px 0 15px 0;
 }

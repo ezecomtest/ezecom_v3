@@ -1,15 +1,21 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 .wrapper-partnerships h3{
 	color: #7961AA;
     font-weight: bold;
     font-size: 33px;
-    font-family: 'Neutra Text',serif,sans-serif;
+    font-family: myNeutra,serif,sans-serif;
 	padding-top:40px;
 	padding-bottom:10px;
 }
 
 .wrapper-partnerships p{
 	font-size:18px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 }
 
 .row-margin-bt{
@@ -29,16 +35,16 @@
 	color: #7961AA;
     font-weight: bold;
     font-size: 23px;
-    font-family: 'Neutra Text',serif,sans-serif;
+    font-family: myNeutra,serif,sans-serif;
 	padding-bottom:10px;
 }
 .wrapper-text p{
 	font-size:18px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 }
 
 .wrapper-text h5 strong{
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 }
 .wrapper-text img{

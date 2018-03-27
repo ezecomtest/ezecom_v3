@@ -1,8 +1,14 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 .IPLC_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
     font-size: 25px;
-    font-family:'Neutra Text',serif,sans-serif;
+    font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
 }
 .IPLC-img img{
@@ -15,11 +21,11 @@
 }
 .IPLC_wrapper p span{
 	color: #7961AA;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 }
 .IPLC_wrapper p{
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 }
 
@@ -35,7 +41,7 @@
 }
 .features{
 	color: #7961AA;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	font-size:20px;
 }
@@ -43,7 +49,7 @@
 	list-style-image:url('../../../images/our-services/IPLC/bullet.png');
 	padding-top:20px;
 	line-height:30px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:15px;
 	padding-left:20px;
 }

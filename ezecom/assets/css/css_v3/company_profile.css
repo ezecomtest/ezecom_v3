@@ -1,3 +1,9 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 .col-img-padding{
 	padding:0;
 }
@@ -9,7 +15,7 @@
 }
 p{
 	font-size:18px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 }
 p span{
 	color:#7961AA;
@@ -29,7 +35,7 @@ p span{
 	color: #7961AA;
     font-weight: bold;
     font-size: 23px;
-    font-family: 'Neutra Text',serif,sans-serif;
+    font-family: myNeutra,serif,sans-serif;
 	padding-top:40px;
 }
 

@@ -1,3 +1,8 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
 .container-top-mar{
 	margin-top:-1px;
 }
@@ -18,5 +23,5 @@
 
 .wrapper-text p{
 	font-size:18px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 }

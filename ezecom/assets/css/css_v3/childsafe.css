@@ -1,3 +1,9 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 .wrapper-childsafe{
 	margin-bottom:30px;
 }
@@ -8,7 +14,7 @@
 
 .wrapper-childsafe p{
 	font-size:18px;
-	font-family:'Neutra Text',serif,sans-serif;
+	font-family:myNeutra,serif,sans-serif;
 	padding-bottom:20px;
 }
 .col-img-padding{

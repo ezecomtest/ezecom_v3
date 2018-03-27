@@ -1,3 +1,10 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
+
 /* date modify 14.02.2018 */
 * {
 	margin:0;
@@ -17,7 +24,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 /* help me choose and sign me up */
 .wrapper-signme-hlepme{
 	margin:50px 0 0 0;
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 }
 .wrapper-signme-hlepme h3{
 	color:#7961AA;
@@ -38,7 +45,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 	font-size:23px;
 	padding:20px 0 20px 0;
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 }
 .bg-lookingfor{
 	/*background:#BCBDC0;*/
@@ -51,14 +58,14 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 .bg-lookingfor p , .wrapper-achievement p{
 	font-size:18px;
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 	padding-bottom:40px;
 	color:white;
 }
 @media screen and (max-width:1000px){
 	.bg-lookingfor p , .wrapper-achievement p{
 			font-size:15px;
-			font-family:'Neutra Text'; 
+			font-family:myNeutra,serif,sans-serif; 
 			padding-bottom:40px;
 	}
 }
@@ -66,7 +73,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	color:#7961AA;
 	font-weight:bold;
 	font-size:23px;
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 	padding:20px 0 20px 0;
 }
 .wrapper-news img:hover, .wrapper-traffic-live img:hover,.wrapper-live-radio img:hover{
@@ -115,7 +122,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .our_services h3{
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 	font-size:23px; 
 	font-style:normal; 
 	font-weight:bold;
@@ -124,7 +131,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	padding: 40px 0 10px 0 ;
 }
 .our_services p{
-	font-family:'Neutra Text'; 
+	font-family:myNeutra,serif,sans-serif; 
 	text-align:center; 
 	font-size:18px; 
 	font-style:normal; 
@@ -195,7 +202,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper .overlay-products ul li span{
@@ -284,7 +291,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper-network .overlay-products ul li span{
@@ -372,7 +379,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper-cloud .overlay-products ul li span{
@@ -458,7 +465,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper-hosting .overlay-products ul li span{
@@ -545,7 +552,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper-security .overlay-products ul li span{
@@ -632,7 +639,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	list-style-type:none;
 	display:inline;
 	font-size:13px;
-	font-family: 'Neutra Text';
+	font-family: myNeutra,serif,sans-serif;
 }
 
 .img-wrapper-services .overlay-products ul li span{
@@ -675,7 +682,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 @media screen and (max-width:1000px){
 	.our_services h3{
-		font-family:'Neutra Text'; 
+		font-family:myNeutra,serif,sans-serif; 
 		font-size:20px; 
 		font-style:normal; 
 		font-weight:bold;

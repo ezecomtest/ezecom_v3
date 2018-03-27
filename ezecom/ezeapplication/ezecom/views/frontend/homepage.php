@@ -998,7 +998,8 @@
 <script type="text/javascript">
 $('.img-wrapper').hover( function(e) {
 		/* mousehover Internet */
-		$(".img-wrapper .pro-internet").css({"top":"20px"});
+		$(".img-wrapper .pro-internet").css({"top":"20px","transition":".5s ease"});
+		$(".img-wrapper .pro-internet").fadeIn('slow');
 	},
 	
 	function(){
