@@ -90,7 +90,7 @@
 					<ul>
 						<li><a href='<?php echo base_url()?>media-center/news-events'>News and Events</a></li>
 						<li><a href='<?php echo base_url()?>media-center/live-cambodia-radio'>Radio Live Stream</a></li>
-						<li><a href='#'>Traffic Live Camera</a></li>
+						<li><a href='<?php echo base_url()?>media-center/live-traffic-camera'>Traffic Live Camera</a></li>
 					</ul>
 				</li>
 				<li><a href='<?php echo base_url()?>contact-us'>Contact Us</a></li>
@@ -162,6 +162,12 @@
 											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
 										</ul>
 									</li>
+								
+								</ul>
+							</div>
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<h5>Our Services</h5>
+								<ul>
 									<li>
 										<a style="cursor:none"><strong>Cyber Security</strong></a>
 										<ul class="security">
@@ -177,10 +183,17 @@
 											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV">EzeTV</a></li>
 										</ul>
 									</li>
-									
 								</ul>
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+								<h5>Media Center</h5>
+								<ul>
+									<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
+									<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
+									<li><a href="<?php echo base_url();?>media-center/live-traffic-camera">Traffic Live Camera</a></li>							
+									                                                   
+								</ul>
+								
 								<h5>Support</h5>
 								<ul>
 									<li><a href="<?php echo base_url();?>support/faq">FAQ'S</a></li>
@@ -191,15 +204,6 @@
 									<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>	
 									<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
 									                                                 
-								</ul>
-							</div>
-							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<h5>Media Center</h5>
-								<ul>
-									<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
-									<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
-									<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>							
-									                                                   
 								</ul>
 							</div>
 					</div>

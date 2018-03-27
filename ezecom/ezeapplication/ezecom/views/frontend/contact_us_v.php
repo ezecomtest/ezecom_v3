@@ -578,7 +578,7 @@ $(document).ready(function () {
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_KbE6yYEz98eIIRzWacJEm-kkm6K__8" type="text/javascript"></script>
 <script>
       var zoomLevel = 13;
-	  var image = "<?php base_url()?>images/contact/pin.png";
+	  var image = "<?php echo base_url()?>images/contact/pin.png";
 	  // EZECOM Head Office
       function initialize_Head() {
 		var centerPos = new google.maps.LatLng(11.562108,104.888535);

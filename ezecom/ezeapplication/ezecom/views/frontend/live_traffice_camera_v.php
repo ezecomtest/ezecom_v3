@@ -214,15 +214,14 @@ span.onclick = function() {
 	  var map;
       var centerPos = new google.maps.LatLng(11.562108,104.888535);
       var zoomLevel = 13;
-      var image = "<?php base_url()?>images/livetraffic/pin-map.png";
-
+      var image = "<?php echo base_url() ?>images/livetraffic/pin-map.png";
       function initialize() {
         var mapOptions = {
           center: centerPos,
           zoom: zoomLevel
         };
         map = new google.maps.Map( document.getElementById("map-canvas"), mapOptions );
-		var base_url = "<?php echo base_url() ?>camera-live";
+		var base_url = "<?php echo base_url() ?>media-center/live-traffic-camera";
         var locations = [
           ['RATANA PLAZA', 11.56248592, 104.87130404,base_url,11],
           ['TUOLKORK',11.5695493, 104.90087271,base_url,7],
