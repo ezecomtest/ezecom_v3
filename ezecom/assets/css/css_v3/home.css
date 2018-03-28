@@ -219,12 +219,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper:hover img {
+	 opacity: 0.5;
+	 filter: Alpha(opacity=50);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -239,7 +240,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 
 /* End Style INTERNET Access */
 
@@ -308,12 +309,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper-network figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper-network:hover img {
+	 opacity: 0.5;
+	 filter: Alpha(opacity=50);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -328,7 +330,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+}  */
 
 /* End Enterprise Network */
 
@@ -396,12 +398,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper-cloud figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper-cloud:hover img {
+	 opacity: 0.5;
+	 filter: Alpha(opacity=50);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -416,7 +419,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 /* End Cloud */
 
 /* Start Hosting */
@@ -482,12 +485,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper-hosting figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper-hosting:hover img {
+	 opacity: 0.5;
+	 filter: Alpha(opacity=50);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -502,7 +506,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 
 /* End Hosting */
 
@@ -569,12 +573,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper-security figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper-security:hover img {
+	 opacity: 0.5;
+	 filter: Alpha(opacity=50);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -589,7 +594,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 /* End Cyber Security */
 
 
@@ -656,12 +661,13 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In */
 
-.img-wrapper-services figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+.img-wrapper-services:hover img {
+	 opacity:1;
+	 filter: Alpha(opacity=100);
+	/*-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;*/
 }
-@-webkit-keyframes flash {
+/* @-webkit-keyframes flash {
 	0% {
 		opacity: .4;
 	}
@@ -676,7 +682,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	100% {
 		opacity: 1;
 	}
-}
+} */
 /* End Value Added Services */
 
 

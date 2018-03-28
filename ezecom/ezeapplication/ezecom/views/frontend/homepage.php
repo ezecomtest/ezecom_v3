@@ -998,73 +998,66 @@
 <script type="text/javascript">
 $('.img-wrapper').hover( function(e) {
 		/* mousehover Internet */
-		$(".img-wrapper .pro-internet").css({"top":"20px","transition":".5s ease"});
-		$(".img-wrapper .pro-internet").fadeIn('slow');
+		$(".img-wrapper .pro-internet").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Internet */
-		$(".img-wrapper .pro-internet").fadeIn('slow');
-		$(".img-wrapper .pro-internet").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper .pro-internet").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-network').hover( function(e) {
-		/* mousehover Network */	
-		$(".img-wrapper-network .pro-network").css({"top":"20px"});
+		/* mousehover Network */
+		$(".img-wrapper-network .pro-network").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Network */
-		$(".img-wrapper-network .pro-network").fadeIn('slow');
-		$(".img-wrapper-network .pro-network").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper-network .pro-network").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-cloud').hover( function(e) {
 		/* mousehover Cloud */	
-		$(".img-wrapper-cloud .pro-cloud").css({"top":"20px"});
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
-		$(".img-wrapper-cloud .pro-cloud").fadeIn('slow');
-		$(".img-wrapper-cloud .pro-cloud").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (110)+'px'},500);
  });
  
   $('.img-wrapper-hosting').hover( function(e) {
 		/* mousehover Cloud */	
-		$(".img-wrapper-hosting .pro-hosting").css({"top":"20px"});
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
-		$(".img-wrapper-hosting .pro-hosting").fadeIn('slow');
-		$(".img-wrapper-hosting .pro-hosting").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-security').hover( function(e) {
 		/* mousehover Cloud */	
-		$(".img-wrapper-security .pro-security").css({"top":"20px"});
+		$(".img-wrapper-security .pro-security").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
-		$(".img-wrapper-security .pro-security").fadeIn('slow');
-		$(".img-wrapper-security .pro-security").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper-security .pro-security").stop().animate({top: (110)+'px'},500);
  });
  
  
   $('.img-wrapper-services').hover( function(e) {
-		/* mousehover Cloud */	
-		$(".img-wrapper-services .pro-services").css({"top":"20px"});
+		/* mousehover Cloud */
+		$(".img-wrapper-services .pro-services").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
-		$(".img-wrapper-services .pro-services").fadeIn('slow');
-		$(".img-wrapper-services .pro-services").css({"top":"110px","transition":".5s ease"});
+		$(".img-wrapper-services .pro-services").stop().animate({top: (110)+'px'},500);
  });
  
 </script>
