@@ -4,6 +4,13 @@
     src: url(../fonts/NeutraText-Book.otf);
 }
 
+.mg-top {
+	margin-top:30px
+}
+.mg-bt{
+	margin-bottom:30px;
+}
+
 .myLocation{
 	font-family:myNeutra;
 	padding-top:8px;

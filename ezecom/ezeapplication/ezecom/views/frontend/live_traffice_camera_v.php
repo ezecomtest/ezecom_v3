@@ -22,7 +22,7 @@
 <body onload="play_camera()">
 <div class="container module-content-container">
 	<div id="camera-block">
-		<div class="row">
+		<div class="row mg-top mg-bt">
 		  <div class="col-sm-4">
 			<p class="myLocation">Which location do you want to see ? 
 				<span><img src="<?php echo base_url()?>/images/livetraffic/camera_live.png"/></span>
@@ -151,6 +151,8 @@
 	</div>
 	
 	<!-- End Player -->
+	<div class="row mg-bt">
+	</div>
 </div>
 	
 <!-- FOOTER -->
