@@ -9,11 +9,13 @@
 .mg-bt{
 	margin-bottom:30px;
 }
-
+.tab-content{
+	margin-bottom:10px;
+}
 .wrapper-text p{
 	font-family:myNeutra;
 	font-size:18px;
-	padding:1px 0 2px 0;
+	padding:16px 0 2px 0;
 	text-align:center;
 }
 
