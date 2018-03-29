@@ -168,7 +168,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
+						<img class="img-responsive" id="internet-access" src="<?php echo base_url()?>images/homepage/internet-access.jpg" alt="Internet Access" title="Internet Access"/>
 					</figure>
 					<div class="pro-internet">
 						<ul>
@@ -187,7 +187,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-network">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
+						<img class="img-responsive" id="enterprise-network" src="<?php echo base_url()?>images/homepage/enterprise-network.jpg" alt="Enterprise Network" title="Enterprise Network"/>
 					</figure>
 					<div class="pro-network">
 						<ul>
@@ -208,7 +208,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-cloud">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
+						<img class="img-responsive" id="cloud-services" src="<?php echo base_url()?>images/homepage/cloud-services.jpg" alt="Cloud Services" title="Cloud Services"/>
 					</figure>
 					<div class="pro-cloud">
 						<ul>
@@ -228,7 +228,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-hosting">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
+						<img class="img-responsive" id="data-center" src="<?php echo base_url()?>images/homepage/data-center.jpg" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
 					</figure>
 					<div class="pro-hosting">
 						<ul>
@@ -248,7 +248,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-security">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
+						<img class="img-responsive" id="cyber-security" src="<?php echo base_url()?>images/homepage/cyber-security.jpg" alt="Cyber Security" title="Cyber Security"/>
 					</figure>
 					<div class="pro-security">
 						<ul>
@@ -267,7 +267,7 @@
 			<div class="col-md-4 col-sm-4 col-xs-12 item-margin-bt">
 				<div class="img-wrapper-services">
 					<figure>
-						<img class="img-responsive" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
+						<img class="img-responsive" id="add-services" src="<?php echo base_url()?>images/homepage/add-services.jpg" alt="Value Added Services" title="Value Added Services"/>
 					</figure>
 					<div class="pro-services">
 						<ul>
@@ -998,65 +998,77 @@
 <script type="text/javascript">
 $('.img-wrapper').hover( function(e) {
 		/* mousehover Internet */
+		document.getElementById("internet-access").src="<?php echo base_url()?>images/homepage/internet-access-hover.jpg";
 		$(".img-wrapper .pro-internet").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Internet */
+		document.getElementById("internet-access").src="<?php echo base_url()?>images/homepage/internet-access.jpg";
 		$(".img-wrapper .pro-internet").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-network').hover( function(e) {
 		/* mousehover Network */
+		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network-hover.jpg";
 		$(".img-wrapper-network .pro-network").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Network */
+		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network.jpg";
 		$(".img-wrapper-network .pro-network").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-cloud').hover( function(e) {
 		/* mousehover Cloud */	
+		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services-hover.jpg";
 		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
+		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services.jpg";
 		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (110)+'px'},500);
  });
  
   $('.img-wrapper-hosting').hover( function(e) {
-		/* mousehover Cloud */	
+		/* mousehover Hosting */
+		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center-hover.jpg";
 		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
-		/* mouseout Cloud */
+		/* mouseout Hosting */
+		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center.jpg";
 		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (110)+'px'},500);
  });
  
  
  $('.img-wrapper-security').hover( function(e) {
 		/* mousehover Cloud */	
+		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security-hover.jpg";
 		$(".img-wrapper-security .pro-security").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
+		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security.jpg";
 		$(".img-wrapper-security .pro-security").stop().animate({top: (110)+'px'},500);
  });
  
  
   $('.img-wrapper-services').hover( function(e) {
 		/* mousehover Cloud */
+		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services-hover.jpg";
 		$(".img-wrapper-services .pro-services").stop().animate({top: (20)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
+		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services.jpg";
 		$(".img-wrapper-services .pro-services").stop().animate({top: (110)+'px'},500);
  });
  
