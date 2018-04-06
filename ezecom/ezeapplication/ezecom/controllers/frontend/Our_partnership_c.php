@@ -55,5 +55,38 @@ class Our_partnership_c extends CI_Controller {
 		$this->load->view('frontend/our_partnership_ch_v',$data);
 		}
 	}
+	
+	public function ezecampus(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "EzeCampus";
+			$data['active'] = "EzeCampus";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezecampus',$data);
+		}
+		
+		/* if($this->session->userdata("language")==2){
+			$data['title'] = "Our Partnership";
+			$data['active'] = "Our Company";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezecampus',$data);
+		}
+		if($this->session->userdata("language")==3){
+			$data['title'] = "Our Partnership";
+			$data['active'] = "Our Company";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezecampus',$data);
+		} */
+		
+		if($this->session->userdata("language")==""){
+			$data['title'] = "EzeCampus";
+			$data['active'] = "EzeCampus";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/ezecampus',$data);
+		}
+	}
 }
 

@@ -37,7 +37,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	  	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/help_hover.css" type="text/css" />
 	  	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/nextend-frontend.css?1489112974" media="screen, print" />
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/n2-ss-6.css?1489541255" media="screen, print" />
-
+		<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/top-header.css" type="text/css" />
 <?php }?>
 
 <!-- End Homepage -->
@@ -57,6 +57,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 	
 <?php }?>
 <!-- End Company Profile -->
+
+<!-- Start EzeCampus -->
+<?php if($this->uri->segment(3) == "ezecampus"){?>
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="<?php echo base_url();?>images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://fonts.googleapis.com/css?family=Bayon|Kantumruy|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/footer_style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/back_to_top.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/css_v3/ezecampus_style.css" type="text/css" />
+<?php }?>
+<!-- End EzeCampus -->
 
 <!-- Quality Managment -->
 <?php if($this->uri->segment(2) == "quality-management-system"){?>

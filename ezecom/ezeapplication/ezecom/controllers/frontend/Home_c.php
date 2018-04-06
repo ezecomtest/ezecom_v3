@@ -42,7 +42,7 @@ class Home_c extends CI_Controller {
 		$data['get_slider'] = $this->homepage_m->get_homepage_slider($sessionid);
 		$this->load->view('frontend/homepage',$data);
 	}
-	if($this->session->userdata("language")==2){
+	/* if($this->session->userdata("language")==2){
 		$sessionid = 1;
 		$data['title'] = "ទំព័រដើម";
 		$data['active'] = "Home";
@@ -59,7 +59,7 @@ class Home_c extends CI_Controller {
 		$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 		$data['get_slider'] = $this->homepage_m->get_homepage_slider($sessionid);
 		$this->load->view('frontend/homepage_ch_v',$data);
-	}	
+	}	 */
 
 	if($this->session->userdata("language")== ""){
 		$sessionid = 1;

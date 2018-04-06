@@ -1,0 +1,15 @@
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+.bg-color{
+	background:#666666;
+}
+.ezecampus-desc h2{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:myNeutra,serif,sans-serif;
+	padding-top:10px;
+}
