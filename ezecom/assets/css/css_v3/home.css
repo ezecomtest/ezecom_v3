@@ -43,7 +43,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .wrapper-looking h3{
 	color:white;
 	font-weight:bold;
-	font-size:23px;
+	font-size:35px;
 	padding:20px 0 20px 0;
 	font-family:myNeutra,serif,sans-serif; 
 }
@@ -69,10 +69,17 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 			padding-bottom:40px;
 	}
 }
-.wrapper-news h3 , .wrapper-traffic-live h3 ,.wrapper-live-radio h3 , .wrapper-achievement h3{
+.wrapper-achievement h3{
 	color:#7961AA;
 	font-weight:bold;
-	font-size:23px;
+	font-size:35px;
+	font-family:myNeutra,serif,sans-serif; 
+	padding:20px 0 20px 0;
+}
+.wrapper-news h3 , .wrapper-traffic-live h3 ,.wrapper-live-radio h3{
+	color:#7961AA;
+	font-weight:bold;
+	font-size:25px;
 	font-family:myNeutra,serif,sans-serif; 
 	padding:20px 0 20px 0;
 }
@@ -123,7 +130,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 .our_services h3{
 	font-family:myNeutra,serif,sans-serif; 
-	font-size:23px; 
+	font-size:35px; 
 	font-style:normal; 
 	font-weight:bold;
 	color:#7961AA;

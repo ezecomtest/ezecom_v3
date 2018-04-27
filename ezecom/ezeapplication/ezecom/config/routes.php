@@ -167,6 +167,7 @@ $route['career-detail/(:any)'] = 'frontend/career_detail_c/career/$1';
 // start our partnership
 
 $route['our-company/our-partnership/ezecampus'] = 'frontend/our_partnership_c/ezecampus';
+$route['our-company/our-partnership/student-discount'] = 'frontend/our_partnership_c/student_discount';
 
 // end our partnership
 

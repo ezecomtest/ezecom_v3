@@ -20,8 +20,8 @@
 						<li><a href="<?php echo base_url()?>">Our Partnerships</a>
 							<ul>
 								<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
-								<li><a href="<?php echo base_url()?>">EzeCampus</a></li>
-								<li><a href="<?php echo base_url()?>">Student Discount</a></li>
+								<li><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
+								<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 							</ul>
 						</li>
 						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>
@@ -116,8 +116,8 @@
 										<a style="cursor:none"><strong>Our Partnerships</strong></a>
 										<ul class="partnerships">
 											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>">EzeCampus</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>">Student Discount</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
+											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 										</ul>
 									</li>
 									<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">Corporate Social Responsibility</a></li>

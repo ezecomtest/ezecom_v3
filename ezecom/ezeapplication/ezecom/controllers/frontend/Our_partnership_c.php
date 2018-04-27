@@ -88,5 +88,22 @@ class Our_partnership_c extends CI_Controller {
 			$this->load->view('frontend/ezecampus',$data);
 		}
 	}
+	
+	public function student_discount(){
+		if($this->session->userdata("language")==1){
+			$data['title'] = "Student Discount";
+			$data['active'] = "Student Discount";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/student_discount',$data);
+		}
+		if($this->session->userdata("language")==""){
+			$data['title'] = "Student Discount";
+			$data['active'] = "Student Discount";
+			$lan = $this->session->userdata("language");
+			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
+			$this->load->view('frontend/student_discount',$data);
+		}
+	}
 }
 

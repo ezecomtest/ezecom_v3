@@ -28,6 +28,34 @@
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 		</div>
+		<div class="row">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="content-left">
+					<h3>This first step in the EzeCampus gave 65 000 students access to high speed internet.</h3>
+					<p>
+						In August 2012 we announced the second phase of the EzeCampus project: 
+						We have provided internet service and computer equipment to 50 general secondary 
+						education schools and teacher training institutions in the country. With this agreement 
+						EZECOM will provide broader educational resources to classes in various provinces countrywide. 
+						It also means that distance learning may become a reality for hundreds of thousands of students 
+						nationwide in the near future. The donation in the 
+						form of free Internet service and network installments is worth tens of thousands of US dollars.
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="content-right">
+					<h3>This second step expanded the number of students benefiting from this with another ten thousand.</h3>
+					<p>
+						Regarding the project Paul Blanche-Horgan, CEO of Ezecom, said, 
+						“Ezecom always wishes to use its IT capacity to contribute to the country’s development. 
+						This plan will allow us to use our 9000-kilometer optical cable network to provide educational 
+						opportunities to youth across the country.” Among all our corporate social responsibility projects 
+						education takes a special role and we are always looking for ways to contribute to Cambodia’s development.
+					</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 		
