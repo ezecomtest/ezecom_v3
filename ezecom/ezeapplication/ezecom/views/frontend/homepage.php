@@ -191,16 +191,17 @@
 						<img class="img-responsive" id="enterprise-network" src="<?php echo base_url()?>images/homepage/enterprise-network.png" alt="Enterprise Network" title="Enterprise Network"/>
 					</figure>
 					<div class="pro-network">
-						<ul>
-							<li><img src="<?php echo base_url()?>images/homepage/enterprise-network-ico.png" alt="Enterprise Network" title="Enterprise Network"/><span>ENTERPRISE NETWORK</span></li>
-						</ul>
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/enterprise-network-ico.png" alt="Enterprise Network" title="Enterprise Network"/><span>ENTERPRISE NETWORK</span></li>
+						</ul>-->
+						<span>ENTERPRISE NETWORK</span>
 					</div>
 					
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a><span>|</span></li>
-							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a><span>|</span></li>
-							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/enterprise-network/mpls">MPLS</a></li>
 							<li><a href="<?php echo base_url()?>our-services/enterprise-network/vpls">VPLS</a></li>
 						</ul>
 					</div>
@@ -212,13 +213,14 @@
 						<img class="img-responsive" id="cloud-services" src="<?php echo base_url()?>images/homepage/cloud-services.png" alt="Cloud Services" title="Cloud Services"/>
 					</figure>
 					<div class="pro-cloud">
-						<ul>
-							<li><img src="<?php echo base_url()?>images/homepage/cloud-services-ico.png" alt="Cloud Services" title="Cloud Services"/><span>CLOUD SERVICES</span></li>
-						</ul>
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/cloud-services-ico.png" alt="Cloud Services" title="Cloud Services"/><span>CLOUD SERVICES</span></li>
+						</ul>-->
+						<span>CLOUD SERVICES</span>
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud	Service</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud	Service</a></li>
 							<li><a href="<?php echo base_url()?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 						</ul>
 					</div>
@@ -232,15 +234,16 @@
 						<img class="img-responsive" id="data-center" src="<?php echo base_url()?>images/homepage/data-center.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/>
 					</figure>
 					<div class="pro-hosting">
-						<ul>
-							<li><img src="<?php echo base_url()?>images/homepage/data-center-ico.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/><span>DATA CENTRE & HOSTING</span></li>
-						</ul>
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/data-center-ico.png" alt="Data Centre & Hosting" title="Data Centre & Hosting"/><span>DATA CENTRE & HOSTING</span></li>
+						</ul>-->
+						<span>DATA CENTRE & HOSTING</span>
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Colocation</a><span>|</span></li>
-							<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a><span>|</span></li>
-							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/colocation">Colocation</a></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+							<li><a href="<?php echo base_url()?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
 							<li><a href="<?php echo base_url()?>our-services/hosting/virtual-pbx">VPBX</a></li>
 						</ul>
 					</div>
@@ -252,14 +255,15 @@
 						<img class="img-responsive" id="cyber-security" src="<?php echo base_url()?>images/homepage/cyber-security.png" alt="Cyber Security" title="Cyber Security"/>
 					</figure>
 					<div class="pro-security">
-						<ul>
-							<li><img src="<?php echo base_url()?>images/homepage/cyber-security-ico.png" alt="Cyber Security" title="Cyber Security"/><span>CYBER SECURITY</span></li>
-						</ul>
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/cyber-security-ico.png" alt="Cyber Security" title="Cyber Security"/><span>CYBER SECURITY</span></li>
+						</ul>-->
+						<span>CYBER SECURITY</span>
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation	Service</a><span>|</span></li>
-							<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/ddos">DDoS Mitigation	Service</a></li>
+							<li><a href="<?php echo base_url()?>our-services/cyber-security/web-application-firewall">Web	Application	Firewall</a></li>
 							<li><a href="<?php echo base_url()?>our-services/cyber-security/managed-network-security">Managed	Network	Security</a></li>
 						</ul>
 					</div>
@@ -271,13 +275,14 @@
 						<img class="img-responsive" id="add-services" src="<?php echo base_url()?>images/homepage/add-services.png" alt="Value Added Services" title="Value Added Services"/>
 					</figure>
 					<div class="pro-services">
-						<ul>
-							<li><img src="<?php echo base_url()?>images/homepage/add-services-ico.png" alt="Value Added Services" title="Value Added Services"/><span>VALUE ADDED SERVICES</span></li>
-						</ul>
+						<!--<ul>
+							<li><img src="<?php //echo base_url()?>images/homepage/add-services-ico.png" alt="Value Added Services" title="Value Added Services"/><span>VALUE ADDED SERVICES</span></li>
+						</ul>-->
+						<span>VALUE ADDED SERVICES</span>
 					</div>
 					<div class="overlay-products">
 						<ul>
-							<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">Voice Over Internet	Protocol (VoIP)</a><span>|</span></li>
+							<li><a href="<?php echo base_url()?>our-services/value-added-service/voice-over-ip">Voice Over Internet	Protocol (VoIP)</a></li>
 							<li><a href="<?php echo base_url()?>our-services/value-added-service/EzeTV">EzeTV</a></li>
 						</ul>
 					</div>
@@ -1013,26 +1018,26 @@ $('.img-wrapper').hover( function(e) {
  $('.img-wrapper-network').hover( function(e) {
 		/* mousehover Network */
 		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network-hover.png";
-		$(".img-wrapper-network .pro-network").stop().animate({top: (20)+'px'},500);
+		$(".img-wrapper-network .pro-network").stop().animate({top: (40)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Network */
 		document.getElementById("enterprise-network").src="<?php echo base_url()?>images/homepage/enterprise-network.png";
-		$(".img-wrapper-network .pro-network").stop().animate({top: (110)+'px'},500);
+		$(".img-wrapper-network .pro-network").stop().animate({top: (43)+'%'},500);
  });
  
  
  $('.img-wrapper-cloud').hover( function(e) {
 		/* mousehover Cloud */	
 		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services-hover.png";
-		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (20)+'px'},500);
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (40)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
 		document.getElementById("cloud-services").src="<?php echo base_url()?>images/homepage/cloud-services.png";
-		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (110)+'px'},500);
+		$(".img-wrapper-cloud .pro-cloud").stop().animate({top: (43)+'%'},500);
  });
  
   $('.img-wrapper-hosting').hover( function(e) {
@@ -1044,33 +1049,33 @@ $('.img-wrapper').hover( function(e) {
 	function(){
 		/* mouseout Hosting */
 		document.getElementById("data-center").src="<?php echo base_url()?>images/homepage/data-center.png";
-		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (110)+'px'},500);
+		$(".img-wrapper-hosting .pro-hosting").stop().animate({top: (43)+'%'},500);
  });
  
  
  $('.img-wrapper-security').hover( function(e) {
 		/* mousehover Cloud */	
 		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security-hover.png";
-		$(".img-wrapper-security .pro-security").stop().animate({top: (20)+'px'},500);
+		$(".img-wrapper-security .pro-security").stop().animate({top: (40)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
 		document.getElementById("cyber-security").src="<?php echo base_url()?>images/homepage/cyber-security.png";
-		$(".img-wrapper-security .pro-security").stop().animate({top: (110)+'px'},500);
+		$(".img-wrapper-security .pro-security").stop().animate({top: (43)+'%'},500);
  });
  
  
   $('.img-wrapper-services').hover( function(e) {
 		/* mousehover Cloud */
 		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services-hover.png";
-		$(".img-wrapper-services .pro-services").stop().animate({top: (20)+'px'},500);
+		$(".img-wrapper-services .pro-services").stop().animate({top: (40)+'px'},500);
 	},
 	
 	function(){
 		/* mouseout Cloud */
 		document.getElementById("add-services").src="<?php echo base_url()?>images/homepage/add-services.png";
-		$(".img-wrapper-services .pro-services").stop().animate({top: (110)+'px'},500);
+		$(".img-wrapper-services .pro-services").stop().animate({top: (43)+'%'},500);
  });
  
 </script>
