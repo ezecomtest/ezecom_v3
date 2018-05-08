@@ -4,16 +4,16 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-xs-6" style="padding-left:0">
 				<a href="<?php echo base_url(); ?>" title="EZECOM Cambodia Premuim Internet Service Provider">
 					<div class="EZECOM-logo">
-						<img class="img-responsive" src="<?php echo base_url()?>images/ezecom-logo.png" alt="EZECOM Cambodia Premuim Internet Service Provider"/>
+						<img class="img-responsive" src="<?php echo base_url()?>images/ezecom-logo.svg" alt="EZECOM Cambodia Premuim Internet Service Provider"/>
 					</div>
 				</a>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-xs-6" style="padding-right:0">
 				<div class="text-right">
 					<div class="language">
-						<span><img src="<?php echo base_url()?>images/flags/kh.png" id="2" onclick="change_language(this.id)" alt="Khmer" title="Khmer"></span>
-						<span><img src="<?php echo base_url()?>images/flags/en.png" id="1" onclick="change_language(this.id)" alt="English" title="English"></span>
-						<span><img src="<?php echo base_url()?>images/flags/ch.png" id="3" onclick="change_language(this.id)" alt="Chinese" title="Chinese"></span>
+						<span><img src="<?php echo base_url()?>images/flags/kh.svg" id="2" onclick="change_language(this.id)" alt="Khmer" title="Khmer"></span>
+						<span><img src="<?php echo base_url()?>images/flags/en.svg" id="1" onclick="change_language(this.id)" alt="English" title="English"></span>
+						<span><img src="<?php echo base_url()?>images/flags/ch.svg" id="3" onclick="change_language(this.id)" alt="Chinese" title="Chinese"></span>
 					</div>
 				</div>
 			</div>
