@@ -1,5 +1,11 @@
 *{margin:0;padding:0;text-decoration:none}
 
+/* Embed Font */
+@font-face {
+    font-family: myNeutra;
+    src: url(../fonts/NeutraText-Book.otf);
+}
+
 nav{position:relative;}
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{
 	border:0;
@@ -9,7 +15,8 @@ nav{position:relative;}
 	position:relative;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	box-sizing:border-box
+	box-sizing:border-box;
+	max-height:50px;
 }
 #cssmenu:after,#cssmenu > ul:after{
 	content:".";
@@ -22,12 +29,15 @@ nav{position:relative;}
 	display:none
 }
 #cssmenu{
-	font-family:'Kantumruy','Raleway', sans-serif,'Bayon', cursive;
+	font-family:myNeutra,sans-serif;
+	margin-left: -31px;
 }
 #cssmenu ul{margin-bottom:0}
 #cssmenu > ul > li{float:left;margin-bottom:0px;}
-#cssmenu > ul > li > a{padding:17px;font-size:16px;letter-spacing:1px;text-decoration:none;color:#fff}
-#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#7961a9}
+#cssmenu > ul > li > a{padding:17px;font-size:18px;letter-spacing:1px;text-decoration:none;color:#404041}
+#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{
+	color:#7961a9;
+}
 #cssmenu > ul > li:hover,
 #cssmenu ul li.active:hover,
 #cssmenu ul li.active,
@@ -60,12 +70,15 @@ nav{position:relative;}
 	transition:all .25s ease
 }
 #cssmenu > ul > li.has-sub:hover > a:before{top:23px;height:0}
-#cssmenu ul ul{position:absolute;left:-9999px}
+#cssmenu ul ul{
+	position:absolute;
+	left:-9999px;
+}
 #cssmenu ul ul li{
 	 height:0;
 	-webkit-transition:all .25s ease;
 	-ms-transition:all .25s ease;
-	background-color:#BCBDC0;
+	background-color:#f1f1f2;
 	transition:all .25s ease
 }
 
@@ -79,20 +92,27 @@ nav{position:relative;}
 	border-bottom:1px solid rgba(150,150,150,0.15);
 	padding-top:11px;
 	padding-bottom:11px;
-	padding-left:3px;
-	width:180px;
-	font-size:12px;
-	font-family:'Kantumruy','Raleway', sans-serif,'Bayon', cursive;
+	padding-left:10px;
+	width:220px;
+	font-size:16px;
+	font-family: myNeutra, sans-serif;
 	text-decoration:none;
-	color:#ffffff;
-	font-weight:400;
+	color:#404041;
+	
+	
 }
 #cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
-#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#7961a9}
-#cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
-#cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+/* mouse hover set bg */
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{
+	color:#7961a9;
+	background:#d1d2d4;
+}
+
+
 #cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
-#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{
+	background:#d1d2d4;
+}
 #cssmenu ul ul ul li.active a{border-left:1px solid #333}
 #cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
 
@@ -186,8 +206,8 @@ nav{width:100%;}
 }
 #menu-collection ul li{
 	list-style-type:none;
-	font-size:12px;
-	font-family:'Kantumruy','Raleway', sans-serif,'Bayon', cursive;
+	font-size:16px;
+	font-family: myNeutra, sans-serif;
 	
 }
 #menu-collection ul li a{
@@ -266,4 +286,19 @@ nav{width:100%;}
 	font-size:10px;
 	padding-right:3px;
 	font-weight:bold;
+}
+
+.resize-font{
+	font-size:13px; 
+	float:right;
+	padding-right:10px;
+}
+.resize-angle-down{
+	font-size:13px; 
+}
+.burger-menu{
+	position:relative;
+	left:222px;
+	top:-2px;
+	width:24px;
 }

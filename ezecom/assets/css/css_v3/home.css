@@ -130,12 +130,14 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 .our_services h3{
 	font-family:myNeutra,serif,sans-serif; 
-	font-size:35px; 
+	font-size:64px; 
 	font-style:normal; 
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
-	padding: 40px 0 10px 0 ;
+	/*padding: 0px 0 32px 0 ;*/
+	margin-top:100px;
+	margin-bottom:32;
 }
 .our_services p{
 	font-family:myNeutra,serif,sans-serif; 
@@ -143,7 +145,8 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-size:18px; 
 	font-style:normal; 
 	color:#3F3F3F;
-	padding-bottom:30px;
+	padding-bottom:64px;
+	margin-bottom:0;
 }
 
 .item-margin-bt{
@@ -173,18 +176,25 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .img-wrapper .pro-internet{
-	width:92.5%;
+	/*width:92.5%;
 	position:absolute;
 	padding-left:8px;
-	bottom:0; 
-
+	bottom:0; */
+	
+	width: 92.5%; /* Modify 08-05-2018 */
+    position: absolute;
+    bottom: 0;
+    top: 43%;
+    left: 17%;
 }
 
 .img-wrapper .pro-internet span{
-	font-size:15px;
-	color:#7961AA;
+	font-family:myNeutra,serif,sans-serif; 
+	font-size:30px;
+	color:#f1f1f2;
 	font-weight:bold;
 	padding-left:10px;
+	margin:0 auto;
 }
 
 .img-wrapper .pro-internet ul{
@@ -194,21 +204,20 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .img-wrapper .overlay-products{
 	position:absolute; 
 	bottom: 0; 
-	background: rgb(0, 0, 0);
+	/*background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.5); /* Black see-through */
 	width: 92.5%;
 	transition: .5s ease;
 	opacity:0;
-	padding: 20px;
+	padding: 50px;
 	text-align: center;
 }
 .img-wrapper .overlay-products ul li a{
-	color:white;
+	color:#f1f1f2 !important;
 }
 .img-wrapper .overlay-products ul li{
 	list-style-type:none;
-	display:inline;
-	font-size:13px;
+	font-size:18px;
 	font-family: myNeutra,serif,sans-serif;
 }
 
@@ -218,10 +227,11 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .img-wrapper:hover .overlay-products{
-	opacity:0.5;
+	opacity:1;
 }
 .img-wrapper:hover .overlay-products a:hover{
-	text-decoration:underline;
+	text-decoration:none;
+	font-weight:bold;
 }
 
 /* Zoom In */
