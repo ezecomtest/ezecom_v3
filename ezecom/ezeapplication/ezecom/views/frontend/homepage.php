@@ -700,7 +700,7 @@
 				<div class="wrapper-looking">
 					<h3 class="text-center">What are you looking for?</h3>
 					<p class="text-center">In this section you can access to some 
-					important part of the whole website by mouce click away.</p>
+					important part of the whole <br/>website by mouce click away.</p>
 					<div class="row">
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-news">
@@ -710,7 +710,7 @@
 									</figure>
 								</a>
 								<h3 class="text-center">News and Events</h3>
-								<p class="text-center">
+								<p class="text-center txt-decr">
 									Check this section for the latest on 
 									EZECOM events. Our sponsorship 
 									and our latest partnerships.
@@ -760,41 +760,46 @@
 	<!-- Our Achievement -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-1 col-sm-1 col-xs-1"></div>
-			<div class="col-md-10 col-sm-10 col-xs-10">
+			
+			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="wrapper-achievement">
 					<h3 class="text-center">Our Achievement</h3>
-					<p class="text-center">
-						In this section you can access to some 
-						important part of the whole 
-						website by mouce click away.
-					</p>
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-12">
-							<figure>
-								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-imployer-award.jpg" alt="Best Imployer Award" title="Best Employer Award"/>
-							</figure>
+							<div class="best-employer-award">
+								<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017"/>
+								<h4>
+									Best Employer <br/>Brand Award 2017
+								</h4>
+							</div>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
-							<figure>
-								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/ISO-Certified.jpg" alt="ISO Certified" title="ISO Certified"/>
-							</figure>
+							<div class="iso">
+								<img src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
+								<h4>
+									ISO <br/>Certified
+								</h4>
+							</div>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
-							<figure>
-								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/childsafe.jpg" alt="ChilSafe Certified" title="ChilSafe Certified"/>
-							</figure>
+							<div class="child-safe">
+								<img src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
+								<h4> Child Safe <br/>Certified</h4>
+							</div>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
-							<figure>
-								<img class="img-responsive img-award-margin" src="<?php echo base_url()?>images/homepage/best-ISP.jpg" alt="Best ISP For Business" title="Best ISP For Business"/>
-							</figure>
+							<div class="best-ISP">
+								<img src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
+								<h4>
+									Best ISP <br/>for Business
+								</h4>
+							</div>
 						</div>
 					</div>
 				</div>
 				
 			</div>
-			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+			
 		</div>
 	</div>
 </div>

@@ -23,16 +23,19 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* help me choose and sign me up */
 .wrapper-signme-hlepme{
-	margin:50px 0 0 0;
+	margin:80px 0 0 0;
 	font-family:myNeutra,serif,sans-serif; 
 }
 .wrapper-signme-hlepme h3{
-	color:#7961AA;
+	color:#6b53a2;
 	font-weight:bold;
-	font-size:23px;
+	font-size:32px;
+	margin: 32px 0 32px 0;
 }
 .wrapper-signme-hlepme p{
+	font-family:myNeutra,serif,sans-serif; 
 	font-size:18px;
+	color:#404041;
 }
 @media screen and (max-width:1000px){
 	.wrapper-signme-hlepme p{
@@ -41,17 +44,18 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .wrapper-looking h3{
-	color:white;
+	color:#f1f1f2;
 	font-weight:bold;
-	font-size:35px;
-	padding:20px 0 20px 0;
+	font-size:64px;
+	margin:0;
+	padding:100px 0 32px 0;
 	font-family:myNeutra,serif,sans-serif; 
 }
 .bg-lookingfor{
 	/*background:#BCBDC0;*/
-	background-image:url(../../../images/homepage/looking-for.jpg);
-	background-repeat:no-repeat;
-	margin-top:40px;
+	background-image:url(../../../images/homepage/looking-for.png);
+	background-repeat:repeat-y;
+	margin-top:90px;
 }
 .wrapper-achievement{
 	margin-bottom:60px;
@@ -59,9 +63,15 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .bg-lookingfor p , .wrapper-achievement p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding-bottom:40px;
-	color:white;
+	padding-bottom:64px;
+	color:#f1f1f2;
+	margin-bottom:0;
 }
+
+.txt-decr{
+	padding-bottom:100px;
+}
+
 @media screen and (max-width:1000px){
 	.bg-lookingfor p , .wrapper-achievement p{
 			font-size:15px;
@@ -70,18 +80,22 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	}
 }
 .wrapper-achievement h3{
-	color:#7961AA;
+	color:#6b53a2;
 	font-weight:bold;
-	font-size:35px;
+	font-size:64px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding:20px 0 20px 0;
+	padding:100px 0 64px 0;
+	margin:0;
+}
+.wrapper-news{
+	padding-bottom:60px;
 }
 .wrapper-news h3 , .wrapper-traffic-live h3 ,.wrapper-live-radio h3{
-	color:#7961AA;
+	color:#f1f1f2;
 	font-weight:bold;
-	font-size:25px;
+	font-size:32px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding:20px 0 20px 0;
+	padding:32px 0 32px 0;
 }
 .wrapper-news img:hover, .wrapper-traffic-live img:hover,.wrapper-live-radio img:hover{
 	opacity: 0.7;
@@ -95,7 +109,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/help-icon.png);
+    background-image: url(../../../images/homepage/help-icon.svg);
 }
 .imghelphover:hover {
     margin: 0 auto;
@@ -104,7 +118,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/Help_Me_Choose_hover.png);
+    background-image: url(../../../images/homepage/help-icon.svg);
 }
 
 .imghover{
@@ -114,7 +128,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
   height:93px;
   cursor: pointer;
   background-repeat: no-repeat;
-  background-image:url(../../../images/homepage/sign_up-icon.png);
+  background-image:url(../../../images/homepage/sign_up_icon.svg);
 
 
 }
@@ -125,7 +139,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height: 93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/Sign_Me_Up_hover.png);
+    background-image: url(../../../images/homepage/sign_up_icon.svg);
 }
 
 .our_services h3{
@@ -133,18 +147,18 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-size:64px; 
 	font-style:normal; 
 	font-weight:bold;
-	color:#7961AA;
+	color:#6b53a2;
 	text-align:center;
-	/*padding: 0px 0 32px 0 ;*/
+	padding: 0px 0 32px 0;
 	margin-top:100px;
-	margin-bottom:32;
+	margin-bottom:0px;
 }
 .our_services p{
 	font-family:myNeutra,serif,sans-serif; 
 	text-align:center; 
 	font-size:18px; 
 	font-style:normal; 
-	color:#3F3F3F;
+	color:#404041;
 	padding-bottom:64px;
 	margin-bottom:0;
 }
@@ -806,6 +820,27 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .wrapper-achievement figure:hover img{
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+
+.best-employer-award,.iso,.child-safe,.best-ISP{
+	width:290px;
+	height:auto;
+}
+
+.iso img,.child-safe img{
+	position:relative;
+	top:48px;
+}
+
+.best-employer-award h4,.iso h4,.child-safe h4,.best-ISP h4{
+	color:#404041;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: myNeutra,serif,sans-serif;
+	text-align:center;
+	line-height:40px;
+	margin:0;
+	padding-top:20px;
 }
 
 	

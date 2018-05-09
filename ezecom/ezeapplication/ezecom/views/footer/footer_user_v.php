@@ -75,7 +75,7 @@
 				</div>
 			</div>
 			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
-				<div class="section-footer">
+				<div class="section-footer set-padding">
 					<h6>Follow Us</h6>
 					<ul>
 						<li><img  class="fb" src="<?php echo base_url()?>images/footer/fb.png"/><a href="https://www.facebook.com/ezecom/">Facebook</a></li>
@@ -92,6 +92,6 @@
 </div>
 <div class="container-fluid bg-footer">
 	<div class="container">
-		<p class="text-center txt-copyright">© 2016 Ezecom Co., Ltd. All Rights Reserved</p>
+		<p class="text-center txt-copyright">2018 EZECOM Co., Ltd. Alright Reserved</p>
 	</div>
 </div>
