@@ -110,17 +110,17 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<h5>Our Company</h5>
+								<h4>Our Company</h4>
 								<ul>
 									<li><a href="<?php echo base_url();?>our-company/company-profile">Company Profile</a></li>
 									<li><a href="<?php echo base_url();?>our-company/quality-management-system">Quality Management System</a></li>
 									<li><a href="<?php echo base_url();?>our-company/childsafe-certification">Childsafe Certification</a></li>
 									<li>
-										<a style="cursor:none"><strong>Our Partnerships</strong></a>
+										<strong>Our Partnerships</strong>
 										<ul class="partnerships">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
+											<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
+											<li><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
+											<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 										</ul>
 									</li>
 									<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">CSR</a></li>
@@ -130,66 +130,67 @@
 								</ul>
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<h5>Our Services</h5>
+								<h4>Our Services</h4>
 								<ul>
 									<li>
-										<a style="cursor:none"><strong>Internet Access</strong></a>
+										<strong>Internet Access</strong>
 										<ul class="services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
+											<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access">Dedicated Internet Access</a></li>
+											<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz">EzeBiz</a></li>
+											<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf">EzeSurf</a></li>
 										</ul>
 									</li>
 									<li>
-										<a  style="cursor:none"><strong>Enterprise Network</strong></a>
+										<strong>Enterprise Network</strong>
 										<ul class="ent_network">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/mpls">MPLS</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/enterprise-network/vpls">VPLS</a></li>
+											<li><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit">IPLC</a></li>
+											<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit">DPLC</a></li>
+											<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls">MPLS</a></li>
+											<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls">VPLS</a></li>
 										</ul>
 									</li>
 									<li>
-										<a style="cursor:none"><strong>Cloud Services</strong></a>
+										<strong>Cloud Services</strong>
 										<ul class="cloud_services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
+											<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service">Microsoft Cloud Service</a></li>
+											<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service">Amazon Web Service</a></li>
 										</ul>
 									</li>
 									<li>
-										<a style="cursor:none"><strong>Data Center & Hosting</strong></a>
+										<strong>Data Center & Hosting</strong>
 										<ul class="hosting">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/colocation">Colocation</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
+											<li><a href="<?php echo base_url();?>our-services/hosting/colocation">Colocation</a></li>
+											<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center">DRC</a></li>
+											<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting">Web Hosting</a></li>
+											<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx">VPBX</a></li>
 										</ul>
 									</li>
 								
 								</ul>
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<h5>Our Services</h5>
-								<ul>
-									<li>
-										<a style="cursor:none"><strong>Cyber Security</strong></a>
-										<ul class="security">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
-										</ul>
-									</li>
-									<li>
-										<a style="cursor:none"><strong>Value Added Services</strong></a>
-										<ul class="add_services">
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip">VoIP</a></li>
-											<li><span class="glyphicon glyphicon-menu-right angle_rowsmall"></span><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV">EzeTV</a></li>
-										</ul>
-									</li>
-								</ul>
+								<div class="our-services-continue">
+									<ul>
+										<li>
+											<strong>Cyber Security</strong>
+											<ul class="security">
+												<li><a href="<?php echo base_url();?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
+												<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
+												<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>
+											</ul>
+										</li>
+										<li>
+											<strong>Value Added Services</strong>
+											<ul class="add_services">
+												<li><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip">VoIP</a></li>
+												<li><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV">EzeTV</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
 							</div>
 							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-								<h5>Media Center</h5>
+								<h4>Media Center</h4>
 								<ul>
 									<li><a href="<?php echo base_url()?>media-center/news-events">News and Events</a></li>
 									<li><a href="<?php echo base_url()?>media-center/live-cambodia-radio">Radio Live Stream</a></li>
@@ -197,7 +198,7 @@
 									                                                   
 								</ul>
 								
-								<h5>Support</h5>
+								<h4>Support</h4>
 								<ul>
 									<li><a href="<?php echo base_url();?>support/faq">FAQ'S</a></li>
 									<li><a href="<?php echo base_url();?>support/customer-service">Customer Service</a></li>

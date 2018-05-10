@@ -300,14 +300,14 @@
 					<div id="help_more-btn-over" class="pull-left">
 						<div class="imghelphover"></div>
 						<h3 class="text-center">Help Me Choose</h3>
-						<p class="text-center">Tell us your requirement to get the<br/>
-		best suitable internet package.</p>
+						<p class="text-center">Tell us your requirements to get the <br/>best available internet package.</p>
 					</div>
 					<div id="more-btn-over" class="pull-right">
 						<div class="imghover"></div>
 						<h3 class="text-center">Sign Me Up</h3>
-						<p class="text-center">Let us know your interest <br/>on our package
-		choice and keep in <br/>touch with our latest update.</p>
+						<p class="text-center">
+						Click here to get update and <br/>access to important part of <br/>the whole website.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -704,47 +704,41 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-news">
-								<a href="#">
+								<a href="<?php echo base_url()?>media-center/news-events">
 									<figure>
-										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/news-event.png" alt="News and Events" title="News and Events"/>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-news-and-event.svg" alt="News and Events" title="News and Events"/>
 									</figure>
 								</a>
 								<h3 class="text-center">News and Events</h3>
 								<p class="text-center txt-decr">
-									Check this section for the latest on 
-									EZECOM events. Our sponsorship 
-									and our latest partnerships.
+									Check out EZECOM latest events activities both sponsorship & partnerships.
 								</p>
 							</div>
 							
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-traffic-live">
-								<a href="#">
+								<a href="<?php echo base_url()?>media-center/live-traffic-camera">
 									<figure>
-										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-traffic-cam.png" alt="Live Traffic Camera" title="Live Traffic Camera"/>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-live-traffic-camera.svg" alt="Live Traffic Camera" title="Live Traffic Camera"/>
 									</figure>
 								</a>
 								<h3 class="text-center">Live Traﬃc Camera</h3>
 								<p class="text-center">
-									Always know what is happening.
-									Thanks to EZECOM's traﬃc
-									camera in Phnom Penh.
+									Click here for EZECOM’s Live traffic camera in Phnom Penh.
 								</p>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-12">
 							<div class="wrapper-live-radio">
-								<a href="#">
+								<a href="<?php echo base_url()?>media-center/live-cambodia-radio">
 									<figure>
-										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/live-radio.png" alt="Live Radio" title="Live Radio"/>
+										<img class="img-responsive center-block" src="<?php echo base_url()?>images/homepage/icon-live-radio.svg" alt="Live Radio" title="Live Radio"/>
 									</figure>
 								</a>
 								<h3 class="text-center">Live Radio</h3>
 								<p class="text-center">
-									Click here to listen to your
-									best favorite radio stations
-									live stream in Cambodia.
+									Listen to your favourite radio stations live stream in Cambodia. 
 								</p>
 							</div>
 						</div>
@@ -767,7 +761,9 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-employer-award">
-								<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017"/>
+								<a href="<?php echo base_url()?>media-center/news-events/ezecom-the-first-isp-in-cambodia-to-win-asia’s-best-employer-brands-award-2017">
+									<img src="<?php echo base_url()?>images/homepage/archivement-best-employer.png" alt="Best Employer Brand Award 2017" title="Best Employer Brand Award 2017"/>
+								</a>
 								<h4>
 									Best Employer <br/>Brand Award 2017
 								</h4>
@@ -775,7 +771,9 @@
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="iso">
-								<img src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
+								<a href="<?php echo base_url()?>our-company/quality-management-system">
+									<img src="<?php echo base_url()?>images/homepage/archivement-ISO.png" alt="EZECOM Achievement ISO" title="EZECOM Achievement ISO"/>
+								</a>
 								<h4>
 									ISO <br/>Certified
 								</h4>
@@ -783,13 +781,17 @@
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="child-safe">
-								<img src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
+								<a href="<?php echo base_url()?>our-company/childsafe-certification">
+									<img src="<?php echo base_url()?>images/homepage/archivement-child-safe.png" alt="EZECOM Achievement ChildSafe" title="EZECOM Achievement ChildSafe"/>
+								</a>
 								<h4> Child Safe <br/>Certified</h4>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-3 col-xs-12">
 							<div class="best-ISP">
-								<img src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
+								<a href="#">
+									<img src="<?php echo base_url()?>images/homepage/archivement-best-isp.png" alt="EZECOM is the best ISP in Cambodia" title="EZECOM is the best ISP in Cambodia"/>
+								</a>
 								<h4>
 									Best ISP <br/>for Business
 								</h4>

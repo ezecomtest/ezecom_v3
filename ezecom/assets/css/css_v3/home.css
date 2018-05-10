@@ -23,14 +23,14 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* help me choose and sign me up */
 .wrapper-signme-hlepme{
-	margin:80px 0 0 0;
+	margin:60px 0 0 0;
 	font-family:myNeutra,serif,sans-serif; 
 }
 .wrapper-signme-hlepme h3{
 	color:#6b53a2;
 	font-weight:bold;
 	font-size:32px;
-	margin: 32px 0 32px 0;
+	margin: 20px 0 20px 0;
 }
 .wrapper-signme-hlepme p{
 	font-family:myNeutra,serif,sans-serif; 
@@ -48,14 +48,14 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 	font-size:64px;
 	margin:0;
-	padding:100px 0 32px 0;
+	padding:80px 0 20px 0;
 	font-family:myNeutra,serif,sans-serif; 
 }
 .bg-lookingfor{
 	/*background:#BCBDC0;*/
 	background-image:url(../../../images/homepage/looking-for.png);
 	background-repeat:repeat-y;
-	margin-top:90px;
+	margin-top:70px;
 }
 .wrapper-achievement{
 	margin-bottom:60px;
@@ -63,7 +63,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 .bg-lookingfor p , .wrapper-achievement p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding-bottom:64px;
+	padding-bottom:50px;
 	color:#f1f1f2;
 	margin-bottom:0;
 }
@@ -84,7 +84,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 	font-size:64px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding:100px 0 64px 0;
+	padding:80px 0 50px 0;
 	margin:0;
 }
 .wrapper-news{
@@ -95,7 +95,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 	font-size:32px;
 	font-family:myNeutra,serif,sans-serif; 
-	padding:32px 0 32px 0;
+	padding:20px 0 20px 0;
 }
 .wrapper-news img:hover, .wrapper-traffic-live img:hover,.wrapper-live-radio img:hover{
 	opacity: 0.7;
@@ -109,7 +109,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/help-icon.svg);
+    background-image: url(../../../images/homepage/icon-help-me-choose.svg);
 }
 .imghelphover:hover {
     margin: 0 auto;
@@ -118,7 +118,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height:93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/help-icon.svg);
+    background-image: url(../../../images/homepage/icon-help-me-choose-hover.svg);
 }
 
 .imghover{
@@ -128,7 +128,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
   height:93px;
   cursor: pointer;
   background-repeat: no-repeat;
-  background-image:url(../../../images/homepage/sign_up_icon.svg);
+  background-image:url(../../../images/homepage/icon-sign-me-up.svg);
 
 
 }
@@ -139,7 +139,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
     height: 93px;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(../../../images/homepage/sign_up_icon.svg);
+    background-image: url(../../../images/homepage/icon-sign-me-up-hover.svg);
 }
 
 .our_services h3{
@@ -149,8 +149,8 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-weight:bold;
 	color:#6b53a2;
 	text-align:center;
-	padding: 0px 0 32px 0;
-	margin-top:100px;
+	padding: 0px 0 20px 0;
+	margin-top:80px;
 	margin-bottom:0px;
 }
 .our_services p{
@@ -159,7 +159,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	font-size:18px; 
 	font-style:normal; 
 	color:#404041;
-	padding-bottom:64px;
+	padding-bottom:50px;
 	margin-bottom:0;
 }
 
@@ -777,6 +777,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 
 /* Zoom In Looking For */
 .wrapper-looking .wrapper-news a figure img{
+	width:170px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -788,6 +789,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .wrapper-looking .wrapper-traffic-live a figure img{
+	width:170px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -800,6 +802,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 }
 
 .wrapper-looking .wrapper-live-radio a figure img{
+	width:170px;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -840,7 +843,7 @@ div#n2-ss-6 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER {
 	text-align:center;
 	line-height:40px;
 	margin:0;
-	padding-top:20px;
+	padding-top:5px;
 }
 
 	

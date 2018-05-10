@@ -78,11 +78,11 @@
 				<div class="section-footer set-padding">
 					<h6>Follow Us</h6>
 					<ul>
-						<li><img  class="fb" src="<?php echo base_url()?>images/footer/fb.png"/><a href="https://www.facebook.com/ezecom/">Facebook</a></li>
-						<li><img  class="linkin" src="<?php echo base_url()?>images/footer/linkin.png"/><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFjhPwfnFlbiwAAAWJlRKPgJs3U7q7mghYytI9MJRWEsnw1sMG86SwDviOxfBwfzs8kKhPeHMdlBjxU2zlAI2MomFgP0KaBI2O0prumunLzKWrJIjCf7sZ_S16RHU8g5Lz1ZeE=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fezecom%2F">LinkedIn</a></li>
-						<li><img  class="instagram" src="<?php echo base_url()?>images/footer/instagram.png"/><a href="https://www.instagram.com/ezecommedias/">Instagram</a></li>
-						<li><img  class="youtube" src="<?php echo base_url()?>images/footer/youtube.png"/><a href="https://www.youtube.com/user/EZECOMCambodiaISP">Youtube</a></li>
-						<li><img  class="gplus" src="<?php echo base_url()?>images/footer/google-plus.png"/><a href="https://plus.google.com/109195830334920857995">Google+</a></li>
+						<li><img  class="fb" src="<?php echo base_url()?>images/footer/social-icon-facebook.svg"/><a href="https://www.facebook.com/ezecom/">Facebook</a></li>
+						<li><img  class="linkin" src="<?php echo base_url()?>images/footer/social-icon-linkedin.svg"/><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFjhPwfnFlbiwAAAWJlRKPgJs3U7q7mghYytI9MJRWEsnw1sMG86SwDviOxfBwfzs8kKhPeHMdlBjxU2zlAI2MomFgP0KaBI2O0prumunLzKWrJIjCf7sZ_S16RHU8g5Lz1ZeE=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fezecom%2F">LinkedIn</a></li>
+						<li><img  class="instagram" src="<?php echo base_url()?>images/footer/social-icon-instagram.svg"/><a href="https://www.instagram.com/ezecommedias/">Instagram</a></li>
+						<li><img  class="youtube" src="<?php echo base_url()?>images/footer/social-icon-youtube.svg"/><a href="https://www.youtube.com/user/EZECOMCambodiaISP">Youtube</a></li>
+						<li><img  class="gplus" src="<?php echo base_url()?>images/footer/social-icon-googleplus.svg"/><a href="https://plus.google.com/109195830334920857995">Google+</a></li>
 					</ul>
 				</div>
 			</div>
