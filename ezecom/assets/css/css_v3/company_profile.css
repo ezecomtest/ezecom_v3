@@ -27,8 +27,8 @@ p span{
 }
 .wrapper-technology{
 	border:1px solid #BBCAD2;
-	padding:20px;
-	margin-bottom:20px;
+	padding:20px 20px 0 20px;
+	min-height:460px;
 }
 
 .wrapper-technology	h3{
@@ -41,4 +41,13 @@ p span{
 
 .wrapper-technology img{
 	margin:0 auto;
+}
+@media screen and (max-width:1024px){
+	.wrapper-technology{
+		margin-bottom:50px;
+	}
+	
+	.wrapper-profile{
+		padding: 20px 0 20px 0;
+	}
 }

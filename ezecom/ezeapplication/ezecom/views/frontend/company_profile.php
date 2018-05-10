@@ -29,8 +29,11 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
 				<div class="wrapper-profile">
 					<p>
-						EZECOM was founded to serve the rapidly expanding enterprises and Residence users market in Cambodia. Launched in 2007, EZECOM has since become a leading provider for a wide variety of innovative communication services.
-EZECOM’s mission is <span>“To be Cambodia’s premium Solutions provider of communications services through constant innovation & improvement while contribute to society”.</span>
+						EZECOM was founded to serve the rapidly expanding enterprise and residence user 
+						markets in Cambodia. Launched in 2007, EZECOM has since become a leading provider 
+						of a wide variety of innovative communication services. EZECOM’s mission is 
+						“To be Cambodia’s premium solutions provider of communications services through 
+						constant innovation & improvement while contribute to society”.
 					</p>
 				</div>
 			</div>
@@ -42,11 +45,11 @@ EZECOM’s mission is <span>“To be Cambodia’s premium Solutions provider of 
 					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/technology.png" alt="Technology" title="Technology"/>
 					<h3>Technology</h3>
 					<p>
-						Our company has incorporated its own fibre optic, VoIP, VPN and a custom built world class Data Centre. 
-						Recognising the need for high quality, hassle free, reliable internet services, 
-						EZECOM invested in a multitude of high quality infrastructures. These innovative 
-						solutions along with the complete package of services 
-						EZECOM offers corporations, office and home users, has made us the leader in our field.
+						Our company has incorporated its own fibre optic, VoIP, VPN and a custom-built, 
+						world-class Data Centre. Recognising the need for high quality, hassle-free, 
+						reliable internet services, EZECOM invested in a multitude of high quality infrastructures. 
+						These innovative solutions, along with the complete package of services EZECOM offers 
+						corporations, offices and home users, has made us the leader in our field.
 					</p>
 				</div>
 			</div>
@@ -55,11 +58,12 @@ EZECOM’s mission is <span>“To be Cambodia’s premium Solutions provider of 
 					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/social-network.png" alt="Corporate Social Responsibility" title="Corporate Social Responsibility"/>
 					<h3>Corporate Social Responsibility</h3>
 					<p>
-						Besides our strong technical foundation, EZECOM is actively stimulating the 
-						growth of the Cambodian community. EZECOM believes in growth, not only within our 
-						company and for our staff but also for the entire community in which we do business. 
-						That is why EZECOM has chosen to be an active partner in the Cambodian community, 
-						through a variety of sponsorships. Please visit our website for an up to date overview of EZECOM's partnerships.
+						Besides our strong technical foundation, EZECOM is actively stimulating the growth of the 
+						Cambodian community. EZECOM believes in growth, not only within our company and for our 
+						staff but also for the entire community in which we do business. That is why EZECOM has 
+						chosen to be an active partner in the Cambodian community, through a variety of sponsorships 
+						every year. Please visit our webpage on News and Events for an up-to-date overview of EZECOM's 
+						partnerships.
 					</p>
 				</div>
 			</div>
