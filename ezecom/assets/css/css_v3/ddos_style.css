@@ -18,7 +18,7 @@
 }
 	
 .ddos-services h3,.ddos-attacks h3,.impact h3{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
@@ -26,7 +26,7 @@
 	padding:10px 0 15px 0px;
 }
 .ddos-attacks h4{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
@@ -34,7 +34,7 @@
 	padding:10px 0 2px 0px;
 }
 .features-benefits h4{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 	color:#7961AA;
 	text-align:center;
@@ -56,7 +56,7 @@
  }
 
 .ddos-services p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 	padding-bottom:12px;
 	line-height:30px;
@@ -65,14 +65,14 @@
 	margin:20px 0 20px 0;
 }
 .revenue h4{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 	font-weight:600;
 	padding-top:10px;
 }
 .revenue p{
-	font-family:myNeutra;
-	font-size:15px;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
 }
 .img-position{
 	margin:0 auto;
@@ -84,7 +84,7 @@
 }
 
 .ddos-attacks p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
 	color:#7961AA;
 	text-align:center;

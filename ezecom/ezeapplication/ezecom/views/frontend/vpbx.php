@@ -18,7 +18,7 @@
 		<div class="row mg-top mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<h3 class="text-center">VPBX</h3>
-				<h1 class="text-center">Need Content</h1>
+				<h1 class="text-center">“Page is Under Construction”</h1>
 			</div>
 		</div>
 	</div>

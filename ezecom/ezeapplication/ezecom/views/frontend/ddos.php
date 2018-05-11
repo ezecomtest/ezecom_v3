@@ -89,14 +89,23 @@
 				<div class="ddos-services">
 					<h3>DDoS Mitigation Service</h3>
 					<p>
-						DDoS Mitigation Service is designed for businesses and enterprises to secure their online 
-						operation against cyber-attacks known as distributed denial of service (DDoS) attacks.
+						DDoS Mitigation Service is designed for businesses and enterprises 
+						to secure their online operation against cyber-attacks known as 
+						Distributed Denial of Service (DDoS) attacks.
 					</p>
 					<p>
-						EZECOM’s DDoS Mitigation Service is equipped with technology powered by an 
-						internationallyrecognized research lab and developed with over 10 years of experience protecting the 
-						world’s largest banks, telecommunications, gaming and social media companies. It uses an innovative, multi-stage approach for monitoring, detecting and mitigating the most complex DDoS attacks to ensure only legitimate traffic reaches your important network and application resources. It has local scrubbing center with scrubbing capacity of 4Gbps (upgradable on demand) and global cloud scrubbing center with scrubbing capacity of up to 2Tbps and combine with world-class global threat intelligence, 
-						working in unison to automatically defeat every size, duration, and frequency of DDoS attacks.
+						EZECOM’s DDoS Mitigation Service is equipped with technology 
+						powered by an internationally recognized research lab and 
+						developed with over 10 years of experience protecting the 
+						world’s largest banks, telecommunications, gaming and social 
+						media companies. It uses an innovative, multi-stage approach 
+						for monitoring, detecting and mitigating the most complex DDoS 
+						attacks to ensure only legitimate traffic reaches your important 
+						network and application resources. It has local scrubbing rcentre 
+						with scrubbing capacity of 4 Gbps (upgradable on demand) and global 
+						cloud scrubbing centre with scrubbing capacity of up to 2 Tbps and 
+						utilizes world-class global threat intelligence, working in unison to 
+						automatically defeat every size, duration, and frequency of DDoS attacks!
 					</p>
 				</div>
 			</div>
