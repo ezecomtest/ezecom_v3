@@ -31,22 +31,27 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="wrapper-childsafe">
 					<p>
-						On November 18th, 2014 EZECOM became the first company to receive 
-						Childsafe Bussines 7 certification in the world. ChildSafe 
-						Business 7 certification was developed by the ChildSafe Network, 
-						an international child protection program founded and powered by Friends-International.
+						On November 18th, 2014, EZECOM became the first company to 
+						receive ChildSafe Business 7 certification in the world. 
+						ChildSafe Business 7 certification was developed by the ChildSafe Network, 
+						an international child protection programme founded and powered by Friends-International.
 
 					</p>
 					<p>
-						The certification builds the 7 ChildSafe principles in to a company’s operations through staff training, 
-						internal policy review, assessment of CSR portfolios, and advice to ensure 
-						company communication plans are considerate to children. “EZECOM is proud to partner with Friends-International and become the first ChildSafe Business to meet the 7 principles and be certified in Cambodia,” said EZECOM CEO Oknha Paul Blanche-Horgan. 
+						The certification requires the integration of the 7 ChildSafe 
+						principles into our company’s operations through staff training, 
+						internal policy review, assessment of CSR portfolios. We also receive 
+						consultative advice to ensure our company communication plans are considerate 
+						to children. “EZECOM is proud to partner with Friends-International and 
+						become the first ChildSafe Business to meet the 7 principles and be 
+						certified in Cambodia,” said EZECOM CEO Oknha Paul Blanche-Horgan. 
 						“After weeks of ChildSafe training, our staffs are happy to receive the certificates.”
 					</p>
 					<p>
-						More Information If you would like more information on the Childsafe programme
-						visit www.childsafe-international.org or if you would like more information
-						about the work of Friends International visit www.friends-international.org
+						If you would like more information on the ChildSafe programme, 
+						please visit www.childsafe-international.org or if you 
+						would like more information about the work of Friends-International, 
+						visit <a href="https://friends-international.org/">www.friends-international.org</a>!
 					</p>
 				</div>
 			</div>

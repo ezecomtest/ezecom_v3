@@ -21,8 +21,11 @@
 				<div class="ezecampus-desc">
 					<h2>EzeCampus</h2>
 					<p>
-						EzeCampus is the name we have given to EZECOM’s support to education in Cambodia. In June of 2010 the first step in the EzeCampus program was announced. In cooperation with the Ministry of Education EZECOM installed fibre optic connection is the top universities of Phnom Penh, giving the students at their university access to high speed internet. 
-						Further EZECOM entitled students from all universities to 10% discount on EZECOM Pulse packages for their home.
+						EzeCampus is the name we have given to EZECOM’s support to education in Cambodia. 
+						In June of 2010 the first step in the EzeCampus program was announced. 
+						In cooperation with the Ministry of Education, EZECOM installed fibre optic 
+						connection in the top universities of Phnom Penh, giving the students at their 
+						university access to high speed internet.
 					</p>
 				</div>
 			</div>
@@ -31,27 +34,29 @@
 		<div class="row">
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="content-left">
-					<h3>This first step in the EzeCampus gave 65 000 students access to high speed internet.</h3>
+					<h3>The first step in the EzeCampus gave 65,000 students access to high speed internet.</h3>
 					<p>
-						In August 2012 we announced the second phase of the EzeCampus project: 
-						We have provided internet service and computer equipment to 50 general secondary 
-						education schools and teacher training institutions in the country. With this agreement 
-						EZECOM will provide broader educational resources to classes in various provinces countrywide. 
-						It also means that distance learning may become a reality for hundreds of thousands of students 
-						nationwide in the near future. The donation in the 
-						form of free Internet service and network installments is worth tens of thousands of US dollars.
+						In August 2012, we announced the second phase of the EzeCampus project. 
+						We provided internet service and computer equipment to 50 public secondary 
+						education schools and teacher training institutions in the country. 
+						With this agreement, EZECOM was able to provide broader educational 
+						resources to classes in various provinces countrywide. It also means that 
+						distance learning may become a reality for hundreds of thousands of students 
+						nationwide in the near future. The donation in the form of free Internet service 
+						and network instalments is worth tens of thousands of US dollars.
 					</p>
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="content-right">
-					<h3>This second step expanded the number of students benefiting from this with another ten thousand.</h3>
+					<h3>The second step expanded the number of students benefiting from this project by another ten thousand.</h3>
 					<p>
-						Regarding the project Paul Blanche-Horgan, CEO of Ezecom, said, 
-						“Ezecom always wishes to use its IT capacity to contribute to the country’s development. 
-						This plan will allow us to use our 9000-kilometer optical cable network to provide educational 
-						opportunities to youth across the country.” Among all our corporate social responsibility projects 
-						education takes a special role and we are always looking for ways to contribute to Cambodia’s development.
+						Regarding the project, Paul Blanche-Horgan, CEO of EZECOM, said, 
+						“EZECOM always wishes to use its IT capacity to contribute to the country’s 
+						development. This plan will allow us to use our 9,000-kilometer optical cable 
+						network to provide educational opportunities to youth across the country.” 
+						Among all our corporate social responsibility projects, education takes a 
+						special place and we are always looking for ways to contribute to Cambodia’s development.
 					</p>
 				</div>
 			</div>

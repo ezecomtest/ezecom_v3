@@ -30,20 +30,25 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="wrapper-CSR-text">
 					<p>
-						EZECOM’s CSR policy functions as a built-in, self-regulating mechanism where the company 
-						monitors and ensures its active compliance with the spirit of the law and ethical standards, 
-						and engages in actions that further the social good, beyond the interests of the
-						firm and that required by law.
+						EZECOM’s CSR policy functions as a built-in, self-regulating mechanism 
+						where the company monitors and ensures its active compliance with the 
+						spirit of the law and ethical standards, and engages in actions that 
+						further the social good, beyond the interests of the firm and 
+						that are required by law.
 					</p>
 					<p>
-						Our CSR aims to embrace responsibility for the company's actions and encourage a positive 
-						impact through its activities on the environment, consumers, employees, 
-communities, stakeholders and other members of the public.
+						In line with proper CSR practice, company willingly embraces responsibilities 
+						for its actions and encourage positive impacts through its activities on the 
+						environment, consumers, employees, communities, stakeholders and other members of the public.
 					</p>
 					<p>
-						For instance, we have been providing free internet to support education projects through our own initiative, EZECAMPUS and our partners, Development Innovation and Friends International. We also supported the Secured Heritage project by providing a secure
-system to document and reconcile the Khmer Rouge era for public access to these archives. Apart from that, EZECOM is one of the members of CSR platform in Cambodia involving with a constantly changing roster of activities and events, including sponsoring concerts,
- sporting and educational events and technology summits.
+						For instance, we have been providing free internet to support educational projects 
+						through our own initiatives and with our partners such as Development Innovation 
+						and Friends International. We also supported the Secured Heritage project by 
+						providing a secure system to document, reconcile and archive Khmer Rouge era 
+						materials for public access. Apart from that, EZECOM is an active member of the 
+						CSR Platform in Cambodia, and involves constantly with various activities and events, 
+						including sponsoring artistic, sporting and educational events as well as technology summits.
 					</p>
 				</div>
 			</div>

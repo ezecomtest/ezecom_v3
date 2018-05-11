@@ -33,20 +33,20 @@
 					<p>
 						On June 21, 2011, EZECOM became the first Internet Service Provider (ISP) in 
 						Cambodia to receive International Organization for Standardization’s 
-						certification (ISO) 9001:2008 status, with a year-long process 
-						initiated by the development of an internal documented Quality Management System.
+						certification (ISO) 9001:2008 status, with a year-long process initiated 
+						by the development of an internal documented Quality Management System.
 
 					</p>
 					<p>
 						“The voluntary certification assures customers of EZECOM's adherence to 
 						documented processes and procedures that ensure continued and ongoing 
-						improvements in delivering our Services,” said EZECOM CEO Oknha Paul Blanche-Horgan.“
+						improvements in delivering our Services,” said EZECOM CEO Oknha Paul Blanche-Horgan.
 					</p>
 					<p>
-						“Achieving ISO 9001:2008 certification is a milestone for EZECOM," 
-						Oknha Paul Blanche-Horgan said. "The certification process has required 
-						a lot of dedication and excellence from our staff and demonstrates 
-						EZECOM’s continual commitment to our customers and the quality of service."
+						“Achieving ISO 9001:2008 certification is a milestone for EZECOM,” 
+						Oknha Paul Blanche-Horgan said. “The certification process has required a 
+						lot of dedication and excellence from our staff and demonstrates EZECOM’s 
+						continual commitment to our customers and the quality of service.”
 					</p>
 				</div>
 			</div>
@@ -72,10 +72,11 @@
 				<div class="qms">
 					<h3>Quality Management System</h3>
 					<p>
-						As a leader in the market we have always possessed a great drive for improvement. 
-						To ensure that this is established a Quality Management System within our company - which measures 
-						and improves all areas of our business. By constantly measuring 
-						ourselves and constantly aiming higher we ensure that we keep our place as the industry leader.
+						As a leader in the market, we have always possessed a great drive 
+						for improvement. To ensure that this is the case, we established a 
+						Quality Management System within our company - which measures and 
+						improves all areas of our business. By constantly measuring ourselves 
+						and constantly aiming higher, we ensure that we keep our place as the industry leader.
 					</p>
 				</div>
 			</div>

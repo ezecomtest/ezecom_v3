@@ -27,10 +27,11 @@
 				<div class="wrapper-text">
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-1.png" alt="Power of Investment" title="Power of Investment"/>
 					<p>
-						EZECOM is a company that knows the power of investment for our customers, their 
-						children & our future. Our core values are sustainability, grassroots development 
-						and integrity and our partnerships reflect these values. 
-						EZECOM invests in technology, human resources, education and the revitalizing of Cambodian sport.
+						EZECOM is a company that knows the power of investment for our customers, 
+						their children & our future. Our core values are sustainability, grassroots 
+						development and integrity, and our partnerships reflect these values. 
+						EZECOM invests in technology, human resources, education and the 
+						revitalizing of Cambodian sports.
 					</p>
 				</div>
 			</div>
@@ -39,11 +40,10 @@
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-2.png" alt="Innovation and Progress" title="Innovation and Progress"/>
 					<p>
 						Innovation and progress lie at the heart of EZECOM’s success. 
-						We recognise that investing in and supporting our communities, 
-						we can help to build a more economically sustainable, 
-						educated and socially-inclusive society. 
-						That is why EZECOM actively invests in programmes 
-						which contribute to communities and the environment.
+						We recognise that by investing in and supporting our communities, 
+						we can help to build a more economically sustainable, educated and 
+						socially-inclusive society. That is why EZECOM actively invests in 
+						programmes which contribute to communities and the environment.
 					</p>
 				</div>
 			</div>

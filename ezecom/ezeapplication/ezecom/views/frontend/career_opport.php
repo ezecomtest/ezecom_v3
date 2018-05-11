@@ -25,7 +25,13 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
 				<div class="wrapper-career">
 					<p>
-						EZECOM, Cambodia’s premium internet service provider, was found in 2007 to serve the rapidly expanding business and residential market in Cambodia. Our company has incorporated its own fibre optic, world Class Data center, VoIP, VPN, Cloud services and other VAS services for enterprise solutions with our world class 24/7 technical support.
+						EZECOM, Cambodia’s premium internet provider, 
+						was found in 2007 to serve the rapidly expanding 
+						business and residential markets in Cambodia. 
+						Our company has incorporated its own fibre optic, 
+						world-class Data Centre, VoIP, VPN, Cloud services and 
+						other VAS services for enterprise solutions 
+						along with our world-class 24/7 technical support.
 					</p>
 					<p class="color-for-p">
 						We are now looking for dynamic, energetic and committed candidates to fill the position as:
@@ -51,7 +57,7 @@
 						foreach ($career as $careers) {?>
 							<tr>
 							  <td>
-								<span><?php echo ucwords(strtolower($careers->career_title))?></span>
+								<span><strong class="job-title"><?php echo ucwords(strtolower($careers->career_title))?></strong></span>
 								<br/>
 								<label>Base in Phnom Penh, 1 position</label>
 							  </td>
