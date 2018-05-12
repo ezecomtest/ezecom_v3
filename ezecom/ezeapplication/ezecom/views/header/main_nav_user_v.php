@@ -173,7 +173,7 @@
 									<ul>
 										<li>
 											<strong>Cyber Security</strong>
-											<ul class="security">
+											<ul class="security-services">
 												<li><a href="<?php echo base_url();?>our-services/cyber-security/ddos">DDoS Mitigation Service</a></li>
 												<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall">Web Application Firewall</a></li>
 												<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security">Managed Network Security</a></li>

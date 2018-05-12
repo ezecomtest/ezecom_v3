@@ -16,7 +16,7 @@ class Ddos extends CI_Controller {
 		$this->ddos_mitigation();
 	}
 	public function ddos_mitigation(){
-		$data['title'] = "DDos";
+		$data['title'] = "DDoS";
 		$data['active']= "Our Services";
 		$lan = 1;
         $data['feature_content'] = $this->homepage_m->get_feature_content($lan);

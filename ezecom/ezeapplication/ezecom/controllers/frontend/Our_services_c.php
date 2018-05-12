@@ -472,16 +472,16 @@ class Our_services_c extends CI_Controller {
 	
 	public function ddos(){
 		if($this->session->userdata("language")==1){
-			$data['title'] = "DDos";
-			$data['active'] = "DDos";
+			$data['title'] = "DDoS";
+			$data['active'] = "DDoS";
 			$lan = $this->session->userdata("language");
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/ddos',$data);
 		}
 		
 		if($this->session->userdata("language")==""){
-			$data['title'] = "DDos";
-			$data['active'] = "DDos";
+			$data['title'] = "DDoS";
+			$data['active'] = "DDoS";
 			$lan = 1;
 			$data['feature_content'] = $this->homepage_m->get_feature_content($lan);
 			$this->load->view('frontend/ddos',$data);

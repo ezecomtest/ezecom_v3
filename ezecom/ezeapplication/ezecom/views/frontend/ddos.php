@@ -122,7 +122,7 @@
 		</div>
 		<div class="row">
 			<div class="impact">
-				<h3>DDoS Attacks on Business Impact</h3>
+				<h3>Business Impacts due to DDoS Attacks</h3>
 			</div>
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="revenue">
@@ -140,9 +140,9 @@
 					<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-Productivity-Loss.png"/>
 					<h4 class="text-center">PRODUCTIVITY LOSS</h4>
 					<p class="text-center">
-						When your network systems are shut down, your workforce productivity 
-						will be immediately halted both internal & external 
-						communications which will downgrade customers’ satisfaction.
+						When your network systems are shut down, your workforce 
+						productivity will be immediately halted, affecting both internal & 
+						external communications and will affect your customers’ satisfaction.
 					</p>
 				</div>
 			</div>
@@ -151,7 +151,7 @@
 					<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-Reputation-Damage.png"/>
 					<h4 class="text-center">REPUTATION DAMAGE</h4>
 					<p class="text-center">
-						Your brand image suffers because you have lost your valuable customers.
+						Your brand image suffers because you have lost the trust of valuable customers.
 					</p>
 				</div>
 			</div>
@@ -160,10 +160,9 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
 				<div class="ddos-attacks">
-					<h4>How Our DDoS Mitigation Works</h4>
+					<h4>How our DDoS Mitigation Works</h4>
 					<p>
-						DDoS Mitigation Service,
-Prevents The Loss Of Your Business’s Revenue And Reputation
+						DDoS Mitigation Service Prevents the Loss of Your Business’s Revenue and Reputation
 					</p>
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/DDoS-Mitigation-diagram.png"/>
 				</div>
@@ -178,15 +177,14 @@ Prevents The Loss Of Your Business’s Revenue And Reputation
 				<div class="world-attack">
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-01.png"/>
 					<h4 class="text-center">WORLD-CLASS ATTACK MITIGATION</h4>
-					<p class="text-center">Highly secure protection from DDoS attack</p>
+					<p class="text-center">Highly secured protection from DDoS attacks.</p>
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="hybrid-protecting">
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-02.png"/>
 					<h4 class="text-center">HYBRID PROTECTION</h4>
-					<p class="text-center">We make sure all your internet, 
-					volumetric, application <br/>& etc… are protected and secure.</p>
+					<p class="text-center">We make sure not just your internet, but also data, <br/>application etc. are protected and secured.</p>
 				</div>
 			</div>
 		</div>
@@ -194,19 +192,17 @@ Prevents The Loss Of Your Business’s Revenue And Reputation
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="world-attack">
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature-03.png"/>
-					<h4 class="text-center">HIGHLY SCALE NETWORK</h4>
-					<p class="text-center">Global scrubbing centre with capacity <br/>2Tbps and local 
-					scrubbing centre with capacity 4Gbps, 
-					<br/>defeat every size, duration, and frequency of DDoS attacks</p>
+					<h4 class="text-center">LARGE SCALE PROTECTION NETWORK</h4>
+					<p class="text-center">
+					Global scrubbing centre with capacity 2 <br/>Tbps and local scrubbing centre with capacity 4 Gbps <br/>defeat every size, duration, and frequency of DDoS attacks.
+					</p>
 				</div>
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="hybrid-protecting">
 					<img  class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/DDos/icon-feature04.png"/>
 					<h4 class="text-center">PROVEN OPERATIONAL EXPERT & 24/7 SUPPORT</h4>
-					<p class="text-center">Real time 24/7 to detect and mitigate DDoS threats. 
-					<br/>Comprehensive network security 
-					and keep <br/>track your network’s performance.</p>
+					<p class="text-center">Real-time 24/7 ability to detect and mitigate <br/>DDoS threats. Get comprehensive network security and <br/>keep track of your network’s performance.</p>
 				</div>
 			</div>
 		</div>

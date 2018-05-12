@@ -88,10 +88,12 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="EzeTV-Intro">
+					<h3>EzeTV</h3>
 					<p>
-						EzeTV is designed to fit your home entertainment needs for both local and international 
-						TV channels as well as other content such as video on cloud , 
-						live traffic camera and more. Watch your favourite TV channels and video anywhere anytime.
+						EzeTV is designed to meet your home entertainment needs for both local 
+						and international TV channels as well as other contents such as online videos, 
+						live traffic cameras and more. Watch your favourite TV channels and videos 
+						conveniently from the comforts of your home.
 					</p>
 				</div>
 			</div>
@@ -108,13 +110,13 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="EzeTV-Plan">
-					<h3>EzeTV Plan</h3>
+					<!--<h3>EzeTV Plan</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
 						sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
 						Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
 						lobortis nisl ut Lorem ipsum dolor sit amet,
-					</p>
+					</p>-->
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>

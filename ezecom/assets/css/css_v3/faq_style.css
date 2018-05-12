@@ -88,6 +88,8 @@
 	position:relative;
 	top:100px;
 	text-align:center;
+	font-family:myNeutra,serif,sans-serif;
+	font-size:14px;
 }
 
 
@@ -114,23 +116,28 @@
 }
 
 .tab-content h2{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:25px;
 	color:#7961a9;
 	font-weight:bold;
 }
 .tab-content h1{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
+	line-height:25px;
 }
 
 .tab-content p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	padding-left:50px;
 	font-size:18px;
 }
 
 .tab-content ul{
 	padding-left:80px;
+}
+.tab-content ul li{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:15px;
 }
 
 .mg-bt{
@@ -139,6 +146,37 @@
 .mg-bt-last{
 	margin-bottom:70px;
 }
+
+.khmer h2, .english h2{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+.working-hour{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 18px;
+}
+.phone-num{
+	color: #7961A9;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.desk-num{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.khmer,.english{
+	background-color:#F4F4F4;
+}
+.khmer{
+	padding-bottom:19px;
+}
+
 .mg-top{
 	margin-top:50px;
 }

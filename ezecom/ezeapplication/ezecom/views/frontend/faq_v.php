@@ -378,7 +378,7 @@
 									</div>
 									<div id="security" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 									<h2 class="rl_tabs-title nn_tabs-title"><a id="anchor-security" class="anchor"></a>Security</h2>
-									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f1">How can my kids use the Internet safely</h1>
+									<h1 class="faqheading q1" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f1">How can my kids use the Internet safely?</h1>
 									<div id="f1" class="panel-collapse collapse">
 									<p style="font-size: 17px;">Safe Internet access for children is critical. Therefore, we highly recommend our customer to explore continuous education about how to avoid abusive content, exploitation, stolen identity and other cyber crimes. There are also technical solutions in order to protect your computer and devices from such potential issues listed below.</p>
 									<ul style="font-size: 17px;">
@@ -387,7 +387,7 @@
 									<li>NetNanny (<a href="http://www.netnanny.com/" target="_blank">www.netnanny.com</a>) one of the top rated online protection for personal and enterprise Internet content filtering solutions</li>
 									</ul>
 									</div>
-									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f2">How can my kids use the Internet safely</h1>
+									<h1 class="faqheading q2" style="font-size: 17px;" data-toggle="collapse" data-parent="#accordion" data-target="#f2">How can my kids use the Internet safely?</h1>
 									<div id="f2" class="panel-collapse collapse">
 									<p style="font-size: 17px;">A phishing email is created to target a specific group of people with a malicious intention to gather information like username ID and password of a computer user and escalate access to sensitive sites like online banking, email account, social media account and company’s internal system.</p>
 									<p style="font-size: 17px;">Being aware of such unethical intentions, one can predict a phishing email by looking for specify valid detail often not included by the spammer. Credible information like your full name and account detail are usually revealed by your bank, organization or system providers in an email regarding the announcement or campaign. It is also important for you to always verify with the bank about such changes or action needed from your end.</p>
@@ -419,7 +419,26 @@
 						</div>
 						<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
 					</div>
-					
+					<div class="row mg-top mg-bt">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="khmer">
+								<h2 class="text-center">Khmer / English speaking</h2>
+								<p class="text-center desk-num">help desk number (24/7)</p>
+								<p class="text-center phone-num">+855(0)23 238 181 <br/>
+									+855(0)85 888 181
+								</p>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="english">
+								<h2 class="text-center">English speaking</h2>
+								<p class="text-center desk-num">help desk number</p>
+								<p class="text-center working-hour">(Mon - Fri: 8:00am 5:30pm)</p>
+								<p class="text-center working-hour">(Sat: 8:00am - 12.00am)</p>
+								<p class="text-center phone-num">+855(0)89 777 696</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>  

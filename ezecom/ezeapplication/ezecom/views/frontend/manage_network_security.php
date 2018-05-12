@@ -16,7 +16,7 @@
 <div class="container-fluid">
 	<div class="container">	
 		<h1 class="text-center">Managed Network Security </h1>
-		<h1 class="text-center pd-bt">Need Content</h1>
+		<h1 class="text-center pd-bt">“Page is Under Construction”</h1>
 	</div>
 </div>          
 <!-- FOOTER -->
