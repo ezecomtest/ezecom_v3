@@ -22,9 +22,9 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-left">
 				<div class="customer-service">
 					<p class="first">
-						It is our pleasure to provide you with the best and most reliable internet 
-						connection in Cambodia, supported by our world class customer service team. With EZECOM as a partner, 
-						you and your organization can benefit from our robust communication infrastructure.
+						It is our pleasure to provide you with the best and most reliable internet connection in Cambodia, supported by our world-class customer service team. With EZECOM as a partner, you and your organization can benefit from our robust communication infrastructures.
+If you have any questions regarding our connection or if you are in need of technical support, please feel free to call our help desk at the numbers below. 
+
 					</p>
 					
 					<p class="second">
@@ -40,7 +40,7 @@
 					<h2 class="text-center">Khmer / English speaking</h2>
 					<p class="text-center desk-num">help desk number (24/7)</p>
 					<p class="text-center phone-num">
-						+855(0)23 888 181
+						+855(0)23 238 181
 						<br/>+855(0)85 888 181
 					</p>
 				</div>

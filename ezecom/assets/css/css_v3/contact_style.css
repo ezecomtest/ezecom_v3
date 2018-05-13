@@ -13,9 +13,9 @@
 	margin-bottom:10px;
 }
 .wrapper-text p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:18px;
-	padding:16px 0 2px 0;
+	padding:50px 0 2px 0;
 	text-align:center;
 }
 
@@ -29,8 +29,9 @@
 	position:relative;
 	top:40px;
 	text-align:center;
-	font-weight:bold;
-	font-size:12px;
+	font-weight:500;
+	font-size:13px;
+	font-family:myNeutra,serif,sans-serif;
 }
 
 .Head,.customer-service,.Siem-Reap,.Sihanouk,.Koh-Kong,.Battambang,.Bavet,.Poipet{
@@ -114,11 +115,11 @@ a{
 
 .top-header{
 	color:#7961a9;
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
 }
 .address p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:14px;
 	line-height:18px;
 }
@@ -126,7 +127,7 @@ a{
 	padding-right:10px;
 }
 .phone p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:14px;
 	line-height:18px;
 }
@@ -137,7 +138,7 @@ a{
 	padding-right:10px;
 }
 .clock p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:14px;
 	line-height:18px;
 }

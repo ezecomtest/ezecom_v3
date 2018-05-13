@@ -349,7 +349,9 @@
 						</div>
 					</div>
 			</div><!-- Maybank -->
-			<div id="wing-app" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+			
+			<!-- Wing Bill Payment -->
+			<div id="wing" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
 					<div class="row"><h1 class="text-center top-header">Wing Bill Payment</h1></div>
 					<div class="row bg-color clear-mg">
 					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -357,13 +359,40 @@
 							<div class="wrapper-content">
 								<p><b>Follow these easy steps to pay your bill via WING with your mobile phone.</b></p>
 								<ol>
-									<li>Dial <b>*989#</b> to go to WING menu</li>
+									<li>Dial *989# to go to WING menu</li>
 									<li>Enter your WING Account No, and press Send</li>
-									<li>Enter <b>“5”</b> and press Send</li>
-									<li>Enter <b>“8”</b> and press Send</li>
+									<li>Enter “5” and press Send</li>
+									<li>Enter “8” and press Send</li>
 									<li>Enter your Customer ID, and press Send</li>
 									<li>Enter Amount in USD, and press Send</li>
 									<li>Enter PIN code (4 digits) of your WING account, and press Send</li>
+								</ol>
+								<p>
+									For full information on how to sign up for WING 
+									account please go to your nearest WING outlet or visit www.wingmoney.com
+								</p>
+							</div>
+						</div>
+					</div>
+			</div>
+			
+			<!-- Wing App -->
+			<div id="wing-app" class="tab-pane rl_tabs-pane nn_tabs-pane payment-tap">
+					<div class="row"><h1 class="text-center top-header">Wing App Payment</h1></div>
+					<div class="row bg-color clear-mg">
+					<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<div class="wrapper-content">
+								<p><b>Follow these easy steps to pay your bill via WING APP on your mobile phone.</b></p>
+								<ol>
+									<li>Download WING Money from Play store (Android Phone) App Store (IOS phone)</li>
+									<li>Register your WING APP account</li>
+									<li>Log in to your WING APP account</li>
+									<li>Select “Bill payment” in “Biller List” select “INTERNET” and select “EZECOM”</li>
+									<li>Enter you “Customer ID” and “Amount” in USD and select “PAY”</li>
+									<li>Check the payment information and select “Confirm”</li>
+									<li>Enter PIN CODE(4digits) of your WING ACCOUNT, and select “Continue”</li>
+									<li>You will receive an SMS notification for successful bill payment</li>
 								</ol>
 								<p>
 									For full information on how to sign up for WING 

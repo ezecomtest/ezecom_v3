@@ -19,8 +19,8 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="form-wrapper">
-					<p>Don't you have Ezecom email account ?<br/>
-					Signup is easy and free !</p>
+					<p>Don't you have an EZECOM email account yet?<br/>
+					Sign up is easy and free!</p>
 					<form id="setupEmail" action="" method="post" >
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -85,7 +85,7 @@
 						</div>
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<input type="submit" class=" pull-right btn btn-default" value="SEND" name="cmdsubmit"/>
+								<input type="submit" class=" pull-right btn btn-default" value="Signup" name="cmdsubmit"/>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<input type="reset" class="btn btn-default" value="RESET" name="cmdclear"/>

@@ -24,7 +24,10 @@
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="wrapper-text">
-					<p> Need some text <p>
+					<p> EZECOM is honoured to have been a preferred provider of top quality 
+					and reliable internet connection in Cambodia. We have branches and offices 
+					present throughout Cambodia. To learn more about our services, please feel free to 
+					contact or visit us at a location near you! <p>
 				</div>
 			</div>
 			<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
@@ -122,7 +125,7 @@
 						<div class="phone">
 							<img  class="img-responsive" align="left" src="<?php echo base_url()?>images/contact/icon-phone.png"/>
 							<p>
-								<b>Tel : 023 888 181</b> <br/>
+								<b>Tel : 023 238 181</b> <br/>
 								<b>Fax : 023 882 961</b>
 							</p>
 						</div>
@@ -521,7 +524,7 @@ $(document).ready(function () {
 	});
 	
 	$('a .Koh-Kong').click(function(e) {
-		
+		$('a .Head').removeClass('active-now');
 		$('a .Sihanouk').removeClass('active-now');
 		$('a .customer-service').removeClass('active-now');
 		$('a .Poipet').removeClass('active-now');
