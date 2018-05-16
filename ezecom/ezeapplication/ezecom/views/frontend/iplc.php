@@ -32,7 +32,7 @@
 						Customers gain the benefit of global coverage from Telcotech’s 
 						partnerships with Tier-1 operators worldwide.
 					</p>
-					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/btn-sign-up.png"/>
+					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/IPLC/button-sign-me-up.svg"/>
 				</div>	
 				<!-- Contact Form Dedicate -->
 					<div class="container">

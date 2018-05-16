@@ -20,7 +20,7 @@
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
 				<div class="wrapper-top">
 					<span>
-						<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/btn-sign-up.png"/>
+						<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/button-sign-me-up.svg"/>
 					</span>
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/dedicate.jpg"/>
 				</div>

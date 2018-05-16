@@ -76,7 +76,7 @@
 							</div>
 					</div> <!-- end container -->
 				<div class="Hosting_wrapper">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/hosting-icon.png"/>
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/icon-web_hosting.svg"/>
 					<h2>Web Hosting</h2>
 					<p>
 						EZECOM's Web Hosting in housed in our world-class data centre in Phnom Penh. 
@@ -86,7 +86,7 @@
 				</div>
 				<div class="signup">
 					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/button-sign-me-up.svg"/>
 					</span>
 				</div>
 				

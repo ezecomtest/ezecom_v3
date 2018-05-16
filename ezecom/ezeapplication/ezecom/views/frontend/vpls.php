@@ -36,7 +36,7 @@
 				</div>
 				<div class="signup">
 					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/button-sign-me-up.svg"/>
 					</span>
 				</div>
 				

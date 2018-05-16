@@ -81,9 +81,9 @@
 						<li><a href='<?php echo base_url()?>support/customer-service'>Customer Service</a></li>
 						<li><a href='<?php echo base_url()?>support/payment'>Payment Options</a></li>
 						<li><a href='<?php echo base_url()?>support/setup-email'>EzeMail Setup</a></li>
-						<li><a href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
-						<li><a href='http://ezecom.speedtest.net/'>Speed Test</a></li>
-						<li><a href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
+						<li><a target="_blank" href='http://mail.ezecom.com.kh/'>EzeMail</a></li>
+						<li><a target="_blank" href='http://ezecom.speedtest.net/'>Speed Test</a></li>
+						<li><a target="_blank" href='https://csm.ezecom.com.kh/uam/'>User Account Management</a></li>
 					</ul>
 				</li>
 				<li><a href='<?php echo base_url()?>'>Media Center <span class="glyphicon glyphicon-menu-down resize-angle-down"></span></a>
@@ -204,9 +204,9 @@
 									<li><a href="<?php echo base_url();?>support/customer-service">Customer Service</a></li>
 									<li><a href="<?php echo base_url();?>support/payment">Payment Options</a></li>
 									<li><a href="<?php echo base_url();?>support/setup-email">EzeMail Setup</a></li>
-									<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-									<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>	
-									<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
+									<li><a target="_blank" href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
+									<li><a target="_blank" href="http://ezecom.speedtest.net/">Speed Test</a></li>	
+									<li><a target="_blank" href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
 									                                                 
 								</ul>
 							</div>

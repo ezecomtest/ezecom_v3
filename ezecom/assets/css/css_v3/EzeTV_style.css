@@ -76,7 +76,9 @@
 	right:25%;
 	top:52%;
 }
-
+.wrapper-top span img{
+	width:125px;
+}
 /* Zoom In Sign Up */
 .wrapper-top span img{
 	-webkit-transform: scale(1);

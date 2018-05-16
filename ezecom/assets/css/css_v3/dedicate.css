@@ -16,6 +16,10 @@
 	left:85px;
 	z-index:1000;
 }
+
+.wrapper-top span img{
+	width:125px;
+}
 /* Zoom In Sign Up */
 .wrapper-top span img{
 	-webkit-transform: scale(1);

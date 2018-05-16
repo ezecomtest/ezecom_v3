@@ -20,7 +20,7 @@
 				<div class="wrapper-top">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/EzeTV/ezetv_main.jpg"/>
 					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/EzeTV/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/EzeTV/button-sign-me-up.svg"/>
 					</span>
 				</div>
 			</div>

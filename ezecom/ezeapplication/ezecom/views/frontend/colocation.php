@@ -23,7 +23,7 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="Colo_wrapper">
-					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-icon.png"/>
+					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/icon-Data_colocation.svg"/>
 					<h2>Data Co-location</h2>
 					<p>
 						EZECOM Data Co-location services offer reliable and resilient 
@@ -38,7 +38,7 @@
 				</div>
 				<div class="signup">
 					<span>
-						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/button-sign-me-up.svg"/>
 					</span>
 				</div>
 				

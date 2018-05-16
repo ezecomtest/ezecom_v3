@@ -99,7 +99,9 @@
 	padding:10px 0 10px 0;
 }
 
-
+.DPLC_wrapper img{
+	width:125px;
+}
 /* Zoom In Sign Up */
 .DPLC_wrapper img{
 	-webkit-transform: scale(1);

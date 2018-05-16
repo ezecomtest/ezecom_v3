@@ -100,7 +100,9 @@
 	padding:10px 0 10px 0;
 }
 
-
+.IPLC_wrapper img{
+	width:125px;
+}
 /* Zoom In Sign Up */
 .IPLC_wrapper img{
 	-webkit-transform: scale(1);

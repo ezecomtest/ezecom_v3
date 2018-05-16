@@ -20,7 +20,7 @@
 				<div class="wrapper-top">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/DDos/ddos.jpg"/>
 					<span>
-						<img  id="pop-up-form" class="img-responsive sign-up" src="<?php echo base_url()?>images/our-services/DDos/btn-sign-up.png"/>
+						<img  id="pop-up-form" class="img-responsive sign-up" src="<?php echo base_url()?>images/our-services/DDos/button-sign-me-up.svg"/>
 					</span>
 				</div>
 			</div>

@@ -13,6 +13,7 @@
 }
 .Colo_wrapper img{
 	float:left;
+	width:180px;
 }
 .Colo-img img{
 	margin-top:50px;
@@ -49,6 +50,7 @@
 	font-family:myNeutra,serif,sans-serif;
 	font-size:16px;
 	padding-left:22px;
+	padding-top:20px;
 	clear:both;
 }
 
@@ -147,6 +149,9 @@
 .signup{
 	margin-top:30px;
 	margin-left:22px;
+}
+.signup img{
+	width:125px;
 }
 /* Zoom In Sign Up */
 .signup span img{
