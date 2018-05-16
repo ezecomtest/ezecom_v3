@@ -24,7 +24,7 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="IPLC_wrapper">
 					<h2>IPLC</h2>
-					<p><span>(International Private Leased Circuit)</span></p>
+					<p class="full-title"><span>(International Private Leased Circuit)</span></p>
 					<p>
 						EZECOM’s IPLC is a point-to-point private link that can transport voice, 
 						data or video traffic between your offices in different countries. 
@@ -119,7 +119,7 @@
 				<div class="third">
 					<ul>
 						<li>Interfaces: V35, T1, E1, DS3, STM1, STM4, STM16, STM64</li>
-						<li>Speed ranging from N x 64Kbps to nx10Gbps</li>
+						<li>Speed ranging from n x 64 Kbps to n x 10 Gbps</li>
 					</ul>
 				</div>
 			</div>
@@ -130,8 +130,8 @@
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-first">
 						<ul>
-							<li>Fire arranged in self-healing ring with automatic redundancy and Back-up paths from differnt cable systems are available</li>
-							<li>Guaranteed Single fixed path (point to point)</li>
+							<li>Fibre arranged in self-healing ring with automatic redundancy and back-up paths from different cable systems are available</li>
+							<li>Guaranteed single fixed path (point to point)</li>
 						</ul>
 					</div>
 				</div>
@@ -139,14 +139,14 @@
 					<div class="b-second">
 						<ul>
 							<li>Protocol transparency supporting the most demanding applications</li>
-							<li>One-stop Shopping and Billing</li>
+							<li>One-stop shopping and billing</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-third">
 						<ul>
-							<li>24x7 in house local support delivered by a team of Cambodian and foreign experts</li>
+							<li>24/7 in-house, local support delivered by a team of Cambodian and foreign experts</li>
 						</ul>
 					</div>
 				</div>

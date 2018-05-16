@@ -86,11 +86,10 @@
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="about-ezesurf">
 					<p>
-						EzeSurf packages are all delivered on fibre optic. 
-						EzeSurf offers the best available internet packages to suit 
-						residential and home needs with symmetrically upload/download speed, 
-						good for real-time communication, video call and social media, 
-						live stream along with world class customer service and 24/7 helpdesk support to ensure the best experience for you.
+						EzeSurf packages are all delivered on fibre optic. EzeSurf offers the best available internet 
+						packages to suit residential and home needs with symmetrically upload/download speed, good for 
+						real-time communication, video call and social media, live stream along with world-class 
+						customer service and 24/7 helpdesk support to ensure the best experience for you.
 					</p>
 				</div>
 			</div>
@@ -138,8 +137,8 @@
 					<p>TERMS & CONDITIONS</p>
 					<ul>
 						<li>No deposit required</li>
-						<li>Free modem / TV box rental</li>
-						<li>6 months upfront (payment is required)</li>
+						<li>Free modem/TV box rental</li>
+						<li>6 months upfront payment is required</li>
 						<li>Other conditions apply</li>
 					</ul>
 				</div>

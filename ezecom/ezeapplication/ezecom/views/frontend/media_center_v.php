@@ -17,6 +17,7 @@
 	<div class="container">
 		<div class="row row-mg-bt">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2 class="full-title">News and Events</h2>
 				<div class="top-news">
 					<a href="<?php echo base_url(); ?>media-center/news-detail/<?php echo strtolower(str_replace(' ', '-', $firsttitle_events['content_title']));?>">
 						<img  class="img-responsive"  src="<?php echo base_url('elFindermaster/files/post/image_feature/').$firsttitle_events['content_image_feature']?>" alt="<?php echo $firsttitle_events['content_title']?>"/>

@@ -23,17 +23,16 @@
 			</div>
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="VPLS_wrapper">
+					<h2>VPLS</h2>
 					<p>
-						EZECOM Domestic VPN solutions are designed to meet requirements of 
-						dynamic business of today. Domestic VPN connections offer cost 
-						effective connections across the country. Best effort and SLA 
-						assured connections from a secure and high speed private network. 
-						Several options are available on our Ezecom VPN range of service plans.
+						EZECOM’s VPLS solutions are designed to meet the requirements of the modern 
+						and dynamic nature of business today. Our connections are cost effective and 
+						spread all across the country. You can consider our VPLS solutions from among the options below.
 					</p>
 				</div>
 				<div class="price">
 					<img  class="img-responsive" src="<?php echo base_url()?>images/our-services/VPLS/package-price.png"/>
-					<p>All above cost are exclusive VAT.<p>
+					<p>All pricings above are exclusive of VAT.<p>
 				</div>
 				<div class="signup">
 					<span>

@@ -7,9 +7,13 @@
 .MPLS_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
     font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
+	text-align:center;
+}
+.MPLS_wrapper .full-title{
+	text-align:center;
 }
 .MPLS-img img{
 	margin-top:50px;
@@ -23,10 +27,11 @@
 	color: #7961AA;
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
+	font-size:20px;
 }
 .MPLS_wrapper p{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 }
 
 .MPLS_wrapper p.MPLS-service{
@@ -38,7 +43,7 @@
 .MPLS_wrapper ul{
 	list-style-image:url('../../../images/our-services/MPLS/square.png');
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 	padding-left:30px;
 }
 
@@ -56,7 +61,7 @@
 	color: #7961AA;
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
-	font-size:20px;
+	font-size:30px;
 }
 .first ul,.b-first ul, .b-second ul,.b-third ul ,.second ul,.third ul{
 	list-style-image:url('../../../images/our-services/IPLC/bullet.png');

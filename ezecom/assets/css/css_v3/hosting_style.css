@@ -7,10 +7,14 @@
 .Hosting_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
     font-family:myNeutra,serif,sans-serif;
-	padding-top:10px;
+	padding-top:40px;
 }
+.Hosting_wrapper img{
+	float:left;
+}
+
 .Hosting-img img{
 	position:relative;
 	left:20px;
@@ -27,8 +31,9 @@
 }
 .Hosting_wrapper p{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 	padding-left:22px;
+	clear:both;
 }
 
 .Hosting-bg{

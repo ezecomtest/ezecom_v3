@@ -109,14 +109,14 @@
 .term-condition p{
 	font-size:18px;
 	font-family:myNeutra,serif,sans-serif;
-    color: #919191;
+    color:#404041;
 	font-weight:bold;
 }
 .term-condition ul li{
 	list-style-image:url('../../../images/our-services/Ezesurf/ezesuf_list.gif');
 	line-height:25px;
 	font-family:myNeutra,serif,sans-serif;
-	color: #919191;
+	color:#404041;
 	font-size:16px;
 }
 

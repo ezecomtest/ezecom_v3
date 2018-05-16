@@ -77,10 +77,11 @@
 					</div> <!-- end container -->
 				<div class="Hosting_wrapper">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Web-Hosting/hosting-icon.png"/>
+					<h2>Web Hosting</h2>
 					<p>
-						EZECOM's web hosting in housed in our world class data centre in Phnom Penh. 
-						Our Web hosting services are tailored to the unique demands of the Cambodian market. 
-						Combine international best practice with local experience.
+						EZECOM's Web Hosting in housed in our world-class data centre in Phnom Penh. 
+						Our Web Hosting services are tailored to the unique demands of the Cambodian market. 
+						It is the effective combination of international best practice and local experience.
 					</p>
 				</div>
 				<div class="signup">
@@ -218,13 +219,13 @@
 		<div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="exclusive-vat">
-					<h3>Prices are exclusive VAT.</h3>
-					<p><strong>Please Note:</strong></p>
+					<p><strong>TERMS & CONDITIONS</strong></p>
 					<ul>
-						<li>Above services available on 1 year contract</li>
-						<li>Set-up fees are $25</li>
-						<li>EZECOM is not responsible for registering the domain name</li>
-						<li>Packages can be customize based on your unique needs.</li>
+						<li>Prices are exclusive of VAT.</li>
+						<li>Minimum one-year contract required.</li>
+						<li>$25 set up fee applies.</li>
+						<li>EZECOM is not responsible for registering the domain name.</li>
+						<li>Packages can be customized based on your unique needs.</li>
 					</ul>
 				</div>
 			</div>

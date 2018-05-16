@@ -24,6 +24,7 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="Colo_wrapper">
 					<img class="img-responsive" src="<?php echo base_url()?>images/our-services/Colocation/colo-icon.png"/>
+					<h2>Data Co-location</h2>
 					<p>
 						EZECOM Data Co-location services offer reliable and resilient 
 						world-class data centre facilities for you to host all your mission 
@@ -114,7 +115,7 @@
 						</div>
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							<div class="package">
-								<p>HELF RACK</p>
+								<p>HALF RACK</p>
 								<img class="img-responsive fee" src="<?php echo base_url()?>images/our-services/Colocation/fee-2.png"/>
 							</div>
 						</div>
@@ -130,12 +131,10 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pd-right">
 				<img class="img-responsive img-position" src="<?php echo base_url()?>images/our-services/Colocation/package-2.png"/>
 				<div class="wrapper-setup">
-					<h3>Setup Fees apply</h3>
+					<h3>Set Up Fees Apply</h3>
 					<p>
-						As with all our corporate solutions, our co-locations services are flexible 
-						to suit your business requirements. Please note that this service requires an 
-						EZECOM internet connection.
-						All above cost are exclusive VAT.
+						As with all our corporate solutions, our co-locations services are flexible to suit your business requirements. 
+						Please note that this service requires an EZECOM internet connection. All above cost are exclusive VAT.
 					</p>
 				</div>
 			</div>

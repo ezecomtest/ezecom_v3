@@ -11,6 +11,9 @@
     font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
 }
+.Colo_wrapper img{
+	float:left;
+}
 .Colo-img img{
 	margin-top:50px;
 	position:relative;
@@ -29,6 +32,14 @@
 	margin-top:110px;
 	padding-left:0;
 }
+.Colo_wrapper h2{
+	color: #7961AA;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: myNeutra,serif,sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
 .Colo_wrapper p span{
 	color: #7961AA;
 	font-family:myNeutra,serif,sans-serif;
@@ -36,15 +47,22 @@
 }
 .Colo_wrapper p{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 	padding-left:22px;
+	clear:both;
 }
 
 
-.wrapper-package,.wrapper-setup{
+.wrapper-package{
 	padding:50px 10px 10px 10px;
 	border:1px solid #7A7A7A;
 }
+
+.wrapper-setup{
+	padding:50px 10px 20px 10px;
+	border:1px solid #7A7A7A;
+}
+
 .wrapper-package .package{
 	border:1px solid #EAEDEF;
 	margin-top:30px;
@@ -66,7 +84,7 @@
 }
 
 .wrapper-setup p{
-	font-size:18px;
+	font-size:16px;
 	font-family:myNeutra,serif,sans-serif;
 	padding-bottom:45px;
 }

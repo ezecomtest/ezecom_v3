@@ -1,15 +1,25 @@
 /* Embed Font */
 @font-face {
-    font-family: myNeutra;
+    font-family:myNeutra,serif,sans-serif;
     src: url(../fonts/NeutraText-Book.otf);
+}
+.full-title{
+	font-family:myNeutra,serif,sans-serif;
+    font-size: 30px;
+    color: #7961a9;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-top: 0;
+	text-align:center;
 }
 .top-news{
 	padding:30px 0 30px 0;
 }
 .top-news p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:16px;
 	padding:0 5px 0 10px;
+	line-height:30px;
 }
 
 .top-news img{
@@ -22,11 +32,11 @@
 	font-size:15px;
 }
 .top-news a h5{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	color:#7961a9;
 	font-size:17px;
 	font-weight:700;
-	line-height:22px;
+	line-height:26px;
 }
 
 .top-news a:hover{
@@ -40,7 +50,7 @@
 	float:left;
 }
 .sub-news p{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	font-size:16px;
 	padding:0 5px 0 10px;
 }
@@ -50,7 +60,7 @@
 	font-size:15px;
 }
 .sub-news a h5{
-	font-family:myNeutra;
+	font-family:myNeutra,serif,sans-serif;
 	color:#7961a9;
 	font-size:17px;
 	font-weight:700;

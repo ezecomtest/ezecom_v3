@@ -179,16 +179,14 @@
 
 <h3 class="all-features">Anywhere It Matters</h3>
 <p class="all-desc-features">
-	Access your work securely from anywhere, no WiFi, no problem. 
-	Work offline and sync your data later. Available on Windows, 
-	iOS, Android, Mac and through web browsers.
+	Access your work securely from anywhere! No WiFi? No problem. Work offline and sync your data later. Available on Windows, iOS, Android, Mac and through web browsers.
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5% 5% 0 5%;">
 <img src="<?php echo base_url()?>images/our-services/365/security.png" id= "all_img_features_what_include" alt="Always-on Security" class="img-responsive">
 <h3 class="all-features">Always-on Security</h3>
 <p class="all-desc-features">
-	Safeguard company data across PCs,phones & tablets securely with the latest version of Microsoft <span style="white-space:nowrap">office 365.</span>
+	Safeguard company data across PCs, phones & tablets securely with the latest version of Microsoft  <span style="white-space:nowrap">office 365.</span>
 </p>
 </div>
 <div class="col-xs-12 col-md-4" style="padding: 5% 5% 0 5%;">

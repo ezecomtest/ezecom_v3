@@ -133,10 +133,10 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-12">
 				<div class="pricing">
-					<h3 class="text-center">Pricing</h3>
+					<!--<h3 class="text-center">Pricing</h3>
 					<p>
 						EzeBiz is a product revamp by EZECOM for all our customers. EzeBiz is a direct upgrade for our old packages that pro
-					</p>
+					</p>-->
 				</div>
 			</div>
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
@@ -157,11 +157,11 @@
 				<div class="special-offer">
 					<p>Special Offer</p>
 					<ul>
-						<li>- Free on Modem rental </li>
-						<li>- Installation fee : $75</li>
+						<li>- Free modem rental </li>
+						<li>- Installation fee: $75</li>
 						<li>- Upload/download : symmetric speed</li>
-						<li>- Off-peak double speed x 200%</li>
-						<li>- Bonus speed minimum : 50 mbps</li>
+						<li>- Off-peak speed: x 200%</li>
+						<li>- Bonus local speed: minimum 50 mbps</li>
 						
 					</ul>
 					<div class="bonus-speed">

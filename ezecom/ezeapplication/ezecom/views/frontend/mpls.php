@@ -24,28 +24,29 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="MPLS_wrapper">
 					<h2>MPLS</h2>
-					<p><span>(Multiprotocol Label Switching)</span></p>
+					<p class="full-title"><span>(Multiprotocol-Label Switching)</span></p>
 					<p>
-						EZECOM’s MPLS (Multi Protocol Label Switching) services are highly scalable, protocol agnostic, data-carrying 
-						mechanisms that will ensure that your large corporation makes the most of their IT-network. 
-						EZECOM is the first ISP to bring this international standard service to Cambodia. 
-						Our experienced technical team ensures that your company has the best available in house.
+						EZECOM’s MPLS (Multi-Protocol Label Switching) services are highly scalable, 
+						protocol agnostic, data-carrying mechanisms that will ensure that your large 
+						corporation makes the most of their IT network. EZECOM is the first ISP to bring 
+						this international standard service to Cambodia. Our experienced technical team 
+						ensures that you enjoy the quality service you have come to expect of EZECOM.
 					</p>
 					<p class="MPLS-service">
-						The main benefits of using EZECOM MPLS services are
+						The main benefits of using EZECOM MPLS services are:
 					</p>
 					<ul>
 						<li>Increased resilience</li>
 						<li>Improved data management</li>
 						<li>Multi-service and traffic management capabilities</li>
-						<li>Maximize Network Utilization</li>
+						<li>Maximize network utilization</li>
 						<li>Cost reduction through data network convergence</li>
 						<li>Enables “triple play” on common backbone</li>
-						<li>Supports Multi Cities</li>
+						<li>Supports multi cities</li>
 					</ul>
 					<p>
-						Please contact our sales team for a free assessment of your needs. 
-						After our assessment we will create a tailor made offer without engagement for you.
+						Please contact our sales team for a free assessment of your needs. After our assessment, 
+						we can develop a tailor made offer for you according to your unique needs.
 					</p>
 					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/MPLS/btn-sign-up.png"/>
 				</div>	
@@ -126,7 +127,7 @@
 			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<div class="second">
 					<ul>
-						<li>Support 4 class of service</li>
+						<li>Support 4 classes of service</li>
 					</ul>
 				</div>
 			</div>
@@ -145,22 +146,22 @@
 					<div class="b-first">
 						<ul>
 							<li>Network resiliency for fail-safe connectivity</li>
-							<li>Proative CPE monitoring service support 24x7</li>
+							<li>Proactive CPE monitoring service support 24/7</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-second">
 						<ul>
-							<li>Ability assign priorities for different applications in the network, thereby allocating the needed network bandwidth at the appropriate time.</li>
-							<li>Cost-effective connectivity across multiple office locations</li>
+							<li>Ability to assign priorities for different applications in the network, thereby enabling allocation of the</li>
+							<li>Cost effective connectivity across multiple office locations</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-third">
 						<ul>
-							<li>Provide different type of local loop for and Redundancy</li>
+							<li>Provide different types of local loop and redundancy</li>
 						</ul>
 					</div>
 				</div>

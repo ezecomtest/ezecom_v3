@@ -24,7 +24,7 @@
 			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="DPLC_wrapper">
 					<h2>DPLC</h2>
-					<p><span>(Domestic Private Leased Circuit)</span></p>
+					<p class="full-title"><span>(Domestic Private Leased Circuit)</span></p>
 					<p>
 						As data traffic continues to grow rapidly, mobile operators are densifying 
 						their networks to expand capacity. To keep pace with the demand for nx10 gigabits-per-second 
@@ -131,16 +131,16 @@
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-first">
 						<ul>
-							<li>Fast delivery and expend the network faster</li>
-							<li>No investment on dark fiber and equipment</li>
+							<li>Fast delivery and expand the network faster</li>
+							<li>No investment on dark fibre and equipment</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="b-second">
 						<ul>
-							<li>upgrade bandwidth on demand</li>
-							<li>24x7 support</li>
+							<li>Upgrade bandwidth on demand</li>
+							<li>24/7 support</li>
 						</ul>
 					</div>
 				</div>

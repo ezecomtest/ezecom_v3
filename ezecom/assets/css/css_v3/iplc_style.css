@@ -7,9 +7,10 @@
 .IPLC_wrapper h2{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 50px;
     font-family:myNeutra,serif,sans-serif;
 	padding-top:10px;
+	text-align:center;
 }
 .IPLC-img img{
 	margin-top:50px;
@@ -19,14 +20,19 @@
 .IPLC_wrapper{
 	margin-top:110px;
 }
+.IPLC_wrapper .full-title{
+	text-align:center;
+}
 .IPLC_wrapper p span{
 	color: #7961AA;
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
+	font-size:20px;
+	text-align:center;
 }
 .IPLC_wrapper p{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 }
 
 .IPLC_wrapper img{
@@ -43,7 +49,7 @@
 	color: #7961AA;
 	font-family:myNeutra,serif,sans-serif;
 	font-weight:bold;
-	font-size:20px;
+	font-size:30px;
 }
 .first ul,.b-first ul, .b-second ul,.b-third ul ,.second ul,.third ul{
 	list-style-image:url('../../../images/our-services/IPLC/bullet.png');

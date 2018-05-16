@@ -23,6 +23,7 @@
 <div class="container module-content-container">
 	<div id="camera-block">
 		<div class="row mg-top mg-bt">
+		<h2 class="text-center">Live Traffic Camera</h2>
 		  <div class="col-sm-4">
 			<p class="myLocation">Which location do you want to see ? 
 				<span><img src="<?php echo base_url()?>/images/livetraffic/camera_live.png"/></span>
