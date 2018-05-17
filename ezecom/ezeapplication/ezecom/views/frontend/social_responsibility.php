@@ -55,13 +55,11 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row">
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
-			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd">
 				<div class="wrapper-CSR">
 					<img class="img-responsive" src="<?php echo base_url()?>images/CSR/CSR-main-photo.jpg" alt="Corporate social Responsibility" title="Corporate social Responsibility"/>
 				</div>
 			</div>
-			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
 		</div>
 	</div>
 </div>

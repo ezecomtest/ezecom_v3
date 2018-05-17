@@ -15,7 +15,7 @@
 <div class="container-fluid">
 	<div class="container container-top-mar">
 		<div class="row">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 col-img-padding clear-pd">
 				<img class="img-responsive" src="<?php echo base_url()?>images/community/community-photo.jpg" alt="Our Community" title="Our Community"/>
 			</div>
 		</div>
@@ -23,10 +23,10 @@
 	
 	<div class="container container-top-mar">
 		<div class="row row-margin-top row-margin-bt">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
 				<div class="wrapper-text">
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-1.png" alt="Power of Investment" title="Power of Investment"/>
-					<p>
+					<p class="p-left">
 						EZECOM is a company that knows the power of investment for our customers, 
 						their children & our future. Our core values are sustainability, grassroots 
 						development and integrity, and our partnerships reflect these values. 
@@ -35,10 +35,10 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
 				<div class="wrapper-text">
 					<img class="img-responsive" src="<?php echo base_url()?>images/community/community-ico-2.png" alt="Innovation and Progress" title="Innovation and Progress"/>
-					<p>
+					<p class="p-right">
 						Innovation and progress lie at the heart of EZECOM’s success. 
 						We recognise that by investing in and supporting our communities, 
 						we can help to build a more economically sustainable, educated and 

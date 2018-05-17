@@ -46,7 +46,7 @@
 								<div class="form-group">
 									<label>Phone Number:<label class="red">*</label></label>
 									<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-										<input type="number" class="form-control input-md" required name="phoneNumber"/>
+										<input type="text" class="form-control input-md" required name="phoneNumber"/>
 									</div>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 						</div>
 						<div class="row">
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<input type="submit" class=" pull-right btn btn-default" value="Signup" name="cmdsubmit"/>
+								<input type="submit" class=" pull-right btn btn-default" value="Sign up" name="cmdsubmit"/>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<input type="reset" class="btn btn-default" value="RESET" name="cmdclear"/>
