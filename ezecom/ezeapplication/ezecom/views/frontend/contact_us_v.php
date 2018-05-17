@@ -16,7 +16,7 @@
 <div class="container-fluid">
 	<div class="container">
 		<div class="row top-mg">
-			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pd">
 				<img  class="img-responsive" src="<?php echo base_url()?>images/contact/contact.jpg"/>
 			</div>
 		</div>
