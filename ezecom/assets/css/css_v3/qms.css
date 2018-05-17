@@ -25,7 +25,7 @@
 .core-value h3, .qms h3, .policy h3{
 	color:#7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size:30px;
     font-family: myNeutra,serif,sans-serif;
 	padding-bottom:5px;
 	padding-top:15px;
@@ -41,7 +41,7 @@
 }
 .qms p, .policy p{
 	font-family: myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
 	padding:0 15px 15px 15px;
 }
 .core-value p{
@@ -55,5 +55,5 @@
 	font-family: myNeutra,serif,sans-serif;
 }
 .row-margin-bt{
-	margin-bottom:80px
+	margin-bottom:50px
 }

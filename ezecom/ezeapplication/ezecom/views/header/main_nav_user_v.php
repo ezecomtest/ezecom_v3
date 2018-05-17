@@ -17,12 +17,12 @@
 						<li><a href="<?php echo base_url()?>our-company/company-profile">Company Profile</a></li>
 						<li><a href="<?php echo base_url()?>our-company/quality-management-system">Quality Management System</a></li>
 						<li><a href="<?php echo base_url()?>our-company/childsafe-certification">Childsafe Certification</a></li>
-						<li><a href="<?php echo base_url()?>">Our Partnerships <span class="glyphicon glyphicon-menu-right resize-font"></span></a>
-							<ul>
+						<li><a href="<?php echo base_url()?>our-company/our-partnerships">Our Partnerships</a>
+							<!--<ul>
 								<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
 								<li><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
 								<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
-							</ul>
+							</ul>-->
 						</li>
 						<li><a href="<?php echo base_url()?>our-company/corporate-social-responsibility">CSR</a></li>
 						<li><a href="<?php echo base_url()?>our-company/community">Community</a></li>
@@ -115,14 +115,15 @@
 									<li><a href="<?php echo base_url();?>our-company/company-profile">Company Profile</a></li>
 									<li><a href="<?php echo base_url();?>our-company/quality-management-system">Quality Management System</a></li>
 									<li><a href="<?php echo base_url();?>our-company/childsafe-certification">Childsafe Certification</a></li>
-									<li>
+									<li><a href="<?php echo base_url()?>our-company/our-partnerships">Our Partnerships</a></li>
+									<!--<li>
 										<strong>Our Partnerships</strong>
 										<ul class="partnerships">
 											<li><a href="<?php echo base_url()?>our-company/our-partnerships">Good Will Partners</a></li>
 											<li><a href="<?php echo base_url()?>our-company/our-partnership/ezecampus">EzeCampus</a></li>
 											<li><a href="<?php echo base_url()?>our-company/our-partnership/student-discount">Student Discount</a></li>
 										</ul>
-									</li>
+									</li>-->
 									<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility">CSR</a></li>
 									<li><a href="<?php echo base_url();?>our-company/community">Community</a></li>
 									<li><a href="<?php echo base_url();?>our-company/career-opportunities">Career Opportunities</a></li>

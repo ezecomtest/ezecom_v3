@@ -28,7 +28,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-1"></div>
 			<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-xs-11">
 				<div class="wrapper-profile">
-					<p>
+					<p class="profile-detail">
 						EZECOM was founded to serve the rapidly expanding enterprise and residence user 
 						markets in Cambodia. Launched in 2007, EZECOM has since become a leading provider 
 						of a wide variety of innovative communication services. EZECOM’s mission is 
@@ -40,7 +40,7 @@
 			<div class="col-xl-2 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
 		</div>
 		<div class="row row-margin-bt">
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-left">
 				<div class="wrapper-technology">
 					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/technology.png" alt="Technology" title="Technology"/>
 					<h3>Technology</h3>
@@ -53,7 +53,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 clear-pd-right">
 				<div class="wrapper-technology">
 					<img class="img-responsive" src="<?php echo base_url()?>images/company_profile/social-network.png" alt="Corporate Social Responsibility" title="Corporate Social Responsibility"/>
 					<h3>Corporate Social Responsibility</h3>

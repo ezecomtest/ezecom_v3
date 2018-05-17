@@ -7,10 +7,11 @@
 .wrapper-partnerships h3{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 33px;
+    font-size:50px;
     font-family: myNeutra,serif,sans-serif;
-	padding-top:40px;
-	padding-bottom:10px;
+	padding-top:80px;
+	padding-bottom:20px;
+	margin:0;
 }
 
 .wrapper-partnerships p{
@@ -34,12 +35,12 @@
 .wrapper-text h3{
 	color: #7961AA;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 30px;
     font-family: myNeutra,serif,sans-serif;
 	padding-bottom:10px;
 }
 .wrapper-text p{
-	font-size:18px;
+	font-size:16px;
 	font-family:myNeutra,serif,sans-serif;
 }
 
@@ -78,9 +79,12 @@
 }
 .ezecampus-desc h2{
 	color: #7961AA;
-    font-size: 25px;
+	font-weight:bold;
+    font-size: 50px;
     font-family:myNeutra,serif,sans-serif;
-	padding-top:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin:0;
 }
 .ezecampus-desc p{
 	font-family:myNeutra,serif,sans-serif;
@@ -98,8 +102,23 @@
 .content-left h3,.content-right h3{
 	font-family:myNeutra,serif,sans-serif;
 	color: #7961AA;
+	font-size:30px;
 }
-.content-left p, .content-right p{
+.content-left p{
 	font-family:myNeutra,serif,sans-serif;
-	font-size:18px;
+	font-size:16px;
+}
+.content-right p{
+	font-family:myNeutra,serif,sans-serif;
+	font-size:16px;
+	padding-bottom:23px;
+}
+
+@media screen and (min-width:1025px){
+	.clear-pd-right{
+		padding-right:0;
+	}
+	.clear-pd-left{
+		padding-left:0;
+	}
 }
