@@ -48,7 +48,7 @@
 						Please contact our sales team for a free assessment of your needs. After our assessment, 
 						we can develop a tailor made offer for you according to your unique needs.
 					</p>
-					<img id="pop-up-form" class="img-responsive" src="<?php echo base_url()?>images/our-services/MPLS/btn-sign-up.png"/>
+					<img id="pop-up-form" class="img-responsive signmeup" src="<?php echo base_url()?>images/our-services/MPLS/button-sign-me-up.svg"/>
 				</div>	
 				<!-- Contact Form Dedicate -->
 					<div class="container">

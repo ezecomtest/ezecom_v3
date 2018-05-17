@@ -169,6 +169,10 @@
 	margin-bottom:50px;
 }
 
+.wrapper-top .btn-signmeup{
+	width:125px;
+}
+
 /* Zoom In Sign Up */
 .wrapper-top span img{
 	-webkit-transform: scale(1);
