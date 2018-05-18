@@ -584,6 +584,7 @@ $(document).ready(function () {
 	  var image = "<?php echo base_url()?>images/contact/pin.png";
 	  // EZECOM Head Office
       function initialize_Head() {
+		
 		var centerPos = new google.maps.LatLng(11.562108,104.888535);
         var mapOptions = {
           center: centerPos,
@@ -592,15 +593,30 @@ $(document).ready(function () {
         var map = new google.maps.Map( document.getElementById("map-canvas-head"), mapOptions );
         var locations = [
           ['EZECOM Head Office', 11.568866, 104.895207]
-          
         ];
+		
+		var location_branch = [
+			['Customer Services and Sales Office, Phnom Penh', 11.551298, 104.927411]
+		];
         
         for (i = 0; i < locations.length; i++) {  
           marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             title: locations[i][0],
             map: map ,
-			icon:image
+			icon:image,
+			
+          });
+        }
+		
+		var image_branch = "<?php echo base_url()?>images/contact/icon-branch-office-location.png";
+		for (i = 0; i < location_branch.length; i++) {  
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(location_branch[i][1], location_branch[i][2]),
+            title: location_branch[i][0],
+            map: map ,
+			icon:image_branch,
+			
           });
 
         

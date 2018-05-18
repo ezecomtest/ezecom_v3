@@ -52,7 +52,7 @@
 	font-size:17px;
 	color:white;
 	line-height:30px;
-	padding:5px 10px 20px 30px;
+	padding:5px 10px 28px 30px;
 }
 
 .aba,.anz,.acleda,.cellcard,.Maybank,.wing,.wing-app,.download{
@@ -208,5 +208,14 @@ a{
 
 	.pd-left{
 		padding-left:15px;
+	}
+}
+
+@media screen and (min-width:1024px){
+	.clear-pd-left{
+		padding-left:0;
+	}
+	.clear-pd-right{
+		padding-right:0;
 	}
 }

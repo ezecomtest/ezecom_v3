@@ -147,9 +147,9 @@
 				<div class="package-plan">
 					<p class="text-center">Packages Plan</p>
 					<ul>
-						<li><img class="img-responsive first" src="<?php echo base_url()?>images/our-services/Ezebiz/package-1.png"/></li>
-						<li><img class="img-responsive second" src="<?php echo base_url()?>images/our-services/Ezebiz/package-2.png"/></li>
-						<li><img class="img-responsive third" src="<?php echo base_url()?>images/our-services/Ezebiz/package-3.png"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-10mb.svg"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-20mb.svg"/></li>
+						<li><img class="img-responsive resize-package" src="<?php echo base_url()?>images/our-services/Ezebiz/ezebiz-30mb.svg"/></li>
 					</ul>
 				</div>
 			</div>

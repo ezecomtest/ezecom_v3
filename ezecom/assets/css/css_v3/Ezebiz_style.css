@@ -71,6 +71,11 @@
 	font-family:myNeutra,serif,sans-serif;
 	padding-bottom:40px;
 }
+
+.package-plan .resize-package{
+	width:156px;
+}
+
 .package-plan{
 	background-color:#F4F4F4;
 	padding-bottom:86px;
